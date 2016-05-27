@@ -1,1 +1,13 @@
-Hello World
+<html>
+    <head>
+        <script type="text/javascript">
+            var lang = navigator.language || navigator.browserLanguage;
+
+            if (lang.indexOf('zh') == 0) {
+                document.location.href = '/tw'
+            } else {
+                document.location.href = '/en'
+            }
+        </script>
+    </head>
+</html>
