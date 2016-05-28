@@ -4,7 +4,7 @@ $(function() {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
+        }, 700, 'easeOutExpo');
         event.preventDefault();
     });
 });
@@ -15,7 +15,7 @@ $('body').scrollspy({
 })
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
+$('.navbar-collapse ul li a[href!="#"]').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
