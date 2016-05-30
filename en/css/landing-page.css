@@ -21,10 +21,16 @@ h6 {
     font-weight: 700;
 }
 
+
 .lead {
     font-size: 18px;
     font-weight: 400;
 }
+
+.icon {
+    font-size: 50px;
+}
+
 
 .navbar-brand {
     padding: 6px 15px;
@@ -92,14 +98,64 @@ h6 {
     letter-spacing: 2px;
 }
 
+.content-section p {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.content-section-about {
+    padding: 50px 0;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #f8f8f8;
+}
+
+.content-section-about h2 {
+    color: #3B9AD9;
+    font-size: 1.8em;
+    /*font-weight: 100;*/
+    margin: 50px 0 20px;
+}
+
+.content-section-about h3 {
+    /*color: #3B9AD9;*/
+    /*color: gray;*/
+    font-size: 1.5em;
+    font-weight: 100;
+    /*margin-bottom: 30px;*/
+}
+
+.content-section-steps {
+    padding: 50px 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.content-section-steps .step {
+    padding: 0 0 30px;
+}
+
+.content-section-steps h3 {
+    font-weight: 500;
+}
+
+.content-section-features {
+    padding: 50px 0;
+    background-color: #3B9AD9;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.content-section-features h2 {
+    color: white;
+    font-weight: 100;
+}
+
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
 }
 
 .content-section-b {
     padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
 }
 
@@ -162,9 +218,15 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    /*background-color: #f8f8f8;*/
+    background-color: #3B9AD9;
+}
+
+footer a, li {
+    color: white;
 }
 
 p.copyright {
     margin: 15px 0 0;
+    color: black;
 }

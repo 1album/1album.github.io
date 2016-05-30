@@ -3,13 +3,19 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2015-07-18T14:08:29+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/features/first/</loc>
-    <lastmod>2015-07-18T14:08:29+02:00</lastmod>
+    <loc>/cost/cost/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/features/1faster/</loc>
   </url>
   
   <url>
@@ -17,8 +23,7 @@
   </url>
   
   <url>
-    <loc>/features/second/</loc>
-    <lastmod>2015-07-18T14:08:45+02:00</lastmod>
+    <loc>/features/2cheaper/</loc>
   </url>
   
   <url>
@@ -26,8 +31,35 @@
   </url>
   
   <url>
-    <loc>/features/third/</loc>
-    <lastmod>2015-07-18T14:53:21+02:00</lastmod>
+    <loc>/steps/step3/</loc>
+  </url>
+  
+  <url>
+    <loc>/features/3private/</loc>
+  </url>
+  
+  <url>
+    <loc>/features/4fullsize/</loc>
+  </url>
+  
+  <url>
+    <loc>/steps/step4/</loc>
+  </url>
+  
+  <url>
+    <loc>/features/5offline/</loc>
+  </url>
+  
+  <url>
+    <loc>/features/6failsafe/</loc>
+  </url>
+  
+  <url>
+    <loc>/features/7easy/</loc>
+  </url>
+  
+  <url>
+    <loc>/features/8nobox/</loc>
   </url>
   
 </urlset>

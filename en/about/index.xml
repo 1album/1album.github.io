@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on 1Album</title>
+    <link>/about/</link>
+    <description>Recent content in Abouts on 1Album</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/about/</guid>
+      <description>&lt;h3 class=&#34;quotation&#34;&gt;
+&#34;My phone is almost full.  I need to move my photos off the phone.&#34;
+&lt;/h3&gt;
+
+&lt;h3 class=&#34;quotation&#34;&gt;
+&#34;I want to keep my photos forever, but not paying someone forever to keep them.&#34;
+&lt;/h3&gt;
+
+&lt;h3 class=&#34;quotation&#34;&gt;
+&#34;I want to easily view all my photos even when they are off my phone.&#34;
+&lt;/h3&gt;
+
+&lt;h2&gt;
+1Album achieves all of the above, and is absolutely free.  
+&lt;/h2&gt;
+
+&lt;!--
+    1Album backs up full size photos and videos on your phone to your computer then cleans up space from your phone.  After that, you still have access to all the photos and videos, which are served directly from your computer through a secured peer-to-peer network connection to your phone.
+
+--&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
