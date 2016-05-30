@@ -28,7 +28,7 @@
 &lt;/h3&gt;
 
 &lt;h3 class=&#34;quotation&#34;&gt;
-&#34;I want to keep my photos forever, but not paying someone forever to keep them.&#34;
+&#34;I want to keep my photos forever, but not to pay someone forever to keep them.&#34;
 &lt;/h3&gt;
 
 &lt;h3 class=&#34;quotation&#34;&gt;
@@ -57,12 +57,12 @@
     </item>
     
     <item>
-      <title>Setup 1Album Blackbox on your computer</title>
+      <title>Install 1Album Blackbox</title>
       <link>/steps/step1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/steps/step1/</guid>
-      <description>&lt;p&gt;1Album Blackbox is the storage backend for 1Album.  It can be installed on Windows, Mac OSX, Linux, NAS devices, and many other environments that can run a Docker container.&lt;/p&gt;
+      <description>&lt;p&gt;1Album Blackbox is the storage backend for 1Album.  It can be installed on Windows, Mac OSX, Linux, NAS devices, and any environment that can run a Docker container.&lt;/p&gt;
 </description>
     </item>
     
@@ -77,7 +77,7 @@
     </item>
     
     <item>
-      <title>Sign in to 1Album from your phone</title>
+      <title>Sign in to 1Album app</title>
       <link>/steps/step2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -107,22 +107,24 @@
     </item>
     
     <item>
+      <title></title>
+      <link>/steps/step4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/steps/step4/</guid>
+      <description>&lt;p&gt;Now 1Album app will back up photos and videos on your phone to your 1Album Blackbox automatically. You can delete the backed up items from your phone to free up space.&lt;/p&gt;
+
+&lt;p&gt;You still have access to all photos and videos from you phone.  They will be served from your blackbox directly through a peer-to-peer connection.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Full Size Backup</title>
       <link>/features/4fullsize/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/features/4fullsize/</guid>
       <description>&lt;p&gt;1Album backup full size photos and videos to 1Album Blackbox, so you won&amp;rsquo;t loose any details in your photos. Live photos are also supported.  If a photo have been edited on iPhone, both edited version and the unedited one are backed up.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>That&#39;s it!</title>
-      <link>/steps/step4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/steps/step4/</guid>
-      <description>&lt;p&gt;Now 1Album app will back up photos and videos on your phone to your 1Album Blackbox automatically. You can delete some or all of the backed up items from your phone to free up space, and you still have access to all of the items from 1Album app through a secured peer-to-peer connection links directly to your 1Album Blackbox.&lt;/p&gt;
 </description>
     </item>
     

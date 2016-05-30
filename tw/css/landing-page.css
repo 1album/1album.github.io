@@ -18,9 +18,13 @@ h4,
 h5,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
 }
 
+#site-logo {
+    visibility:hidden;
+}
 
 .lead {
     font-size: 18px;
@@ -47,33 +51,40 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    /*padding-top: 5%;*/
+    /*padding-bottom: 5%;*/
+    padding: 10% 0;
+}
+
+.intro-message img {
+    width: 398px;
+    max-width: 70%;
 }
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
     font-size: 5em;
 }
 
-.intro-divider {
+/* .intro-divider {
     width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-}
+    max-width: 90%;
+    border-top: 1px solid rgba(0,0,0,0.5);
+} */
 
-.intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+.intro-message > h4 {
+    color: black;
+    /*text-shadow: 0px 2px 3px rgba(0,0,0,0.6);*/
 }
 
 @media(max-width:767px) {
     .intro-message {
-        padding-bottom: 15%;
+        /*padding-bottom: 15%;*/
     }
 
-    .intro-message > h1 {
-        font-size: 3em;
+    .intro-message > h3 {
+        font-size: 1.5em;
     }
 
     ul.intro-social-buttons > li {
@@ -99,29 +110,28 @@ h6 {
 }
 
 .content-section p {
-    font-size: 20px;
-    font-weight: 100;
+    /*font-size: 20px;*/
+    /*font-weight: 100;*/
 }
 
 .content-section-about {
-    padding: 50px 0;
+    padding: 35px 0;
     border-bottom: 1px solid #e7e7e7;
-    background-color: #f8f8f8;
+    /*background-color: #f8f8f8;*/
+    color: white;
+    background-color: #3B9AD9;
 }
 
 .content-section-about h2 {
-    color: #3B9AD9;
-    font-size: 1.8em;
-    /*font-weight: 100;*/
-    margin: 50px 0 20px;
+    color: #FFCC2F;
+    font-size: 27px;
+    font-weight: 400;
+    margin: 38px 0 20px;
 }
 
 .content-section-about h3 {
-    /*color: #3B9AD9;*/
-    /*color: gray;*/
-    font-size: 1.5em;
-    font-weight: 100;
-    /*margin-bottom: 30px;*/
+    font-size: 18px;
+    margin: 20px 0;
 }
 
 .content-section-steps {
@@ -129,12 +139,16 @@ h6 {
     border-bottom: 1px solid #e7e7e7;
 }
 
+.content-section-steps .row {
+    margin-bottom: 50px;
+}
+
 .content-section-steps .step {
-    padding: 0 0 30px;
+    color: #3B9AD9;
 }
 
 .content-section-steps h3 {
-    font-weight: 500;
+    /*margin-top: 0;*/
 }
 
 .content-section-features {
@@ -145,17 +159,16 @@ h6 {
 
 .content-section-features h2 {
     color: white;
-    font-weight: 100;
 }
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
     border-bottom: 1px solid #e7e7e7;
 }
 
 .content-section-b {
     padding: 50px 0;
+    background-color: #f8f8f8;
     border-bottom: 1px solid #e7e7e7;
 }
 
@@ -178,7 +191,7 @@ h6 {
 
 .contact h2 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
     font-size: 3em;
 }
 
@@ -201,7 +214,7 @@ h6 {
 @media(max-width:767px) {
     .contact h2 {
         margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
         font-size: 3em;
     }
 

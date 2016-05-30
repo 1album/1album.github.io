@@ -62,7 +62,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="page-scroll navbar-brand" href="#home"><img src="img/1album-logo.png" width="128"></a>
+            <a class="page-scroll navbar-brand" href="#home"><img id="site-logo" src="img/1album-logo.png" width="128"></a>
         </div>
         
         <div class="collapse navbar-collapse" id="top-navbar">
@@ -91,18 +91,23 @@
     
 </nav>
 
-<section id="home">
+<section id="home" style="padding-top: 50px;">
+</section>
+
+
+<section>
 	
 	<div class="intro-header">
 
 	    <div class="container">
 
 		<div class="row">
-		    <div class="col-lg-12">
-			<div class="intro-message">
-			    <h1>1Album</h1>
-			    <h3>All your photos in your pocket.</h3>
-			    <hr class="intro-divider">
+		    <div class="col-xs-9 col-md-offset-1">
+			<div class="intro-message pull-left">
+                <img src="img/1album-logo-lg.png">
+                
+			    <h4>All your photos in your pocket.</h4>
+
 			    
 			</div>
 		    </div>
@@ -120,13 +125,13 @@
     <div class="content-section-about "><div class="container text-center">
         <div class="row">
             
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-10 col-lg-offset-1">
                     <h3 class="quotation">
 "My phone is almost full.  I need to move my photos off the phone."
 </h3>
 
 <h3 class="quotation">
-"I want to keep my photos forever, but not paying someone forever to keep them."
+"I want to keep my photos forever, but not to pay someone forever to keep them."
 </h3>
 
 <h3 class="quotation">
@@ -156,65 +161,81 @@
                 <h1>How does it work</h1>
             </div>
         </div>
-        <br/>
-        <br/>
 
         
-        <div class="row step">
-            
-                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
-                  <img class="img-responsive" src="img/phones.png" alt="">
-                </div>
-            
-            <div class="col-lg-5 col-sm-6">
-                <h3>Setup 1Album Blackbox on your computer</h3>
-                <br>
-                <p>1Album Blackbox is the storage backend for 1Album.  It can be installed on Windows, Mac OSX, Linux, NAS devices, and many other environments that can run a Docker container.</p>
 
-            </div>
-        </div>
         
-        <div class="row step">
-            
-                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
-                  <img class="img-responsive" src="img/phones.png" alt="">
-                </div>
-            
-            <div class="col-lg-5 col-sm-6">
-                <h3>Sign in to 1Album from your phone</h3>
-                <br>
-                <p>Install 1Album app on your iPhone or iPad and sign in with your Facebook account. Other sign in methods are comming.</p>
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-lg-push-5 col-sm-6 col-sm-push-6">
+                    <h3><span class="step">Step 1: </span> Install 1Album Blackbox</h3>
+                    <br>
+                    <p>1Album Blackbox is the storage backend for 1Album.  It can be installed on Windows, Mac OSX, Linux, NAS devices, and any environment that can run a Docker container.</p>
 
+                </div>
+                
+                    <div class="col-lg-5 col-lg-pull-5 col-sm-6 col-sm-pull-6">
+                      <img class="img-responsive" src="img/steps/step1.png" alt="">
+                    </div>
+                
             </div>
-        </div>
         
-        <div class="row step">
-            
-                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
-                  <img class="img-responsive" src="img/phones.png" alt="">
-                </div>
-            
-            <div class="col-lg-5 col-sm-6">
-                <h3>Link 1Album Blackbox to your account</h3>
-                <br>
-                <p>Link 1Album Blackbox to your account by entering your blackbox&rsquo;s device code in 1Album app.</p>
 
-            </div>
-        </div>
         
-        <div class="row step">
-            
-                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
-                  <img class="img-responsive" src="img/phones.png" alt="">
-                </div>
-            
-            <div class="col-lg-5 col-sm-6">
-                <h3>That&#39;s it!</h3>
-                <br>
-                <p>Now 1Album app will back up photos and videos on your phone to your 1Album Blackbox automatically. You can delete some or all of the backed up items from your phone to free up space, and you still have access to all of the items from 1Album app through a secured peer-to-peer connection links directly to your 1Album Blackbox.</p>
 
+        
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6 col-xs-12">
+                    <h3><span class="step">Step 2:</span> Sign in to 1Album app</h3>
+                    <br>
+                    <p>Install 1Album app on your iPhone or iPad and sign in with your Facebook account. Other sign in methods are comming.</p>
+
+                </div>
+                
+                    <div class="col-lg-5 col-sm-6">
+                      <img class="img-responsive" src="img/steps/step2.png" alt="">
+                    </div>
+                
             </div>
-        </div>
+        
+
+        
+
+        
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-lg-push-5 col-sm-6 col-sm-push-6">
+                    <h3><span class="step">Step 3:</span> Link 1Album Blackbox to your account</h3>
+                    <br>
+                    <p>Link 1Album Blackbox to your account by entering your blackbox&rsquo;s device code in 1Album app.</p>
+
+                </div>
+                
+                    <div class="col-lg-5 col-lg-pull-5 col-sm-6 col-sm-pull-6">
+                      <img class="img-responsive" src="img/steps/step3.png" alt="">
+                    </div>
+                
+            </div>
+        
+
+        
+
+        
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6 col-xs-12">
+                    <h3><span class="step">That&#39;s it!</span> </h3>
+                    <br>
+                    <p>Now 1Album app will back up photos and videos on your phone to your 1Album Blackbox automatically. You can delete the backed up items from your phone to free up space.</p>
+
+<p>You still have access to all photos and videos from you phone.  They will be served from your blackbox directly through a peer-to-peer connection.</p>
+
+                </div>
+                
+                    <div class="col-lg-5 col-sm-6">
+                      <img class="img-responsive" src="img/steps/step4.png" alt="">
+                    </div>
+                
+            </div>
+        
+
         
 
     </div></div>
@@ -232,15 +253,15 @@
     </div></div>
 
 
- 
+    
 
     
-    <div class="content-section content-section-b">
+    <div class="content-section content-section-a">
 
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                <div class="col-lg-5 col-sm-push-6  col-sm-6">
                     
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Faster</h2>
@@ -248,8 +269,8 @@
 
                 </div>
                 
-                <div class="col-lg-5 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
+                <div class="col-lg-5 col-lg-offset-2 col-sm-pull-6  col-sm-6">
+                  <img class="img-responsive" src="img/phones.png" alt="">
                 </div>
                 
             </div>
@@ -265,13 +286,12 @@
 
 
     
-
-    <div class="content-section content-section-a">
+    <div class="content-section content-section-b">
 
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-sm-push-6  col-sm-6">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                     
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Cheaper</h2>
@@ -279,8 +299,8 @@
 
                 </div>
                 
-                <div class="col-lg-5 col-lg-offset-2 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/phones.png" alt="">
+                <div class="col-lg-5 col-sm-6">
+                    <img class="img-responsive" src="img/phones.png" alt="">
                 </div>
                 
             </div>
@@ -295,12 +315,12 @@
 
 
     
-    <div class="content-section content-section-b">
+    <div class="content-section content-section-a">
 
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                <div class="col-lg-5 col-sm-push-6  col-sm-6">
                     
                     <div class="clearfix"></div>
                     <h2 class="section-heading">More Private</h2>
@@ -308,8 +328,8 @@
 
                 </div>
                 
-                <div class="col-lg-5 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
+                <div class="col-lg-5 col-lg-offset-2 col-sm-pull-6  col-sm-6">
+                  <img class="img-responsive" src="img/phones.png" alt="">
                 </div>
                 
             </div>
@@ -325,13 +345,12 @@
 
 
     
-
-    <div class="content-section content-section-a">
+    <div class="content-section content-section-b">
 
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-sm-push-6  col-sm-6">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                     
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Full Size Backup</h2>
@@ -339,8 +358,8 @@
 
                 </div>
                 
-                <div class="col-lg-5 col-lg-offset-2 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/phones.png" alt="">
+                <div class="col-lg-5 col-sm-6">
+                    <img class="img-responsive" src="img/phones.png" alt="">
                 </div>
                 
             </div>
@@ -355,12 +374,12 @@
 
 
     
-    <div class="content-section content-section-b">
+    <div class="content-section content-section-a">
 
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                <div class="col-lg-5 col-sm-push-6  col-sm-6">
                     
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Works Offline</h2>
@@ -368,37 +387,6 @@
 
                 </div>
                 
-                <div class="col-lg-5 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
-                </div>
-                
-            </div>
-
-        </div>
-        
-
-    </div>
-    
-    
-    
-
-
-
-    
-
-    <div class="content-section content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-push-6  col-sm-6">
-                    
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Fail Safe</h2>
-                    <p>You can add multiple 1Album Blackboxes to your account, and they will synchronize with each other automatically. To be even safer, you can put them in different physical locations.  You will not loose your data should any one of them fail.</p>
-
-                </div>
-                
                 <div class="col-lg-5 col-lg-offset-2 col-sm-pull-6  col-sm-6">
                   <img class="img-responsive" src="img/phones.png" alt="">
                 </div>
@@ -409,6 +397,7 @@
         
 
     </div>
+    
     
     
 
@@ -423,8 +412,8 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                     
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Easy to Setup</h2>
-                    <p>1Album and 1Album Blackbox do not need any special network setup to connect. Our UDP-based peer-to-peer connection can go through most NAT routers.  If your computer can browse the Internet, 1Album can connect to 1Album Blackbox installed on your computer. It&rsquo;s that easy.</p>
+                    <h2 class="section-heading">Fail Safe</h2>
+                    <p>You can add multiple 1Album Blackboxes to your account, and they will synchronize with each other automatically. To be even safer, you can put them in different physical locations.  You will not loose your data should any one of them fail.</p>
 
                 </div>
                 
@@ -440,12 +429,10 @@
     </div>
     
     
-    
 
 
 
     
-
     <div class="content-section content-section-a">
 
         <div class="container">
@@ -454,13 +441,43 @@
                 <div class="col-lg-5 col-sm-push-6  col-sm-6">
                     
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Works without Blackboxes</h2>
-                    <p>Even if you don&rsquo;t have 1Album Blackbox set up, you can still use 1Album from your iPad to view photos and videos on your iPhone, and vise versa.  Powered by the same peer-to-peer technology, 1Album gives you a single album view to all photos and videos scattered around your devices, hence the name &ldquo;1Album&rdquo;.</p>
+                    <h2 class="section-heading">Easy to Setup</h2>
+                    <p>1Album and 1Album Blackbox do not need any special network setup to connect. Our UDP-based peer-to-peer connection can go through most NAT routers.  If your computer can browse the Internet, 1Album can connect to 1Album Blackbox installed on your computer. It&rsquo;s that easy.</p>
 
                 </div>
                 
                 <div class="col-lg-5 col-lg-offset-2 col-sm-pull-6  col-sm-6">
                   <img class="img-responsive" src="img/phones.png" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+        
+
+    </div>
+    
+    
+    
+
+
+
+    
+    <div class="content-section content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                    
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Works without Blackboxes</h2>
+                    <p>Even if you don&rsquo;t have 1Album Blackbox set up, you can still use 1Album from your iPad to view photos and videos on your iPhone, and vise versa.  Powered by the same peer-to-peer technology, 1Album gives you a single album view to all photos and videos scattered around your devices, hence the name &ldquo;1Album&rdquo;.</p>
+
+                </div>
+                
+                <div class="col-lg-5 col-sm-6">
+                    <img class="img-responsive" src="img/phones.png" alt="">
                 </div>
                 
             </div>

@@ -7,6 +7,16 @@ $(function() {
         }, 700, 'easeOutExpo');
         event.preventDefault();
     });
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 150) {
+            $("#site-logo:hidden").css('visibility','visible');
+            $("#site-logo:hidden").fadeIn('fast');
+        }
+        else {
+            $("#site-logo:visible").fadeOut('fast');
+        }
+    });
 });
 
 // Highlight the top nav as scrolling occurs
