@@ -49,12 +49,12 @@
     </item>
     
     <item>
-      <title>Works Offline</title>
-      <link>/features/5offline/</link>
+      <title>Easy to Setup</title>
+      <link>/features/5easy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/features/5offline/</guid>
-      <description>&lt;p&gt;When offline, you can still make changes in 1Album or view photos and videos that are already stored on your phone.  All the changes you made will synchronize back to 1Album Blackbox when you are online.  Likewise, you can setup 1Album Blackbox on a laptop and turn it on only when you need it.&lt;/p&gt;
+      <guid>/features/5easy/</guid>
+      <description>&lt;p&gt;1Album and 1Album Blackbox do not need any special network setup to connect. Our UDP-based peer-to-peer connection can go through most NAT routers.  If your computer can browse the Internet, 1Album can connect to 1Album Blackbox installed on your computer. It&amp;rsquo;s that easy.&lt;/p&gt;
 </description>
     </item>
     
@@ -69,22 +69,24 @@
     </item>
     
     <item>
-      <title>Easy to Setup</title>
-      <link>/features/7easy/</link>
+      <title>Works Offline</title>
+      <link>/features/7offline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/features/7easy/</guid>
-      <description>&lt;p&gt;1Album and 1Album Blackbox do not need any special network setup to connect. Our UDP-based peer-to-peer connection can go through most NAT routers.  If your computer can browse the Internet, 1Album can connect to 1Album Blackbox installed on your computer. It&amp;rsquo;s that easy.&lt;/p&gt;
+      <guid>/features/7offline/</guid>
+      <description>&lt;p&gt;When offline, you can still make changes in 1Album or view photos and videos that are already stored on your phone.  All the changes you made will synchronize back to 1Album Blackbox when you are online.  Likewise, you can setup 1Album Blackbox on a laptop and turn it on only when you need it.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Works without Blackboxes</title>
+      <title>Works without Blackbox</title>
       <link>/features/8nobox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/features/8nobox/</guid>
-      <description>&lt;p&gt;Even if you don&amp;rsquo;t have 1Album Blackbox set up, you can still use 1Album from your iPad to view photos and videos on your iPhone, and vise versa.  Powered by the same peer-to-peer technology, 1Album gives you a single album view to all photos and videos scattered around your devices, hence the name &amp;ldquo;1Album&amp;rdquo;.&lt;/p&gt;
+      <description>&lt;p&gt;If you don&amp;rsquo;t have a blackbox or can&amp;rsquo;t connect to it, 1Album app can still sychronize photos and videos between iPhone and iPad using the same peer-to-peer technology.  You can view photos shot by your iPhone from an iPad, and vise versa.&lt;/p&gt;
+
+&lt;p&gt;No matter which device you use, 1Album always shows you all photos and videos on all your devices, and done so without sending your photos to the cloud. Just like magic.&lt;/p&gt;
 </description>
     </item>
     

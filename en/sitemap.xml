@@ -7,11 +7,11 @@
   </url>
   
   <url>
-    <loc>/cost/cost/</loc>
+    <loc>/pains/pain1/</loc>
   </url>
   
   <url>
-    <loc>/about/about/</loc>
+    <loc>/solution/solution/</loc>
   </url>
   
   <url>
@@ -23,11 +23,19 @@
   </url>
   
   <url>
+    <loc>/pains/pain2/</loc>
+  </url>
+  
+  <url>
     <loc>/features/2cheaper/</loc>
   </url>
   
   <url>
     <loc>/steps/step2/</loc>
+  </url>
+  
+  <url>
+    <loc>/pains/pain3/</loc>
   </url>
   
   <url>
@@ -47,7 +55,7 @@
   </url>
   
   <url>
-    <loc>/features/5offline/</loc>
+    <loc>/features/5easy/</loc>
   </url>
   
   <url>
@@ -55,7 +63,7 @@
   </url>
   
   <url>
-    <loc>/features/7easy/</loc>
+    <loc>/features/7offline/</loc>
   </url>
   
   <url>

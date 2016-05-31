@@ -9,41 +9,22 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Completely Free</title>
-      <link>/cost/cost/</link>
+      <title></title>
+      <link>/pains/pain1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/cost/cost/</guid>
-      <description></description>
+      <guid>/pains/pain1/</guid>
+      <description>&lt;p&gt;&amp;ldquo;My phone is almost full.  I need to&lt;br&gt;move my photos off the phone.&amp;rdquo;&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title></title>
-      <link>/about/about/</link>
+      <title>1Album achieves all of the above, and is absolutely free.</title>
+      <link>/solution/solution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/about/</guid>
-      <description>&lt;h3 class=&#34;quotation&#34;&gt;
-&#34;My phone is almost full.  I need to move my photos off the phone.&#34;
-&lt;/h3&gt;
-
-&lt;h3 class=&#34;quotation&#34;&gt;
-&#34;I want to keep my photos forever, but not to pay someone forever to keep them.&#34;
-&lt;/h3&gt;
-
-&lt;h3 class=&#34;quotation&#34;&gt;
-&#34;I want to easily view all my photos even when they are off my phone.&#34;
-&lt;/h3&gt;
-
-&lt;h2&gt;
-1Album achieves all of the above, and is absolutely free.  
-&lt;/h2&gt;
-
-&lt;!--
-    1Album backs up full size photos and videos on your phone to your computer then cleans up space from your phone.  After that, you still have access to all the photos and videos, which are served directly from your computer through a secured peer-to-peer network connection to your phone.
-
---&gt;
-</description>
+      <guid>/solution/solution/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -67,6 +48,16 @@
     </item>
     
     <item>
+      <title></title>
+      <link>/pains/pain2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pains/pain2/</guid>
+      <description>&lt;p&gt;&amp;ldquo;I want to keep my photos forever, but&lt;br&gt;not to pay someone forever to keep them.&amp;rdquo;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Cheaper</title>
       <link>/features/2cheaper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -83,6 +74,16 @@
       
       <guid>/steps/step2/</guid>
       <description>&lt;p&gt;Install 1Album app on your iPhone or iPad and sign in with your Facebook account. Other sign in methods are comming.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/pains/pain3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pains/pain3/</guid>
+      <description>&lt;p&gt;&amp;ldquo;I want to easily view all my photos&lt;br&gt;even if they moved off my phone.&amp;rdquo;&lt;/p&gt;
 </description>
     </item>
     
@@ -129,12 +130,12 @@
     </item>
     
     <item>
-      <title>Works Offline</title>
-      <link>/features/5offline/</link>
+      <title>Easy to Setup</title>
+      <link>/features/5easy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/features/5offline/</guid>
-      <description>&lt;p&gt;When offline, you can still make changes in 1Album or view photos and videos that are already stored on your phone.  All the changes you made will synchronize back to 1Album Blackbox when you are online.  Likewise, you can setup 1Album Blackbox on a laptop and turn it on only when you need it.&lt;/p&gt;
+      <guid>/features/5easy/</guid>
+      <description>&lt;p&gt;1Album and 1Album Blackbox do not need any special network setup to connect. Our UDP-based peer-to-peer connection can go through most NAT routers.  If your computer can browse the Internet, 1Album can connect to 1Album Blackbox installed on your computer. It&amp;rsquo;s that easy.&lt;/p&gt;
 </description>
     </item>
     
@@ -149,22 +150,12 @@
     </item>
     
     <item>
-      <title>Easy to Setup</title>
-      <link>/features/7easy/</link>
+      <title>Works Offline</title>
+      <link>/features/7offline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/features/7easy/</guid>
-      <description>&lt;p&gt;1Album and 1Album Blackbox do not need any special network setup to connect. Our UDP-based peer-to-peer connection can go through most NAT routers.  If your computer can browse the Internet, 1Album can connect to 1Album Blackbox installed on your computer. It&amp;rsquo;s that easy.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Works without Blackboxes</title>
-      <link>/features/8nobox/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/features/8nobox/</guid>
-      <description>&lt;p&gt;Even if you don&amp;rsquo;t have 1Album Blackbox set up, you can still use 1Album from your iPad to view photos and videos on your iPhone, and vise versa.  Powered by the same peer-to-peer technology, 1Album gives you a single album view to all photos and videos scattered around your devices, hence the name &amp;ldquo;1Album&amp;rdquo;.&lt;/p&gt;
+      <guid>/features/7offline/</guid>
+      <description>&lt;p&gt;When offline, you can still make changes in 1Album or view photos and videos that are already stored on your phone.  All the changes you made will synchronize back to 1Album Blackbox when you are online.  Likewise, you can setup 1Album Blackbox on a laptop and turn it on only when you need it.&lt;/p&gt;
 </description>
     </item>
     
