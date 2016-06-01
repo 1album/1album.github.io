@@ -10,13 +10,16 @@ $(function() {
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 150) {
-            $("#site-logo:hidden").css('visibility','visible');
-            $("#site-logo:hidden").fadeIn('fast');
+            $('#site-logo').fadeIn('fast');
         }
         else {
-            $("#site-logo:visible").fadeOut('fast');
+            $('#site-logo').fadeOut('fast');
         }
     });
+
+    if ($(window).scrollTop() > 150) {
+        $('#site-logo').show()
+    }
 });
 
 // Highlight the top nav as scrolling occurs

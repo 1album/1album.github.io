@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Steps on 一相簿</title>
+    <title>Steps on 1Album</title>
     <link>/steps/</link>
-    <description>Recent content in Steps on 一相簿</description>
+    <description>Recent content in Steps on 1Album</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <atom:link href="/steps/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Install 1Album Blackbox</title>
+      <title>安裝 1Album 黑盒子</title>
       <link>/steps/step1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/steps/step1/</guid>
-      <description>&lt;p&gt;1Album Blackbox is the storage backend for 1Album.  It can be installed on Windows, Mac OSX, Linux, NAS devices, or any environment that can run a Docker container.&lt;/p&gt;
+      <description>&lt;p&gt;1Album 黑盒子是 1Album 專用的免費儲存軟體。您可以下載並將它裝在 Windows、Mac OSX、Linux、NAS 設備、或任何可以執行 Docker 容器的環境中。&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Sign in to 1Album app</title>
+      <title>登入 1Album app</title>
       <link>/steps/step2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/steps/step2/</guid>
-      <description>&lt;p&gt;Install 1Album app on your iPhone or iPad and sign in with your Facebook account. Other sign in methods are comming.&lt;/p&gt;
+      <description>&lt;p&gt;在 iPhone 或 iPad 上安裝 1Album app 並以您的臉書帳號登入。將來我們會提供更多種登入方式。&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Link 1Album Blackbox to your account</title>
+      <title>將 1Album 黑盒子加到您的帳號</title>
       <link>/steps/step3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/steps/step3/</guid>
-      <description>&lt;p&gt;Link 1Album Blackbox to your account by entering your blackbox&amp;rsquo;s device code in 1Album app.&lt;/p&gt;
+      <description>&lt;p&gt;在 1Album app 中輸入 1Album 黑盒子的設備碼，就可以將該黑盒子加到您的帳號中。&lt;/p&gt;
 </description>
     </item>
     
@@ -44,9 +44,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/steps/step4/</guid>
-      <description>&lt;p&gt;Now 1Album app will back up photos and videos on your iPhone and iPad to your 1Album Blackbox automatically. You can delete the backed up items from your phone to free up space.&lt;/p&gt;
+      <description>&lt;p&gt;從此 1Album app 會自動將 iPhone 或 iPad 上的照片與影片備份到您的 1Album 黑盒子裡。您可以將已備份的項目從手機移除，已清出儲存空間。&lt;/p&gt;
 
-&lt;p&gt;You have access to all photos and videos from your iPhone or iPad.  They are served directly from the blackbox through a peer-to-peer connection.&lt;/p&gt;
+&lt;p&gt;移除後，您還是可以用 1Album app 看到這些照片與影片。它們會透過對等 (peer-to-peer) 連線從您的黑盒子直接傳到手機裡。&lt;/p&gt;
 </description>
     </item>
     

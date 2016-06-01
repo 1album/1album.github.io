@@ -11,15 +11,23 @@
   </url>
   
   <url>
-    <loc>/steps/step1/</loc>
-  </url>
-  
-  <url>
     <loc>/solution/solution/</loc>
   </url>
   
   <url>
+    <loc>/steps/step1/</loc>
+  </url>
+  
+  <url>
+    <loc>/features/1faster/</loc>
+  </url>
+  
+  <url>
     <loc>/pains/pain2/</loc>
+  </url>
+  
+  <url>
+    <loc>/features/2cheaper/</loc>
   </url>
   
   <url>
@@ -35,7 +43,31 @@
   </url>
   
   <url>
+    <loc>/features/3private/</loc>
+  </url>
+  
+  <url>
     <loc>/steps/step4/</loc>
+  </url>
+  
+  <url>
+    <loc>/features/4fullsize/</loc>
+  </url>
+  
+  <url>
+    <loc>/features/5easy/</loc>
+  </url>
+  
+  <url>
+    <loc>/features/6failsafe/</loc>
+  </url>
+  
+  <url>
+    <loc>/features/7offline/</loc>
+  </url>
+  
+  <url>
+    <loc>/features/8nobox/</loc>
   </url>
   
 </urlset>

@@ -1,4 +1,16 @@
 
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; /* "Lato", */
+    /*font-weight: 400;*/
+    -webkit-font-smoothing: antialiased;
+}
+
 .intro-header {
     background: url(../img/intro-bg-zh-TW.jpg) no-repeat center center;
     background-size: cover;

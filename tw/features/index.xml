@@ -1,41 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>1Album</title>
-    <link>/</link>
-    <description>Recent content on 1Album</description>
+    <title>Features on 1Album</title>
+    <link>/features/</link>
+    <description>Recent content in Features on 1Album</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title></title>
-      <link>/pains/pain1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pains/pain1/</guid>
-      <description>&lt;p&gt;“我的手機快塞滿了，得把照片移出來。”&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>上面這些 1Album 都做到了，而且完全免費。</title>
-      <link>/solution/solution/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/solution/solution/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>安裝 1Album 黑盒子</title>
-      <link>/steps/step1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/steps/step1/</guid>
-      <description>&lt;p&gt;1Album 黑盒子是 1Album 專用的免費儲存軟體。您可以下載並將它裝在 Windows、Mac OSX、Linux、NAS 設備、或任何可以執行 Docker 容器的環境中。&lt;/p&gt;
-</description>
-    </item>
+    <atom:link href="/features/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>更快</title>
@@ -44,16 +15,6 @@
       
       <guid>/features/1faster/</guid>
       <description>&lt;p&gt;使用對等連線直接連接您手機與黑盒子，您可以享受他們之間的所有網路頻寬來做傳輸。如果他們處在同一個區域網路中，更是能全速運作。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/pains/pain2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pains/pain2/</guid>
-      <description>&lt;p&gt;“我要把照片永遠留下來，&lt;br&gt;但我不要永遠付錢才留得住。”&lt;/p&gt;
 </description>
     </item>
     
@@ -70,38 +31,6 @@
     </item>
     
     <item>
-      <title>登入 1Album app</title>
-      <link>/steps/step2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/steps/step2/</guid>
-      <description>&lt;p&gt;在 iPhone 或 iPad 上安裝 1Album app 並以您的臉書帳號登入。將來我們會提供更多種登入方式。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/pains/pain3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pains/pain3/</guid>
-      <description>&lt;!--&#34;I want to easily view all my photos&lt;br&gt;even if they moved off my phone.&#34;--&gt;
-
-&lt;p&gt;“即使照片從我手機移出，&lt;br&gt;我還是希望能很容易地看到它們。”&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>將 1Album 黑盒子加到您的帳號</title>
-      <link>/steps/step3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/steps/step3/</guid>
-      <description>&lt;p&gt;在 1Album app 中輸入 1Album 黑盒子的設備碼，就可以將該黑盒子加到您的帳號中。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>更確保隱私</title>
       <link>/features/3private/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -110,18 +39,6 @@
       <description>&lt;p&gt;1Album app 與 1Album 黑盒子之間的連線使用終端到終端加密，您的資料不會以沒加密的形式通過網際網路。&lt;/p&gt;
 
 &lt;p&gt;您的照片與影片也不會被送到雲端服務或陌生人的電腦上。它們自始至終都只儲存在您擁有的設備裡，沒有別人看得到。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/steps/step4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/steps/step4/</guid>
-      <description>&lt;p&gt;從此 1Album app 會自動將 iPhone 或 iPad 上的照片與影片備份到您的 1Album 黑盒子裡。您可以將已備份的項目從手機移除，已清出儲存空間。&lt;/p&gt;
-
-&lt;p&gt;移除後，您還是可以用 1Album app 看到這些照片與影片。它們會透過對等 (peer-to-peer) 連線從您的黑盒子直接傳到手機裡。&lt;/p&gt;
 </description>
     </item>
     
@@ -168,6 +85,18 @@
       <description>&lt;p&gt;除了無法下載不在手機上的照片以外，幾乎所有 1Album 的功能都可以離線操作，包括寫留言及整理照片等等。您所做的改變，會在黑盒子上線之後自動同步回黑盒子中。&lt;/p&gt;
 
 &lt;p&gt;正因如此，您可以把黑盒子裝在筆電裡，只在需要它的時候才啟動。黑盒子不一定要天天 24 小時執行。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>App 對 App 直接溝通</title>
+      <link>/features/8nobox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/8nobox/</guid>
+      <description>&lt;p&gt;當您還沒設定黑盒子、或是黑盒子暫時連不到時，只要 iPhone 與 iPad 之間有網路，其內的 1Album app 就可以相互直接溝通。&lt;/p&gt;
+
+&lt;p&gt;您可以從 iPad 看存在 iPhone 裡的照片，反之亦然。在一台機器上整理照片，就會立刻反映到另外一台機器。即使有超過兩部以上的設備也沒問題，跟魔術一樣神奇。&lt;/p&gt;
 </description>
     </item>
     

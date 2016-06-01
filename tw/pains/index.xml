@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pains on 一相簿</title>
+    <title>Pains on 1Album</title>
     <link>/pains/</link>
-    <description>Recent content in Pains on 一相簿</description>
+    <description>Recent content in Pains on 1Album</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <atom:link href="/pains/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pains/pain2/</guid>
-      <description>&lt;p&gt;“我要把照片永遠留下來，&lt;br&gt;但我不想要永遠付錢才留得住。”&lt;/p&gt;
+      <description>&lt;p&gt;“我要把照片永遠留下來，&lt;br&gt;但我不要永遠付錢才留得住。”&lt;/p&gt;
 </description>
     </item>
     
@@ -36,7 +36,7 @@
       <guid>/pains/pain3/</guid>
       <description>&lt;!--&#34;I want to easily view all my photos&lt;br&gt;even if they moved off my phone.&#34;--&gt;
 
-&lt;p&gt;“我希望能很容易地看到所有照片，&lt;br&gt;即使照片已經移出我的手機了。”&lt;/p&gt;
+&lt;p&gt;“即使照片從我手機移出，&lt;br&gt;我還是希望能很容易地看到它們。”&lt;/p&gt;
 </description>
     </item>
     

@@ -14,7 +14,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/steps/step1/</guid>
-      <description>&lt;p&gt;1Album Blackbox is the storage backend for 1Album.  It can be installed on Windows, Mac OSX, Linux, NAS devices, or any environment that can run a Docker container.&lt;/p&gt;
+      <description>&lt;p&gt;1Album Blackbox is free storage software designed for 1Album.  You can download and install it on Windows, Mac OSX, Linux, NAS devices, or any environment that can run a Docker container.&lt;/p&gt;
 </description>
     </item>
     
@@ -29,12 +29,12 @@
     </item>
     
     <item>
-      <title>Link 1Album Blackbox to your account</title>
+      <title>Add 1Album Blackbox to your account</title>
       <link>/steps/step3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/steps/step3/</guid>
-      <description>&lt;p&gt;Link 1Album Blackbox to your account by entering your blackbox&amp;rsquo;s device code in 1Album app.&lt;/p&gt;
+      <description>&lt;p&gt;Add 1Album Blackbox to your account by entering your blackbox&amp;rsquo;s device code in 1Album app.&lt;/p&gt;
 </description>
     </item>
     
@@ -44,9 +44,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/steps/step4/</guid>
-      <description>&lt;p&gt;Now 1Album app will back up photos and videos on your iPhone and iPad to your 1Album Blackbox automatically. You can delete the backed up items from your phone to free up space.&lt;/p&gt;
+      <description>&lt;p&gt;Now 1Album app will back up photos and videos on your iPhone and iPad to your 1Album Blackbox automatically. You can remove the backed up items from your phone to free up space.&lt;/p&gt;
 
-&lt;p&gt;You have access to all photos and videos from your iPhone or iPad.  They are served directly from the blackbox through a peer-to-peer connection.&lt;/p&gt;
+&lt;p&gt;After removal, you still can view all of the photos and videos with 1Album app.  They are served directly from your blackbox through a peer-to-peer connection.&lt;/p&gt;
 </description>
     </item>
     

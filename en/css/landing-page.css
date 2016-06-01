@@ -4,20 +4,8 @@ html {
     height: 100%;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-}
-
 #site-logo {
-    visibility:hidden;
+    display: none;
 }
 
 section {
@@ -103,7 +91,8 @@ section {
 
 .content-section p {
     font-size: 16px;
-    font-weight: 100;
+    color: dimgray;
+    /*font-weight: 100;*/
     margin-bottom: 15px;
 }
 
@@ -194,6 +183,7 @@ section {
 footer {
     padding: 50px 0;
     background-color: #FFCC2F;
+    font-family: Helvetica,Arial,sans-serif;
 }
 
 /*footer a, li {*/
