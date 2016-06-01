@@ -6,4 +6,36 @@
     <priority>0</priority>
   </url>
   
+  <url>
+    <loc>/pains/pain1/</loc>
+  </url>
+  
+  <url>
+    <loc>/steps/step1/</loc>
+  </url>
+  
+  <url>
+    <loc>/solution/solution/</loc>
+  </url>
+  
+  <url>
+    <loc>/pains/pain2/</loc>
+  </url>
+  
+  <url>
+    <loc>/steps/step2/</loc>
+  </url>
+  
+  <url>
+    <loc>/pains/pain3/</loc>
+  </url>
+  
+  <url>
+    <loc>/steps/step3/</loc>
+  </url>
+  
+  <url>
+    <loc>/steps/step4/</loc>
+  </url>
+  
 </urlset>
