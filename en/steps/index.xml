@@ -15,6 +15,8 @@
       
       <guid>/steps/step1/</guid>
       <description>&lt;p&gt;1Album Blackbox is free storage software designed for 1Album.  You can download and install it on Windows, Mac OSX, Linux, NAS devices, or any environment that can run a Docker container.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../docs/blackbox/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fa fa-external-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; 1Album Blackbox Installation Guide&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -25,6 +27,8 @@
       
       <guid>/steps/step2/</guid>
       <description>&lt;p&gt;Install 1Album app on your iPhone or iPad and sign in with your Facebook account. Other sign in methods are comming.&lt;/p&gt;
+
+&lt;p&gt;&lt;a&gt;&lt;i class=&#34;fa fa-external-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Download 1Album app&lt;/a&gt; (haven&amp;rsquo;t made public yet)&lt;/p&gt;
 </description>
     </item>
     

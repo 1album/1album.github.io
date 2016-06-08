@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="stefan.hong@gmail.com">
 
     <title>1Album</title>
 
@@ -14,12 +14,11 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     
-    <link href="./css/landing-page.css" rel="stylesheet">
-    <link href="./css/landing-page-en-US.css" rel="stylesheet">
+    <link href="./css/site.css" rel="stylesheet">
+    <link href="./css/site-en-US.css" rel="stylesheet">
 
     
     <link href="./font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     
     
@@ -50,8 +49,7 @@
 
 
 </head>
-<body>
-
+<body><div id="wrap"><div id="main">
 
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -63,12 +61,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="page-scroll navbar-brand" href="#home"><img id="site-logo" src="img/1album-logo.png" width="128"></a>
+            <a class="page-scroll navbar-brand" href="#home"><img id="site-logo" src="./img/1album-logo.png" width="128"></a>
         </div>
+
         
         <div class="collapse navbar-collapse" id="top-navbar">
             <ul class="nav navbar-nav navbar-right">
-                <li>
+                <li class="hidden">
                     <a class="page-scroll" href="#home">Home</a>
                 </li>
                 <li>
@@ -77,6 +76,13 @@
                 <li>
                     <a class="page-scroll" href="#features">Features</a>
                 </li>
+                <li>
+                    <a class="page-scroll" href="./docs">Users Guide</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="./support">Support</a>
+                </li>
+
                 
                 
                     
@@ -84,10 +90,10 @@
                 
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Language <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="//beta.1album.net/en">English</a></li>
-                        <li><a href="//beta.1album.net/tw" style="font-family: 'Helvetica Neue'">中文</a></li>
-                    </ul>
+<ul class="dropdown-menu">
+    <li><a href="//beta.1album.net/en">English</a></li>
+    <li><a href="//beta.1album.net/tw" style="font-family: 'Helvetica Neue'">中文</a></li>
+</ul>
                 </li>
             </ul>
         </div>
@@ -95,6 +101,8 @@
     </div>
     
 </nav>
+
+
 
 <section id="home">
 	
@@ -185,6 +193,8 @@
                     <br>
                     <p>1Album Blackbox is free storage software designed for 1Album.  You can download and install it on Windows, Mac OSX, Linux, NAS devices, or any environment that can run a Docker container.</p>
 
+<p><a href="./docs/blackbox/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> 1Album Blackbox Installation Guide</a></p>
+
                 </div>
                 
                     <div class="col-lg-5 col-lg-pull-5 col-sm-6 col-sm-pull-6">
@@ -204,6 +214,8 @@
                     <h3><span class="step">Step 2: </span>Sign in to 1Album app</h3>
                     <br>
                     <p>Install 1Album app on your iPhone or iPad and sign in with your Facebook account. Other sign in methods are comming.</p>
+
+<p><a><i class="fa fa-external-link" aria-hidden="true"></i> Download 1Album app</a> (haven&rsquo;t made public yet)</p>
 
                 </div>
                 
@@ -435,7 +447,7 @@
                     
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Easy to Setup</h2>
-                    <p>Our peer-to-peer connection can pass through most NAT routers and cellular networks without special configurations. There is no need to fiddle with port mapping or UPnP.</p>
+                    <p>1Album peer-to-peer connections can pass through most NAT routers and cellular networks without special configurations. You don&rsquo;t need to fiddle with port mapping or UPnP.</p>
 
 <p>If your computer can browse the web, 1Album app can connect to 1Album Blackbox on that computer. It&rsquo;s that easy.</p>
 
@@ -575,36 +587,33 @@
 
 
 
+</div></div>
+
+
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-md-8">
                 <ul class="list-inline">
                     <li>
-                        <a class="page-scroll" href="#home">Home</a>
+                        <a class="page-scroll" href="./">Home</a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                        <a class="page-scroll" href="#steps">How does it work</a>
+                        <a href="./docs">Users Guide</a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                        <a class="page-scroll" href="#features">Features</a>
+                        <a href="./support">Support</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a href="mailto:stefan.hong@gmail.com">Contact <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                     </li>
                     
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a class="page-scroll" href="mailto:stefan.hong@gmail.com">Contact <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-                    </li>
                     
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li class="dropup" style="position: relative;">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Language <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="//beta.1album.net/en">English</a></li>
-                            <li><a href="//beta.1album.net/tw">中文</a></li>
-                        </ul>
-                    </li>
+                        
+                    
                 </ul>
                 <p class="copyright text-muted small">Copyright © 1 Digital Inc. All Rights Reserved.</p>
             </div>
@@ -622,7 +631,8 @@
 <script src="./js/bootstrap.min.js"></script>
 
 
-<script src="js/landing-page.js"></script>
+<script src="./js/site.js"></script>
+<script src="./js/home.js"></script>
 
 
 

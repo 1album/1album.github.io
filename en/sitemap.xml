@@ -7,7 +7,55 @@
   </url>
   
   <url>
+    <loc>/docs/1album/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/_menu/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/blackbox/linux/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/blackbox/mac/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/blackbox/synology/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/blackbox/windows/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/</loc>
+  </url>
+  
+  <url>
+    <loc>/support/_menu/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/1album/_menu/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/blackbox/</loc>
+  </url>
+  
+  <url>
     <loc>/pains/pain1/</loc>
+  </url>
+  
+  <url>
+    <loc>/support/</loc>
+  </url>
+  
+  <url>
+    <loc>/support/privacy/</loc>
   </url>
   
   <url>
@@ -23,6 +71,14 @@
   </url>
   
   <url>
+    <loc>/docs/blackbox/_menu/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/blackbox/mac/_menu/</loc>
+  </url>
+  
+  <url>
     <loc>/pains/pain2/</loc>
   </url>
   
@@ -32,6 +88,10 @@
   
   <url>
     <loc>/steps/step2/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/blackbox/windows/_menu/</loc>
   </url>
   
   <url>
@@ -47,11 +107,19 @@
   </url>
   
   <url>
+    <loc>/docs/blackbox/linux/_menu/</loc>
+  </url>
+  
+  <url>
     <loc>/steps/step4/</loc>
   </url>
   
   <url>
     <loc>/features/4fullsize/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/blackbox/synology/_menu/</loc>
   </url>
   
   <url>

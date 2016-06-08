@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="stefan.hong@gmail.com">
 
     <title>1Album</title>
 
@@ -14,12 +14,11 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     
-    <link href="./css/landing-page.css" rel="stylesheet">
-    <link href="./css/landing-page-zh-TW.css" rel="stylesheet">
+    <link href="./css/site.css" rel="stylesheet">
+    <link href="./css/site-zh-TW.css" rel="stylesheet">
 
     
     <link href="./font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     
     
@@ -50,8 +49,7 @@
 
 
 </head>
-<body>
-
+<body><div id="wrap"><div id="main">
 
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -63,12 +61,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="page-scroll navbar-brand" href="#home"><img id="site-logo" src="img/1album-logo.png" width="128"></a>
+            <a class="page-scroll navbar-brand" href="#home"><img id="site-logo" src="./img/1album-logo.png" width="128"></a>
         </div>
+
         
         <div class="collapse navbar-collapse" id="top-navbar">
             <ul class="nav navbar-nav navbar-right">
-                <li>
+                <li class="hidden">
                     <a class="page-scroll" href="#home">首頁</a>
                 </li>
                 <li>
@@ -77,6 +76,13 @@
                 <li>
                     <a class="page-scroll" href="#features">特色</a>
                 </li>
+                <li>
+                    <a class="page-scroll" href="./docs">使用手冊</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="./support">服務</a>
+                </li>
+
                 
                 
                     
@@ -84,10 +90,10 @@
                 
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Language <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="//beta.1album.net/en">English</a></li>
-                        <li><a href="//beta.1album.net/tw" style="font-family: 'Helvetica Neue'">中文</a></li>
-                    </ul>
+<ul class="dropdown-menu">
+    <li><a href="//beta.1album.net/en">English</a></li>
+    <li><a href="//beta.1album.net/tw" style="font-family: 'Helvetica Neue'">中文</a></li>
+</ul>
                 </li>
             </ul>
         </div>
@@ -95,6 +101,8 @@
     </div>
     
 </nav>
+
+
 
 <section id="home">
 	
@@ -137,7 +145,7 @@
     <div class="row">
         
             <div class="col-md-4 col-xs-12">
-                <p>“我的手機快塞滿了，得把照片移出來。”</p>
+                <p>“我的手機快塞滿了，得把照片清出來。”</p>
 
             </div>
         
@@ -187,6 +195,8 @@
                     <br>
                     <p>1Album 黑盒子是 1Album 專用的免費儲存軟體。您可以下載並將它裝在 Windows、Mac OSX、Linux、NAS 設備、或任何可以執行 Docker 容器的環境中。</p>
 
+<p><a href="./docs/blackbox/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> 1Album 黑盒子安裝指南</a></p>
+
                 </div>
                 
                     <div class="col-lg-5 col-lg-pull-5 col-sm-6 col-sm-pull-6">
@@ -206,6 +216,8 @@
                     <h3><span class="step">第二步：</span>登入 1Album app</h3>
                     <br>
                     <p>在 iPhone 或 iPad 上安裝 1Album app 並以您的臉書帳號登入。將來我們會提供更多種登入方式。</p>
+
+<p><a><i class="fa fa-external-link" aria-hidden="true"></i> 下載 1Album app</a> (目前尚未公開)</p>
 
                 </div>
                 
@@ -248,9 +260,9 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-6 col-xs-12">
                     <h3><span class="step">就這樣！</span></h3>
                     <br>
-                    <p>從此 1Album app 會自動將 iPhone 或 iPad 上的照片與影片備份到您的 1Album 黑盒子裡。您可以將已備份的項目從手機移除，已清出儲存空間。</p>
+                    <p>從此 1Album app 會自動將 iPhone 或 iPad 上的照片與影片備份到您的 1Album 黑盒子裡。您可以將備份過的項目從手機移除，已清出儲存空間。</p>
 
-<p>移除後，您還是可以用 1Album app 看到這些照片與影片。它們會透過對等 (peer-to-peer) 連線從您的黑盒子直接傳到手機裡。</p>
+<p>這些照片與影片在移除後，還是可以用 1Album app 看到。它們會透過對等 (peer-to-peer) 連線從您的黑盒子直接傳到手機裡。</p>
 
                 </div>
                 
@@ -577,36 +589,33 @@
 
 
 
+</div></div>
+
+
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-md-8">
                 <ul class="list-inline">
                     <li>
-                        <a class="page-scroll" href="#home">首頁</a>
+                        <a class="page-scroll" href="./">首頁</a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                        <a class="page-scroll" href="#steps">如何使用</a>
+                        <a href="./docs">使用手冊</a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
-                        <a class="page-scroll" href="#features">特色</a>
+                        <a href="./support">服務</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a href="mailto:stefan.hong@gmail.com">聯絡 <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                     </li>
                     
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a class="page-scroll" href="mailto:stefan.hong@gmail.com">聯絡 <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-                    </li>
                     
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li class="dropup" style="position: relative;">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Language <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="//beta.1album.net/en">English</a></li>
-                            <li><a href="//beta.1album.net/tw">中文</a></li>
-                        </ul>
-                    </li>
+                        
+                    
                 </ul>
                 <p class="copyright text-muted small">一數位有限公司版權所有。保留一切權利。</p>
             </div>
@@ -624,7 +633,8 @@
 <script src="./js/bootstrap.min.js"></script>
 
 
-<script src="js/landing-page.js"></script>
+<script src="./js/site.js"></script>
+<script src="./js/home.js"></script>
 
 
 

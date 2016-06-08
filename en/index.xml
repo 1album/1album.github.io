@@ -10,11 +10,224 @@
     
     <item>
       <title></title>
+      <link>/docs/1album/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/1album/</guid>
+      <description>
+
+&lt;h1 id=&#34;1album-overview:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;1Album Overview&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/_menu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/_menu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/blackbox/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/blackbox/linux/</guid>
+      <description>
+
+&lt;h1 id=&#34;on-linux:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;On Linux&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/blackbox/mac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/blackbox/mac/</guid>
+      <description>
+
+&lt;h1 id=&#34;on-mac-osx:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;On Mac OSX&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/blackbox/synology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/blackbox/synology/</guid>
+      <description>
+
+&lt;h1 id=&#34;on-synology:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;On Synology&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/blackbox/windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/blackbox/windows/</guid>
+      <description>
+
+&lt;h1 id=&#34;on-windows:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;On Windows&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/</guid>
+      <description>
+
+&lt;h1 id=&#34;users-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Users Guide&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/support/_menu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/support/_menu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/1album/_menu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/1album/_menu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/blackbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/blackbox/</guid>
+      <description>
+
+&lt;h1 id=&#34;img-src-img-1album-blackbox-png:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;img src=&#34;./img/1album-blackbox.png&#34;&gt;&lt;/h1&gt;
+
+&lt;h3 id=&#34;installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Installation Guide&lt;/h3&gt;
+
+&lt;p&gt;Select your platform for the step-by-step guide:&lt;/p&gt;
+
+&lt;div class=&#34;row blurbs&#34;&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;mac&#34;&gt;&lt;i class=&#34;fa fa-apple fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Mac&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;windows&#34;&gt;&lt;i class=&#34;fa fa-windows fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Windows&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+  
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;linux&#34;&gt;&lt;i class=&#34;fa fa-linux fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Linux&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;synology&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;for-the-impatient:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;For the Impatient&lt;/h3&gt;
+
+&lt;p&gt;If you know Docker already:&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker pull &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+$ docker run -itd \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/data&lt;/span&gt;:/data \
+         --name &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt; \
+         &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+$ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+...
++----------------------------+
+|  Device Key:  &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;     |
+|  ...                       |
++----------------------------+
+&lt;/pre&gt;
+
+&lt;p&gt;Replace &lt;code&gt;/path/to/data&lt;/code&gt; with the path you want to store your data.  Open 1Album app, go to settings -&amp;gt; 1Album Blackbox and enter the device key &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;. This adds the blackbox to your account.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s it!  Now your photos will be backed up to this blackbox.&lt;/p&gt;
+
+&lt;h3 id=&#34;commands:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Commands&lt;/h3&gt;
+
+&lt;pre&gt;
+$ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+
+&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt; help
+Available commands:
+
+   export       export library content to an external folder
+   import       unport library content from an external folder
+   netstat      print network status
+   resolver     print the status of all peers associated with this account
+   start        start blackbox manually
+   status       print system status
+   stop         stop blackbox manually
+   sync         sync this blackbox with primary blackbox
+   unbind       unbind this blackbox from your account
+   version      print version information
+   shutdown     shutdown blackbox and exit the program
+
+&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Use &lt;code&gt;docker attach&lt;/code&gt; command to enter blackbox command shell.  It gives you direct control to the blackbox.  Nevertheless, 1Album Blackbox is designed to run autonomously so you don&amp;rsquo;t need to use any of them.&lt;/p&gt;
+
+&lt;p&gt;Press &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to exit the command shell.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/pains/pain1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pains/pain1/</guid>
       <description>&lt;p&gt;&amp;ldquo;My phone is almost full.  I need to move photos off my phone.&amp;rdquo;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/support/</guid>
+      <description>
+
+&lt;h1 id=&#34;support:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Support&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/support/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/support/privacy/</guid>
+      <description>
+
+&lt;h1 id=&#34;privacy-policy:18d05a63a1c8d7ed973cc51838494e41&#34;&gt;Privacy Policy&lt;/h1&gt;
 </description>
     </item>
     
@@ -34,138 +247,6 @@
       
       <guid>/features/1faster/</guid>
       <description>&lt;p&gt;Backing up photos is very fast with peer-to-peer connections link directly from your phone to your blackbox. It is especially so when they are in the same local network.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Install 1Album Blackbox</title>
-      <link>/steps/step1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/steps/step1/</guid>
-      <description>&lt;p&gt;1Album Blackbox is free storage software designed for 1Album.  You can download and install it on Windows, Mac OSX, Linux, NAS devices, or any environment that can run a Docker container.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/pains/pain2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pains/pain2/</guid>
-      <description>&lt;p&gt;&amp;ldquo;I want to keep my photos forever, but&lt;br&gt;not to pay forever to keep them.&amp;rdquo;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cheaper</title>
-      <link>/features/2cheaper/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/features/2cheaper/</guid>
-      <description>&lt;p&gt;Storing any amount of full size photos and videos with 1Album is absolutely free, as opposed to most cloud services which charge you by the amount of data you have.&lt;/p&gt;
-
-&lt;p&gt;Our business is supported by displaying limited amount of Ads in 1Album app. You can pay a small monthly fee to make the Ads go away, but this is completely optional.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Sign in to 1Album app</title>
-      <link>/steps/step2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/steps/step2/</guid>
-      <description>&lt;p&gt;Install 1Album app on your iPhone or iPad and sign in with your Facebook account. Other sign in methods are comming.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/pains/pain3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pains/pain3/</guid>
-      <description>&lt;p&gt;&amp;ldquo;I want to view all my photos from my phone even if they were moved off.&amp;rdquo;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Add 1Album Blackbox to your account</title>
-      <link>/steps/step3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/steps/step3/</guid>
-      <description>&lt;p&gt;Add 1Album Blackbox to your account by entering your blackbox&amp;rsquo;s device code in 1Album app.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>More Private</title>
-      <link>/features/3private/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/features/3private/</guid>
-      <description>&lt;p&gt;The communication channels between 1Album app and 1Album Blackbox are end-to-end encrypted.  Your data never travel through the Internet unencrypted.&lt;/p&gt;
-
-&lt;p&gt;Your photos and videos are never sent to cloud services or strangers&amp;rsquo; computers either.  They are stored only on the devices that you own. Nobody else has access to them.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/steps/step4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/steps/step4/</guid>
-      <description>&lt;p&gt;Now 1Album app will back up photos and videos on your iPhone and iPad to your 1Album Blackbox automatically. You can remove the backed up items from your phone to free up space.&lt;/p&gt;
-
-&lt;p&gt;After removal, you still can view all of the photos and videos with 1Album app.  They are served directly from your blackbox through a peer-to-peer connection.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Full Size Photos</title>
-      <link>/features/4fullsize/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/features/4fullsize/</guid>
-      <description>&lt;p&gt;1Album app stores full size photos and videos in 1Album Blackbox, so you won&amp;rsquo;t loose any details in your photos. Live Photos are also supported.  If a photo have been edited on iPhone, both the edited and the original versions are stored.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Easy to Setup</title>
-      <link>/features/5easy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/features/5easy/</guid>
-      <description>&lt;p&gt;Our peer-to-peer connection can pass through most NAT routers and cellular networks without special configurations. There is no need to fiddle with port mapping or UPnP.&lt;/p&gt;
-
-&lt;p&gt;If your computer can browse the web, 1Album app can connect to 1Album Blackbox on that computer. It&amp;rsquo;s that easy.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fail Safe</title>
-      <link>/features/6failsafe/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/features/6failsafe/</guid>
-      <description>&lt;p&gt;If you add multiple 1Album Blackboxes to your account, they will synchronize with each other automatically. Each blackbox has full copy of all your data, so you won&amp;rsquo;t loose precious photos should any one of them fail.&lt;/p&gt;
-
-&lt;p&gt;You can even put blackboxes at locations far apart from each other to protect your data from natural disasters.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Works Offline</title>
-      <link>/features/7offline/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/features/7offline/</guid>
-      <description>&lt;p&gt;Other than downloading photos that are not currently on the phone, you can do almost everything with 1Album app offline, from posting comments to organizing photos. Changes you made will synchronize back to 1Album Blackbox once it is reachable again.&lt;/p&gt;
-
-&lt;p&gt;As a result, you can install 1Album Blackbox on a laptop and turn the blackbox on only when you need it.  It does not need to run 24x7.&lt;/p&gt;
 </description>
     </item>
     
