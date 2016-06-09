@@ -262,7 +262,7 @@ h1 img {
 /* iphone */
 
 .iphone6 {
-    background-image:  url("/img/docs/iphone6.jpg");
+    background-image: url("/img/global/iphone6.jpg");
     background-size: contain;
     /*height: 1104px;*/
     /*width: 543px;*/

@@ -112,6 +112,7 @@
 &lt;p&gt;打開 1Album app，如下圖所示，將 Device Key 輸入：&lt;/p&gt;
 
 
+
 &lt;div class=&#34;iphone6&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_tw.gif&#34;&gt;
@@ -119,7 +120,7 @@
 &lt;/div&gt;
 
 
-&lt;p&gt;現在開始，這個黑盒子就會為您工作了。同時，在黑盒子端會看到登入的資訊，與您的帳號名稱。&lt;/p&gt;
+&lt;p&gt;現在開始，這個黑盒子就會為您工作了。同時，在黑盒子端會顯示您登入的帳號名稱。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/mac/1album_blackbox_login.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 </description>
