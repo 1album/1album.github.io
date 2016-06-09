@@ -164,7 +164,7 @@
 
 
                                     
-                                        <li class="m1"><a class='menu-leaf active' href="../../../docs/blackbox/mac/">簡介</a></li>
+                                        <li class="m1"><a class='menu-leaf active' href="../../../docs/blackbox/mac/">安裝指南</a></li>
                                     
 
 
@@ -303,7 +303,7 @@
 
                         
                             
-                            <a href="../../../docs/blackbox/mac/" class='menu-leaf m1 active'>簡介</a>
+                            <a href="../../../docs/blackbox/mac/" class='menu-leaf m1 active'>安裝指南</a>
                             
                                 <div id="anchors-bar">
                                     <div class="nav m2" id="anchors"></div>
@@ -395,7 +395,79 @@
             <div class="col-xs-12 col-sm-9 doc-frame">
                 
 
-<h1 id="on-mac-osx:d680e8a854a7cbad6d490c445cba2eba">On Mac OSX</h1>
+<h1 id="在-osx-上安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba">在 OSX 上安裝黑盒子</h1>
+
+<h2 id="第一步-安裝-docker:d680e8a854a7cbad6d490c445cba2eba">第一步：安裝 Docker</h2>
+
+<p>黑盒子是以 Docker Image 的方式發行，在安裝黑盒子前，系統裡必須先安裝 Docker。點 <a href="https://www.docker.com/products/docker-toolbox" target="_blank">這裡下載 Docker Toolbox <i class="fa fa-download" aria-hidden="true"></i></a>，詳細安裝說明請參考 <a href="https://docs.docker.com/mac/step_one/" target="_blank">Docker Toolbox 安裝說明</a>。</p>
+
+<p>裝好後，在應用程式及 LaunchPad 裡會多出兩個程式，打開箭頭指的那個 Kitematic：</p>
+
+<p><img src="../../../img/docs/mac/kitematic.png" class="screenshot"></p>
+
+<p>啟動後會看到下面這個登入的畫面，不登入沒有關係，直接按畫面右下角 <code>SKIP FOR NOW</code> 跳過：</p>
+
+<p><img src="../../../img/docs/mac/kitematic_login.png" class="screenshot"></p>
+
+<p>離開登入頁面後，進入 Kitematic 的首頁：</p>
+
+<p><img src="../../../img/docs/mac/kitematic_home.png" class="screenshot"></p>
+
+<h2 id="第二步-安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba">第二步：安裝黑盒子</h2>
+
+<p>在搜尋框裡輸入 <code>1album</code> 來搜尋 1Album 黑盒子程式，找到後按右下角的 CREATE 鈕來下載並安裝。</p>
+
+<p><img src="../../../img/docs/mac/search_1album_blackbox.png" class="screenshot"></p>
+
+<p>下載中：</p>
+
+<p><img src="../../../img/docs/mac/downloading_1album_blackbox.png" class="screenshot"></p>
+
+<p>下載完成後看到這個錯誤訊息。別擔心，這是因為我們還沒有設定資料目錄：</p>
+
+<p><img src="../../../img/docs/mac/1album_blackbox_first_boot.png" class="screenshot"></p>
+
+<h2 id="第三步-設定資料目錄:d680e8a854a7cbad6d490c445cba2eba">第三步：設定資料目錄</h2>
+
+<p>資料目錄 <code>/data</code> 是 1Album 黑盒子儲存所有資料的位置，必須將其指向電腦的目錄才能啟動黑盒子。如下圖，點 Settings -&gt; Volumes 到設定頁面，點對應 <code>/data</code> 的 <code>CHANGE</code> 紐：</p>
+
+<p><img src="../../../img/docs/mac/volume_settings.png" class="screenshot"></p>
+
+<p>按下 <code>CHANGE</code> 後跳出對話框選擇檔案夾。這個檔案夾內的資料必須由黑盒子全權控制，請不要手動改變內容，否則可能會造成資料遺失或錯誤。</p>
+
+<p><img src="../../../img/docs/mac/select_folder.png" class="screenshot"></p>
+
+<p>選定後如下圖，可以看出 Docker 內 <code>/data</code> 目錄所對應的電腦檔案夾。</p>
+
+<p><img src="../../../img/docs/mac/data_linked.png" class="screenshot"></p>
+
+<p>除了 <code>/data</code> 外，還有三個額外的目錄可以設定，這些沒設也沒關係。<code>/export</code> 用來將黑盒子的內部資料輸出成一般檔案，<code>/import</code> 用來輸入外部資料進黑盒子，而 <code>/cache</code> 用來儲存如照片縮小圖等的暫存檔。</p>
+
+<p><img src="../../../img/docs/mac/other_volumes.png" class="screenshot"></p>
+
+<p>設定好目錄，點選下圖的 <code>HOME</code>，會看到黑盒子已經啟動完成了：</p>
+
+<p><img src="../../../img/docs/mac/1album_blackbox_home.png" class="screenshot"></p>
+
+<h2 id="第四步-連結帳號:d680e8a854a7cbad6d490c445cba2eba">第四步：連結帳號</h2>
+
+<p>必須把黑盒子加到您的帳號中，才能開始使用。首先將黑盒子印出來的 <code>Device Key</code> 記下來：</p>
+
+<p><img src="../../../img/docs/mac/1album_blackbox_device_key.png" class="screenshot"></p>
+
+<p>打開 1Album app，如下圖所示，將 Device Key 輸入：</p>
+
+
+<div class="iphone6">
+   <div class="iphone6-screen">
+       <img src="../../../img/docs/add_blackbox_tw.gif">
+   </div>
+</div>
+
+
+<p>現在開始，這個黑盒子就會為您工作了。同時，在黑盒子端會看到登入的資訊，與您的帳號名稱。</p>
+
+<p><img src="../../../img/docs/mac/1album_blackbox_login.png" class="screenshot"></p>
 
             </div>
         </div>

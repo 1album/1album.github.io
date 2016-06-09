@@ -32,6 +32,8 @@
 }
 
 .sidebar h4 {
+    padding-bottom: 8px;
+    margin-bottom: 8px;
     border-bottom: 1px solid #e7e7e7;
 }
 
@@ -184,9 +186,30 @@
 
 h1 {
     text-align: center;
+    font-size: 32px;
+    margin: 1em 0;
 }
 
-h1,h2,h3,h4,h5 {
+h2 {
+    font-size: 24px;
+    padding: 1em 0 8px;
+    border-bottom: 1px solid #e7e7e7;
+    margin: 1em 0;
+}
+
+@media (min-width: 768px) {
+    h2 {
+        padding: 60px 0 8px;
+    }
+}
+
+h3 {
+    font-size: 20px;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 16px;
     margin: 1em 0;
 }
 
@@ -214,6 +237,12 @@ h1 img {
     margin-bottom: 30px;
 }
 
+#document .screenshot {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 2em;
+}
+
 .blurbs {
     margin-top: 30px;
     text-align: center;
@@ -228,4 +257,50 @@ h1 img {
 
 .blurb p {
     margin-top: 0.5em;
+}
+
+/* iphone */
+
+.iphone6 {
+    background-image:  url("/img/docs/iphone6.jpg");
+    background-size: contain;
+    /*height: 1104px;*/
+    /*width: 543px;*/
+    height: 368px;
+    width: 181px;
+    position: relative;
+    margin: 1em auto 3em;
+}
+
+.iphone6-screen {
+    position:absolute;
+    top:44px;
+    left:13px;
+    width:156px;
+    height:278px;
+    overflow:hidden;
+    border: 1px solid lightgray;
+}
+.iphone6-screen img {
+    position: relative;
+    top: -1px;
+    width: 156px;
+    height: auto;
+    z-index: 2;
+}
+
+@media (min-width: 768px) {
+    .iphone6 {
+        height: 552px;
+        width: 272px;
+    }
+    .iphone6-screen {
+        top:66px;
+        left:19px;
+        width:235px;
+        height:418px;
+    }
+    .iphone6-screen img {
+        width: 235px;
+    }
 }
