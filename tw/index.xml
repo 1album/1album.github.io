@@ -120,7 +120,7 @@
 &lt;/div&gt;
 
 
-&lt;p&gt;現在開始，這個黑盒子就會為您工作了。同時，在黑盒子端會顯示您登入的帳號名稱。&lt;/p&gt;
+&lt;p&gt;現在開始，這個黑盒子就會為您工作了。同時，在黑盒子端會顯示您登入的帳號名稱：&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/mac/1album_blackbox_login.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 </description>
@@ -146,7 +146,80 @@
       <guid>/docs/blackbox/windows/</guid>
       <description>
 
-&lt;h1 id=&#34;on-windows:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;On Windows&lt;/h1&gt;
+&lt;h1 id=&#34;在-windows-安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;在 Windows 安裝黑盒子&lt;/h1&gt;
+
+&lt;h2 id=&#34;第一步-安裝-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第一步：安裝 Docker&lt;/h2&gt;
+
+&lt;p&gt;黑盒子是以 Docker Image 的方式發行，在安裝黑盒子前，系統裡必須先安裝 Docker。點 &lt;a href=&#34;https://www.docker.com/products/docker-toolbox&#34; target=&#34;_blank&#34;&gt;這裡下載 Docker Toolbox &lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;，詳細安裝說明請參考 &lt;a href=&#34;https://docs.docker.com/windows/step_one/&#34; target=&#34;_blank&#34;&gt;Docker Toolbox 安裝說明&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;裝好後，在應用程式及 LaunchPad 裡會多出兩個程式，打開箭頭指的那個 Kitematic：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/windows/kitematic.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;啟動後會看到下面這個登入的畫面，不登入沒有關係，直接按畫面右下角 &lt;code&gt;SKIP FOR NOW&lt;/code&gt; 跳過：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/windows/kitematic_login.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;離開登入頁面後，進入 Kitematic 的首頁：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/windows/kitematic_home.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;第二步-安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第二步：安裝黑盒子&lt;/h2&gt;
+
+&lt;p&gt;在搜尋框裡輸入 &lt;code&gt;1album&lt;/code&gt; 來搜尋 1Album 黑盒子程式，找到後按右下角的 CREATE 鈕來下載並安裝。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/windows/search_1album_blackbox.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;下載中：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/windows/downloading_1album_blackbox.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;下載完成後看到這個錯誤訊息。別擔心，這是因為我們還沒有設定資料目錄：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/windows/1album_blackbox_first_boot.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;第三步-設定資料目錄:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第三步：設定資料目錄&lt;/h2&gt;
+
+&lt;p&gt;資料目錄 &lt;code&gt;/data&lt;/code&gt; 是 1Album 黑盒子儲存所有資料的位置，必須將其指向電腦的目錄才能啟動黑盒子。如下圖，點 Settings -&amp;gt; Volumes 到設定頁面，點對應 &lt;code&gt;/data&lt;/code&gt; 的 &lt;code&gt;CHANGE&lt;/code&gt; 紐：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/windows/volume_settings.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;按下 &lt;code&gt;CHANGE&lt;/code&gt; 後跳出對話框選擇檔案夾。這個檔案夾內的資料必須由黑盒子全權控制，請不要手動改變內容，否則可能會造成資料遺失或錯誤。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/windows/select_folder.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;選定後如下圖，可以看出 Docker 內 &lt;code&gt;/data&lt;/code&gt; 目錄所對應的電腦檔案夾。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/windows/data_linked.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;除了 &lt;code&gt;/data&lt;/code&gt; 外，還有三個額外的目錄可以設定，這些沒設也沒關係。&lt;code&gt;/export&lt;/code&gt; 用來將黑盒子的內部資料輸出成一般檔案，&lt;code&gt;/import&lt;/code&gt; 用來輸入外部資料進黑盒子，而 &lt;code&gt;/cache&lt;/code&gt; 用來儲存如照片縮小圖等的暫存檔。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/windows/other_volumes.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;設定好目錄，點選下圖的 &lt;code&gt;HOME&lt;/code&gt;，會看到黑盒子已經啟動完成了：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/windows/1album_blackbox_home.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;第四步-連結帳號:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第四步：連結帳號&lt;/h2&gt;
+
+&lt;p&gt;必須把黑盒子加到您的帳號中，才能開始使用。首先將黑盒子印出來的 &lt;code&gt;Device Key&lt;/code&gt; 記下來：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/windows/1album_blackbox_device_key.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;打開 1Album app，如下圖所示，將 Device Key 輸入：&lt;/p&gt;
+
+
+
+&lt;div class=&#34;iphone6&#34;&gt;
+   &lt;div class=&#34;iphone6-screen&#34;&gt;
+       &lt;img src=&#34;./img/docs/add_blackbox_tw.gif&#34;&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;現在開始，這個黑盒子就會為您工作了。同時，在黑盒子端會顯示您登入的帳號名稱：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/windows/1album_blackbox_login.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
