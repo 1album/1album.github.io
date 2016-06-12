@@ -15,22 +15,6 @@
   </url>
   
   <url>
-    <loc>/docs/blackbox/linux/</loc>
-  </url>
-  
-  <url>
-    <loc>/docs/blackbox/mac/</loc>
-  </url>
-  
-  <url>
-    <loc>/docs/blackbox/synology/</loc>
-  </url>
-  
-  <url>
-    <loc>/docs/blackbox/windows/</loc>
-  </url>
-  
-  <url>
     <loc>/docs/</loc>
   </url>
   
@@ -44,6 +28,22 @@
   
   <url>
     <loc>/docs/blackbox/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/blackbox/linux/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/blackbox/mac/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/blackbox/synology/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/blackbox/windows/</loc>
   </url>
   
   <url>
@@ -75,7 +75,23 @@
   </url>
   
   <url>
+    <loc>/docs/blackbox/linux/startstop/</loc>
+  </url>
+  
+  <url>
     <loc>/docs/blackbox/mac/_menu/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/blackbox/mac/startstop/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/blackbox/synology/startstop/</loc>
+  </url>
+  
+  <url>
+    <loc>/docs/blackbox/windows/startstop/</loc>
   </url>
   
   <url>

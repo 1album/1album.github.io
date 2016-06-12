@@ -31,6 +31,126 @@
     
     <item>
       <title></title>
+      <link>/docs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/</guid>
+      <description>
+
+&lt;h1 id=&#34;使用手冊:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;使用手冊&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/support/_menu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/support/_menu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/1album/_menu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/1album/_menu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/blackbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/blackbox/</guid>
+      <description>
+
+&lt;h1 id=&#34;img-src-img-1album-blackbox-png:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;img src=&#34;./img/1album-blackbox.png&#34;&gt;&lt;/h1&gt;
+
+&lt;h3 id=&#34;安裝指南:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;安裝指南&lt;/h3&gt;
+
+&lt;p&gt;請依您使用的系統選擇安裝指南：&lt;/p&gt;
+
+&lt;div class=&#34;row blurbs&#34;&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;mac&#34;&gt;&lt;i class=&#34;fa fa-apple fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Mac&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;windows&#34;&gt;&lt;i class=&#34;fa fa-windows fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Windows&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+  
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;linux&#34;&gt;&lt;i class=&#34;fa fa-linux fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Linux&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;synology&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;立刻上手:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;立刻上手&lt;/h3&gt;
+
+&lt;p&gt;如果您已經會用 Docker：&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker pull &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+$ docker run -itd \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/data&lt;/span&gt;:/data \
+         --name &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt; \
+         &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+$ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+...
++----------------------------+
+|  Device Key:  &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;     |
+|  ...                       |
++----------------------------+
+&lt;/pre&gt;
+
+&lt;p&gt;把上面 &lt;code&gt;/path/to/data&lt;/code&gt; 換成您想儲存資料的路徑。接著打開 1Albym app -&amp;gt; 設定 -&amp;gt; 1Album 黑盒子，輸入 Device key &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;，把這個黑盒子加入您的帳號。&lt;/p&gt;
+
+&lt;p&gt;這樣就搞定了！您的照片會自動備份到這個黑盒子裡。&lt;/p&gt;
+
+&lt;h3 id=&#34;指令:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;指令&lt;/h3&gt;
+
+&lt;pre&gt;
+$ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+
+&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt; help
+Available commands:
+
+   export       export library content to an external folder
+   import       unport library content from an external folder
+   netstat      print network status
+   resolver     print the status of all peers associated with this account
+   start        start blackbox manually
+   status       print system status
+   stop         stop blackbox manually
+   sync         sync this blackbox with primary blackbox
+   unbind       unbind this blackbox from your account
+   version      print version information
+   shutdown     shutdown blackbox and exit the program
+
+&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;使用 &lt;code&gt;docker attach&lt;/code&gt; 指令可以進入黑盒子的指令介面，透過它您可以直接操作黑盒子。儘管如此，1Album 黑盒子是設計成自己全自動運作的，您平常並不需要使用這些指令。&lt;/p&gt;
+
+&lt;p&gt;要離開指令介面，先按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; 再按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; 就可以離開。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/docs/blackbox/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -400,126 +520,6 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;現在開始，這個黑盒子就會為您工作了。同時，在黑盒子端會顯示您登入的帳號名稱：&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/windows/1album_blackbox_login.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/docs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/</guid>
-      <description>
-
-&lt;h1 id=&#34;使用手冊:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;使用手冊&lt;/h1&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/support/_menu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/support/_menu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/docs/1album/_menu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/1album/_menu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/docs/blackbox/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/blackbox/</guid>
-      <description>
-
-&lt;h1 id=&#34;img-src-img-1album-blackbox-png:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;img src=&#34;./img/1album-blackbox.png&#34;&gt;&lt;/h1&gt;
-
-&lt;h3 id=&#34;安裝指南:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;安裝指南&lt;/h3&gt;
-
-&lt;p&gt;請依您使用的系統選擇安裝指南：&lt;/p&gt;
-
-&lt;div class=&#34;row blurbs&#34;&gt;
-
-&lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;mac&#34;&gt;&lt;i class=&#34;fa fa-apple fa-3x&#34;&gt;&lt;/i&gt;
-    &lt;p&gt;Mac&lt;/p&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;windows&#34;&gt;&lt;i class=&#34;fa fa-windows fa-3x&#34;&gt;&lt;/i&gt;
-    &lt;p&gt;Windows&lt;/p&gt;&lt;/a&gt;
-&lt;/div&gt;
-  
-
-&lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;linux&#34;&gt;&lt;i class=&#34;fa fa-linux fa-3x&#34;&gt;&lt;/i&gt;
-    &lt;p&gt;Linux&lt;/p&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;synology&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
-    &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;立刻上手:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;立刻上手&lt;/h3&gt;
-
-&lt;p&gt;如果您已經會用 Docker：&lt;/p&gt;
-
-&lt;pre&gt;
-$ docker pull &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
-$ docker run -itd \
-         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/data&lt;/span&gt;:/data \
-         --name &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt; \
-         &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
-$ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
-...
-+----------------------------+
-|  Device Key:  &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;     |
-|  ...                       |
-+----------------------------+
-&lt;/pre&gt;
-
-&lt;p&gt;把上面 &lt;code&gt;/path/to/data&lt;/code&gt; 換成您想儲存資料的路徑。接著打開 1Albym app -&amp;gt; 設定 -&amp;gt; 1Album 黑盒子，輸入 Device key &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;，把這個黑盒子加入您的帳號。&lt;/p&gt;
-
-&lt;p&gt;這樣就搞定了！您的照片會自動備份到這個黑盒子裡。&lt;/p&gt;
-
-&lt;h3 id=&#34;指令:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;指令&lt;/h3&gt;
-
-&lt;pre&gt;
-$ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
-
-&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt; help
-Available commands:
-
-   export       export library content to an external folder
-   import       unport library content from an external folder
-   netstat      print network status
-   resolver     print the status of all peers associated with this account
-   start        start blackbox manually
-   status       print system status
-   stop         stop blackbox manually
-   sync         sync this blackbox with primary blackbox
-   unbind       unbind this blackbox from your account
-   version      print version information
-   shutdown     shutdown blackbox and exit the program
-
-&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;使用 &lt;code&gt;docker attach&lt;/code&gt; 指令可以進入黑盒子的指令介面，透過它您可以直接操作黑盒子。儘管如此，1Album 黑盒子是設計成自己全自動運作的，您平常並不需要使用這些指令。&lt;/p&gt;
-
-&lt;p&gt;要離開指令介面，先按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; 再按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; 就可以離開。&lt;/p&gt;
 </description>
     </item>
     

@@ -31,6 +31,117 @@
     
     <item>
       <title></title>
+      <link>/docs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/</guid>
+      <description>
+
+&lt;h1 id=&#34;users-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Users Guide&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/1album/_menu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/1album/_menu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/blackbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/blackbox/</guid>
+      <description>
+
+&lt;h1 id=&#34;img-src-img-1album-blackbox-png:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;img src=&#34;../img/1album-blackbox.png&#34;&gt;&lt;/h1&gt;
+
+&lt;h3 id=&#34;installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Installation Guide&lt;/h3&gt;
+
+&lt;p&gt;Select your platform for the step-by-step guide:&lt;/p&gt;
+
+&lt;div class=&#34;row blurbs&#34;&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;mac&#34;&gt;&lt;i class=&#34;fa fa-apple fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Mac&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;windows&#34;&gt;&lt;i class=&#34;fa fa-windows fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Windows&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+  
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;linux&#34;&gt;&lt;i class=&#34;fa fa-linux fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Linux&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;synology&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;for-the-impatient:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;For the Impatient&lt;/h3&gt;
+
+&lt;p&gt;If you know Docker already:&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker pull &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+$ docker run -itd \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/data&lt;/span&gt;:/data \
+         --name &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt; \
+         &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+$ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+...
++----------------------------+
+|  Device Key:  &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;     |
+|  ...                       |
++----------------------------+
+&lt;/pre&gt;
+
+&lt;p&gt;Replace &lt;code&gt;/path/to/data&lt;/code&gt; with the path you want to store your data.  Open 1Album app, go to settings -&amp;gt; 1Album Blackbox and enter the device key &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;. This adds the blackbox to your account.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s it!  Now your photos will be backed up to this blackbox.&lt;/p&gt;
+
+&lt;h3 id=&#34;commands:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Commands&lt;/h3&gt;
+
+&lt;pre&gt;
+$ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+
+&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt; help
+Available commands:
+
+   export       export library content to an external folder
+   import       unport library content from an external folder
+   netstat      print network status
+   resolver     print the status of all peers associated with this account
+   start        start blackbox manually
+   status       print system status
+   stop         stop blackbox manually
+   sync         sync this blackbox with primary blackbox
+   unbind       unbind this blackbox from your account
+   version      print version information
+   shutdown     shutdown blackbox and exit the program
+
+&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Use &lt;code&gt;docker attach&lt;/code&gt; command to enter blackbox command shell.  It gives you direct control to the blackbox.  Nevertheless, 1Album Blackbox is designed to run autonomously so you don&amp;rsquo;t need to use any of them.&lt;/p&gt;
+
+&lt;p&gt;Press &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to exit the command shell.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/docs/blackbox/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -237,7 +348,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;h2 id=&#34;step-2-install-blackbox:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 2: Install Blackbox&lt;/h2&gt;
 
-&lt;p&gt;Switch to &lt;code&gt;Registry&lt;/code&gt; tab to the left, then enter &lt;code&gt;1album&lt;/code&gt; in the search box to search for 1Album Blackbox.&lt;/p&gt;
+&lt;p&gt;Switch to &lt;code&gt;Registry&lt;/code&gt; tab on the left, then enter &lt;code&gt;1album&lt;/code&gt; in the search box to search for 1Album Blackbox.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../img/docs/synology/search_1album_blackbox.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
@@ -245,7 +356,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;../img/docs/synology/download_1album_blackbox.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;p&gt;When download is in progress, the icon to the right is animated:&lt;/p&gt;
+&lt;p&gt;When download is in progress, the icon on the right is animated:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../img/docs/synology/downloading.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
@@ -255,7 +366,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;h2 id=&#34;step-3-first-launch:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 3: First Launch&lt;/h2&gt;
 
-&lt;p&gt;Switch to the &amp;lsquo;Image&amp;rsquo; tab to the left, select 1Album Blackbox image, then click &lt;code&gt;Launch&lt;/code&gt; button to launch it:&lt;/p&gt;
+&lt;p&gt;Switch to the &amp;lsquo;Image&amp;rsquo; tab on the left, select 1Album Blackbox image, then click &lt;code&gt;Launch&lt;/code&gt; button to launch it:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../img/docs/synology/launch.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
@@ -293,7 +404,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;h2 id=&#34;step-4-link-account:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 4: Link Account&lt;/h2&gt;
 
-&lt;p&gt;You must add the blackbox to your account to start using it.  First switch to &lt;code&gt;Container&lt;/code&gt; tag to the left, select the running blackbox, then click the &lt;code&gt;Details&lt;/code&gt; button:&lt;/p&gt;
+&lt;p&gt;You must add the blackbox to your account to start using it.  First switch to &lt;code&gt;Container&lt;/code&gt; tab on the left, select the running blackbox, then click the &lt;code&gt;Details&lt;/code&gt; button:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../img/docs/synology/open_details.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
@@ -405,122 +516,44 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/docs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/</guid>
-      <description>
-
-&lt;h1 id=&#34;users-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Users Guide&lt;/h1&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/docs/1album/_menu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/1album/_menu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/docs/blackbox/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/blackbox/</guid>
-      <description>
-
-&lt;h1 id=&#34;img-src-img-1album-blackbox-png:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;img src=&#34;../img/1album-blackbox.png&#34;&gt;&lt;/h1&gt;
-
-&lt;h3 id=&#34;installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Installation Guide&lt;/h3&gt;
-
-&lt;p&gt;Select your platform for the step-by-step guide:&lt;/p&gt;
-
-&lt;div class=&#34;row blurbs&#34;&gt;
-
-&lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;mac&#34;&gt;&lt;i class=&#34;fa fa-apple fa-3x&#34;&gt;&lt;/i&gt;
-    &lt;p&gt;Mac&lt;/p&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;windows&#34;&gt;&lt;i class=&#34;fa fa-windows fa-3x&#34;&gt;&lt;/i&gt;
-    &lt;p&gt;Windows&lt;/p&gt;&lt;/a&gt;
-&lt;/div&gt;
-  
-
-&lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;linux&#34;&gt;&lt;i class=&#34;fa fa-linux fa-3x&#34;&gt;&lt;/i&gt;
-    &lt;p&gt;Linux&lt;/p&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;synology&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
-    &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;for-the-impatient:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;For the Impatient&lt;/h3&gt;
-
-&lt;p&gt;If you know Docker already:&lt;/p&gt;
-
-&lt;pre&gt;
-$ docker pull &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
-$ docker run -itd \
-         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/data&lt;/span&gt;:/data \
-         --name &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt; \
-         &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
-$ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
-...
-+----------------------------+
-|  Device Key:  &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;     |
-|  ...                       |
-+----------------------------+
-&lt;/pre&gt;
-
-&lt;p&gt;Replace &lt;code&gt;/path/to/data&lt;/code&gt; with the path you want to store your data.  Open 1Album app, go to settings -&amp;gt; 1Album Blackbox and enter the device key &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;. This adds the blackbox to your account.&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s it!  Now your photos will be backed up to this blackbox.&lt;/p&gt;
-
-&lt;h3 id=&#34;commands:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Commands&lt;/h3&gt;
-
-&lt;pre&gt;
-$ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
-
-&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt; help
-Available commands:
-
-   export       export library content to an external folder
-   import       unport library content from an external folder
-   netstat      print network status
-   resolver     print the status of all peers associated with this account
-   start        start blackbox manually
-   status       print system status
-   stop         stop blackbox manually
-   sync         sync this blackbox with primary blackbox
-   unbind       unbind this blackbox from your account
-   version      print version information
-   shutdown     shutdown blackbox and exit the program
-
-&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;Use &lt;code&gt;docker attach&lt;/code&gt; command to enter blackbox command shell.  It gives you direct control to the blackbox.  Nevertheless, 1Album Blackbox is designed to run autonomously so you don&amp;rsquo;t need to use any of them.&lt;/p&gt;
-
-&lt;p&gt;Press &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to exit the command shell.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>/docs/blackbox/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/docs/blackbox/_menu/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/docs/blackbox/linux/startstop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/blackbox/linux/startstop/</guid>
+      <description>
+
+&lt;h1 id=&#34;start-and-stop:d2b5fd57bebebceaa8c7876fed3b35fa&#34;&gt;Start and Stop&lt;/h1&gt;
+
+&lt;p&gt;Use the following command to stop the blackbox.  &lt;code&gt;mybox&lt;/code&gt; is the name you set with &lt;code&gt;--name&lt;/code&gt; when starting the blackbox for the first time:&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker stop &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;You can start the blackbox again with the following command.  You need to use &lt;code&gt;docker run -ltd ...&lt;/code&gt; only when you start the blackbox for the first time.&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker start &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;The following command show the status of the blackbox.  The &lt;code&gt;--all&lt;/code&gt; argument ask Docker to show not only running containers but also stopped ones.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ docker ps -all
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The circled parts below show whehter the blackbox is running:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/linux/docker_ps.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -534,29 +567,74 @@ Available commands:
     
     <item>
       <title></title>
-      <link>/docs/blackbox/windows/_menu/</link>
+      <link>/docs/blackbox/mac/startstop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/blackbox/windows/_menu/</guid>
-      <description></description>
+      <guid>/docs/blackbox/mac/startstop/</guid>
+      <description>
+
+&lt;h1 id=&#34;start-and-stop:d2b5fd57bebebceaa8c7876fed3b35fa&#34;&gt;Start and Stop&lt;/h1&gt;
+
+&lt;p&gt;1Album Blackbox is running if you see a &lt;code&gt;RUNNING&lt;/code&gt; icon on the title bar. By default, blackbox keeps running in the background even if you close the Kitematic window. To stop blackbox, click the &lt;code&gt;STOP&lt;/code&gt; button as circled below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/mac/blackbox_started.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The status changes to &lt;code&gt;STOPPING&lt;/code&gt; while the blackbox executes its shutdown procedure:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/mac/blackbox_stopping.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the status changes to &lt;code&gt;STOPPED&lt;/code&gt;, the shutdown procedure is completed.  Click the &lt;code&gt;START&lt;/code&gt; button to start it up again.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/mac/blackbox_stopped.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title></title>
-      <link>/docs/blackbox/linux/_menu/</link>
+      <link>/docs/blackbox/synology/startstop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/blackbox/linux/_menu/</guid>
-      <description></description>
+      <guid>/docs/blackbox/synology/startstop/</guid>
+      <description>
+
+&lt;h1 id=&#34;start-and-stop:d2b5fd57bebebceaa8c7876fed3b35fa&#34;&gt;Start and Stop&lt;/h1&gt;
+
+&lt;p&gt;1Album Blackbox is running if the Container status shows &lt;code&gt;Running&lt;/code&gt;, and will keep running after you close the web admin interface. To stop it, click the switch button on the right&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/started.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The blackbox container dimmed while the blackbox executes its shutdown procedure:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/stopping.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the status changes to &lt;code&gt;STOPPED&lt;/code&gt;, the shutdown procedure is completed.  Click the switch button to start it up again.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/stopped.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title></title>
-      <link>/docs/blackbox/synology/_menu/</link>
+      <link>/docs/blackbox/windows/startstop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/blackbox/synology/_menu/</guid>
-      <description></description>
+      <guid>/docs/blackbox/windows/startstop/</guid>
+      <description>
+
+&lt;h1 id=&#34;start-and-stop:d2b5fd57bebebceaa8c7876fed3b35fa&#34;&gt;Start and Stop&lt;/h1&gt;
+
+&lt;p&gt;1Album Blackbox is running if you see a &lt;code&gt;RUNNING&lt;/code&gt; icon on the title bar. By default, blackbox keeps running in the background even if you close the Kitematic window. To stop blackbox, click the &lt;code&gt;STOP&lt;/code&gt; button as circled below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/blackbox_started.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The status changes to &lt;code&gt;STOPPING&lt;/code&gt; while the blackbox executes its shutdown procedure:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/blackbox_stopping.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the status changes to &lt;code&gt;STOPPED&lt;/code&gt;, the shutdown procedure is completed.  Click the &lt;code&gt;START&lt;/code&gt; button to start it up again.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/blackbox_stopped.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
