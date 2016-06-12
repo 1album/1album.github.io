@@ -437,10 +437,10 @@ $ docker run -itd \
 
 <pre>
 $ docker run -itd \
-         -v <span class="syntax-user-input">/path/to/blackbox/data</span>:/data \
-         -v <span class="syntax-user-input">/path/to/blackbox/cache</span>:/cache \
-         -v <span class="syntax-user-input">/path/to/blackbox/import</span>:/import \
-         -v <span class="syntax-user-input">/path/to/blackbox/export</span>:/export \
+         -v <span class="syntax-user-input">/path/to/data</span>:/data \
+         -v <span class="syntax-user-input">/path/to/cache</span>:/cache \
+         -v <span class="syntax-user-input">/path/to/import</span>:/import \
+         -v <span class="syntax-user-input">/path/to/export</span>:/export \
          --name <span class="syntax-user-input">mybox</span> \
          <span class="syntax-blackbox">1album/blackbox</span>
 </pre>
@@ -453,8 +453,9 @@ $ docker run -itd \
 
 <p>必須把黑盒子加到您的帳號中，才能開始使用。黑盒子的 <code>Device Key</code> 可以從 logs 中找到。下面的 <code>mybox</code> 是先前以 <code>--name</code> 參數指定的名字：</p>
 
-<pre><code>$ docker logs mybox
-</code></pre>
+<pre>
+$ docker logs <span class="syntax-user-input">mybox</span>
+</pre>
 
 <p>輸出資料中，箭頭所指的地方就是黑盒子的 Device Key：</p>
 

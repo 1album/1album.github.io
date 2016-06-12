@@ -79,10 +79,10 @@ $ docker run -itd \
 
 &lt;pre&gt;
 $ docker run -itd \
-         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/blackbox/data&lt;/span&gt;:/data \
-         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/blackbox/cache&lt;/span&gt;:/cache \
-         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/blackbox/import&lt;/span&gt;:/import \
-         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/blackbox/export&lt;/span&gt;:/export \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/data&lt;/span&gt;:/data \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/cache&lt;/span&gt;:/cache \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/import&lt;/span&gt;:/import \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/export&lt;/span&gt;:/export \
          --name &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt; \
          &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
 &lt;/pre&gt;
@@ -95,8 +95,9 @@ $ docker run -itd \
 
 &lt;p&gt;必須把黑盒子加到您的帳號中，才能開始使用。黑盒子的 &lt;code&gt;Device Key&lt;/code&gt; 可以從 logs 中找到。下面的 &lt;code&gt;mybox&lt;/code&gt; 是先前以 &lt;code&gt;--name&lt;/code&gt; 參數指定的名字：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ docker logs mybox
-&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;
+$ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+&lt;/pre&gt;
 
 &lt;p&gt;輸出資料中，箭頭所指的地方就是黑盒子的 Device Key：&lt;/p&gt;
 
@@ -216,7 +217,7 @@ $ docker run -itd \
 
 &lt;h2 id=&#34;第一步-安裝-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第一步：安裝 Docker&lt;/h2&gt;
 
-&lt;p&gt;黑盒子是以 Docker Image 的方式發行，在安裝黑盒子前，必先在 Synology 機器上安裝 Docker。許多 Synology 的 NAS 機型都能支援，但似乎限於型號字尾有 “+&amp;rdquo; 的機型。完整支援的機型列表可參考 &lt;a href=&#34;https://www.synology.com/en-us/dsm/app_packages/Docker&#34; target=&#34;_blank&#34;&gt;Synology Docker Package&lt;/a&gt; 頁面的最下面。&lt;/p&gt;
+&lt;p&gt;黑盒子是以 Docker Image 的方式發行，在安裝黑盒子前，必先在 Synology 機器上安裝 Docker。許多 Synology 的 NAS 機型都能支援，但似乎限於型號字尾有 &amp;ldquo;+&amp;rdquo; 的機型。完整支援的機型列表可參考 &lt;a href=&#34;https://www.synology.com/en-us/dsm/app_packages/Docker&#34; target=&#34;_blank&#34;&gt;Synology Docker Package&lt;/a&gt; 頁面的最下面。&lt;/p&gt;
 
 &lt;p&gt;首先登入 Synology NAS 設備，打開桌面上的 Package Center 並搜尋 Docker，找到後直接按 Install 來安裝。如果找不到，表示您的機型不支援 Docker：&lt;/p&gt;
 
@@ -329,7 +330,7 @@ $ docker run -itd \
 
 &lt;h2 id=&#34;第一步-安裝-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第一步：安裝 Docker&lt;/h2&gt;
 
-&lt;p&gt;黑盒子是以 Docker Image 的方式發行，在安裝黑盒子前，系統裡必須先安裝 Docker。點 &lt;a href=&#34;https://www.docker.com/products/docker-toolbox&#34; target=&#34;_blank&#34;&gt;這裡下載 Docker Toolbox &lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;，詳細安裝說明請參考 &lt;a href=&#34;https://docs.docker.com/windows/step_one/&#34; target=&#34;_blank&#34;&gt;Docker Toolbox 安裝說明&lt;/a&gt;。特別注意，Docker 只能安裝在 CPU 有支援虛擬化技術的 64 位元系統上，比較舊或低階的系統通常都不支援。詳細資訊請參考 &lt;a href=&#34;https://docs.docker.com/engine/installation/windows/#requirements&#34; target=&#34;_blank&#34;&gt;Windows 系統需求&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;黑盒子是以 Docker Image 的方式發行，在安裝黑盒子前，系統裡必須先安裝 Docker。點 &lt;a href=&#34;https://www.docker.com/products/docker-toolbox&#34; target=&#34;_blank&#34;&gt;這裡下載 Docker Toolbox &lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;，詳細安裝說明請參考 &lt;a href=&#34;https://docs.docker.com/windows/step_one/&#34; target=&#34;_blank&#34;&gt;Docker Toolbox 安裝說明&lt;/a&gt;。&lt;span class=&#34;text-danger&#34;&gt;特別注意，Windows 版 Docker 只能安裝在 CPU 有支援虛擬化技術的 64 位元系統上&lt;/span&gt;，比較舊或低階的系統通常都不支援。詳細資訊請參考 &lt;a href=&#34;https://docs.docker.com/engine/installation/windows/#requirements&#34; target=&#34;_blank&#34;&gt;Windows 系統需求&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;裝好後，在應用程式及 LaunchPad 裡會多出兩個程式，打開箭頭指的那個 Kitematic：&lt;/p&gt;
 
@@ -337,7 +338,7 @@ $ docker run -itd \
 
 &lt;p&gt;啟動後會看到下面這個登入的畫面，不登入沒有關係，直接按畫面右下角 &lt;code&gt;SKIP FOR NOW&lt;/code&gt; 跳過：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/docs/windows/kitematic_login.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/kitematic_login.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;離開登入頁面後，進入 Kitematic 的首頁：&lt;/p&gt;
 
@@ -347,7 +348,7 @@ $ docker run -itd \
 
 &lt;p&gt;在搜尋框裡輸入 &lt;code&gt;1album&lt;/code&gt; 來搜尋 1Album 黑盒子程式，找到後按右下角的 CREATE 鈕來下載並安裝。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/docs/windows/search_1album_blackbox.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/search_1album_blackbox.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;下載中：&lt;/p&gt;
 
@@ -355,7 +356,7 @@ $ docker run -itd \
 
 &lt;p&gt;下載完成後看到這個錯誤訊息。別擔心，這是因為我們還沒有設定資料目錄：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/docs/windows/1album_blackbox_first_boot.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/1album_blackbox_first_boot.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;第三步-第一次啟動:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第三步：第一次啟動&lt;/h2&gt;
 
@@ -377,13 +378,13 @@ $ docker run -itd \
 
 &lt;p&gt;設定好目錄，點選下圖的 &lt;code&gt;HOME&lt;/code&gt;，會看到黑盒子已經啟動完成了：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/docs/windows/1album_blackbox_home.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/1album_blackbox_home.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;第四步-連結帳號:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第四步：連結帳號&lt;/h2&gt;
 
 &lt;p&gt;必須把黑盒子加到您的帳號中，才能開始使用。首先將黑盒子印出來的 &lt;code&gt;Device Key&lt;/code&gt; 記下來：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/docs/windows/1album_blackbox_device_key.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/1album_blackbox_device_key.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;打開 1Album app，如下圖所示，將 Device Key 輸入：&lt;/p&gt;
 

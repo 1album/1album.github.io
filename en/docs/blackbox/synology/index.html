@@ -158,13 +158,13 @@
 
                         
                             <li class="dropdown">
-                                <a href="#" class='menu-tree ' data-toggle="dropdown">On Mac OSX <span class="caret"></span></a>
+                                <a href="#" class='menu-tree ' data-toggle="dropdown">For Mac OSX <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                 
 
 
                                     
-                                        <li class="m1"><a class='menu-leaf ' href="../../../docs/blackbox/mac/">Installation</a></li>
+                                        <li class="m1"><a class='menu-leaf ' href="../../../docs/blackbox/mac/">Installation Guide</a></li>
                                     
 
 
@@ -179,13 +179,13 @@
 
                         
                             <li class="dropdown">
-                                <a href="#" class='menu-tree ' data-toggle="dropdown">On Windows <span class="caret"></span></a>
+                                <a href="#" class='menu-tree ' data-toggle="dropdown">For Windows <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                 
 
 
                                     
-                                        <li class="m1"><a class='menu-leaf ' href="../../../docs/blackbox/windows/">Overview</a></li>
+                                        <li class="m1"><a class='menu-leaf ' href="../../../docs/blackbox/windows/">Installation Guide</a></li>
                                     
 
 
@@ -200,13 +200,13 @@
 
                         
                             <li class="dropdown">
-                                <a href="#" class='menu-tree ' data-toggle="dropdown">On Linux <span class="caret"></span></a>
+                                <a href="#" class='menu-tree ' data-toggle="dropdown">For Linux <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                 
 
 
                                     
-                                        <li class="m1"><a class='menu-leaf ' href="../../../docs/blackbox/linux/">Overview</a></li>
+                                        <li class="m1"><a class='menu-leaf ' href="../../../docs/blackbox/linux/">Installation Guide</a></li>
                                     
 
 
@@ -221,13 +221,13 @@
 
                         
                             <li class="dropdown">
-                                <a href="#" class='menu-tree active' data-toggle="dropdown">On Synology <span class="caret"></span></a>
+                                <a href="#" class='menu-tree active' data-toggle="dropdown">For Synology NAS <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                 
 
 
                                     
-                                        <li class="m1"><a class='menu-leaf active' href="../../../docs/blackbox/synology/">Overview</a></li>
+                                        <li class="m1"><a class='menu-leaf active' href="../../../docs/blackbox/synology/">Installation Guide</a></li>
                                     
 
 
@@ -296,14 +296,14 @@
 
                 
                     
-                    <div class='menu-tree collapsed' data-toggle="collapse" data-target="#m_blackbox_mac">On Mac OSX</div>
+                    <div class='menu-tree collapsed' data-toggle="collapse" data-target="#m_blackbox_mac">For Mac OSX</div>
                     <div class="menu-body collapse" id="m_blackbox_mac">
                     
 
 
                         
                             
-                            <a href="../../../docs/blackbox/mac/" class='menu-leaf m1 '>Installation</a>
+                            <a href="../../../docs/blackbox/mac/" class='menu-leaf m1 '>Installation Guide</a>
                             
                         
 
@@ -318,14 +318,14 @@
 
                 
                     
-                    <div class='menu-tree collapsed' data-toggle="collapse" data-target="#m_blackbox_windows">On Windows</div>
+                    <div class='menu-tree collapsed' data-toggle="collapse" data-target="#m_blackbox_windows">For Windows</div>
                     <div class="menu-body collapse" id="m_blackbox_windows">
                     
 
 
                         
                             
-                            <a href="../../../docs/blackbox/windows/" class='menu-leaf m1 '>Overview</a>
+                            <a href="../../../docs/blackbox/windows/" class='menu-leaf m1 '>Installation Guide</a>
                             
                         
 
@@ -340,14 +340,14 @@
 
                 
                     
-                    <div class='menu-tree collapsed' data-toggle="collapse" data-target="#m_blackbox_linux">On Linux</div>
+                    <div class='menu-tree collapsed' data-toggle="collapse" data-target="#m_blackbox_linux">For Linux</div>
                     <div class="menu-body collapse" id="m_blackbox_linux">
                     
 
 
                         
                             
-                            <a href="../../../docs/blackbox/linux/" class='menu-leaf m1 '>Overview</a>
+                            <a href="../../../docs/blackbox/linux/" class='menu-leaf m1 '>Installation Guide</a>
                             
                         
 
@@ -362,14 +362,14 @@
 
                 
                     
-                    <div class='menu-tree active' data-toggle="collapse" data-target="#m_blackbox_synology">On Synology</div>
+                    <div class='menu-tree active' data-toggle="collapse" data-target="#m_blackbox_synology">For Synology NAS</div>
                     <div class="menu-body collapse in" id="m_blackbox_synology">
                     
 
 
                         
                             
-                            <a href="../../../docs/blackbox/synology/" class='menu-leaf m1 active'>Overview</a>
+                            <a href="../../../docs/blackbox/synology/" class='menu-leaf m1 active'>Installation Guide</a>
                             
                                 <div id="anchors-bar">
                                     <div class="nav m2" id="anchors"></div>
@@ -395,7 +395,108 @@
             <div class="col-xs-12 col-sm-9 doc-frame">
                 
 
-<h1 id="on-synology:d680e8a854a7cbad6d490c445cba2eba">On Synology</h1>
+<h1 id="install-blackbox-on-synology-nas:d680e8a854a7cbad6d490c445cba2eba">Install Blackbox On Synology NAS</h1>
+
+<h2 id="step-1-install-docker:d680e8a854a7cbad6d490c445cba2eba">Step 1: Install Docker</h2>
+
+<p>1Album Blackbox is distributed as a Docker Image.  You must install Docker on your Synology NAS before installing blackbox.  Many Synology NAS models support this, but it seems limited to those with a &ldquo;+&rdquo; symbol at the end of its model number. For a full list of supported models, please check the bottom of the <a href="https://www.synology.com/en-us/dsm/app_packages/Docker" target="_blank">Synology Docker Package page</a>.</p>
+
+<p>To install Docker, login to your Synology NAS, open Package Center on the desktop and search for Docker, then click the <code>Install</code> button.  If you cannot find Docker, your model does not support it.</p>
+
+<p><img src="../../../img/docs/synology/search_docker.png" class="screenshot"></p>
+
+<p>When installation is done, Docker is listed in the installed packages:</p>
+
+<p><img src="../../../img/docs/synology/docker_installed.png" class="screenshot"></p>
+
+<p>Docker is also listed in the main menu.  Click to open it:</p>
+
+<p><img src="../../../img/docs/synology/docker_app.png" class="screenshot"></p>
+
+<p>This is the main page of Docker on Synology NAS:</p>
+
+<p><img src="../../../img/docs/synology/docker_main.png" class="screenshot"></p>
+
+<h2 id="step-2-install-blackbox:d680e8a854a7cbad6d490c445cba2eba">Step 2: Install Blackbox</h2>
+
+<p>Switch to <code>Registry</code> tab to the left, then enter <code>1album</code> in the search box to search for 1Album Blackbox.</p>
+
+<p><img src="../../../img/docs/synology/search_1album_blackbox.png" class="screenshot"></p>
+
+<p>Selected the item then click <code>Download</code> button to download:</p>
+
+<p><img src="../../../img/docs/synology/download_1album_blackbox.png" class="screenshot"></p>
+
+<p>When download is in progress, the icon to the right is animated:</p>
+
+<p><img src="../../../img/docs/synology/downloading.png" class="screenshot"></p>
+
+<p>When download is completed, the icon will stop animating, and a notification message will be posted:</p>
+
+<p><img src="../../../img/docs/synology/downloaded.png" class="screenshot"></p>
+
+<h2 id="step-3-first-launch:d680e8a854a7cbad6d490c445cba2eba">Step 3: First Launch</h2>
+
+<p>Switch to the &lsquo;Image&rsquo; tab to the left, select 1Album Blackbox image, then click <code>Launch</code> button to launch it:</p>
+
+<p><img src="../../../img/docs/synology/launch.png" class="screenshot"></p>
+
+<p>A settings dialog shows up.  Click <code>Advanced Settings</code> in the dialog box:</p>
+
+<p><img src="../../../img/docs/synology/create_container.png" class="screenshot"></p>
+
+<p>The <code>Enable auto restart</code> function circled below can restart the blacbox automatically should it encounter an unexpected error and quite.  We recommand you to enable it:</p>
+
+<p><img src="../../../img/docs/synology/auto_restart.png" class="screenshot"></p>
+
+<p>Now switch to the <code>Volume</code> tab.  1Album Blackbox stores everything in <code>/data</code> volume. You must associate it to a local folder before starting the blackbox.  You do that by click the <code>Add Folder</code> button below:</p>
+
+<p><img src="../../../img/docs/synology/volumes.png" class="screenshot"></p>
+
+<p>Select any folder you want, or click <code>Create Folder</code> button to create a new one. Note that you must not manually alter the content in this folder, otherwise your data inside the blackbox may be damaged or lost.  Click the <code>Select</code> button when you&rsquo;re done.</p>
+
+<p><img src="../../../img/docs/synology/select_folder.png" class="screenshot"></p>
+
+<p>After a local folder is selected, enter <code>/data</code> (all lowercase) in the <code>Mount path</code> field.  Now the <code>/data</code> volume is configured.</p>
+
+<p><img src="../../../img/docs/synology/mount_data.png" class="screenshot"></p>
+
+<p>Besides <code>/data</code>, there are three optional volumes that can be configured.  <code>/export</code> is for exporting data out of the blackbox, and <code>/import</code> is for importing data back in. <code>/cache</code> is for storing temporarily files such as thumbnail images. In the example below, each of the volumes is linked to a local folder in NAS.  Click <code>OK</code> when you&rsquo;re done:</p>
+
+<p><img src="../../../img/docs/synology/all_mounted.png" class="screenshot"></p>
+
+<p>We are back to the settings dialog.  Click <code>Next</code>:</p>
+
+<p><img src="../../../img/docs/synology/container_next.png" class="screenshot"></p>
+
+<p>Make sure at least the <code>/data</code> volume is linked to a local folder, then click <code>Apply</code>:</p>
+
+<p><img src="../../../img/docs/synology/container_apply.png" class="screenshot"></p>
+
+<h2 id="step-4-link-account:d680e8a854a7cbad6d490c445cba2eba">Step 4: Link Account</h2>
+
+<p>You must add the blackbox to your account to start using it.  First switch to <code>Container</code> tag to the left, select the running blackbox, then click the <code>Details</code> button:</p>
+
+<p><img src="../../../img/docs/synology/open_details.png" class="screenshot"></p>
+
+<p>Switch to the Log page in the detail dialog.  You can find the <code>Device Key</code> inside:</p>
+
+<p><img src="../../../img/docs/synology/device_key.png" class="screenshot"></p>
+
+<p>Then open 1Album app and enter the <code>Device Key</code> as below:</p>
+
+
+
+<div class="iphone6">
+   <div class="iphone6-screen">
+       <img src="../../../img/docs/add_blackbox_en.gif">
+   </div>
+</div>
+
+
+<p>Now this blackbox will work for you.  Your account name is also printed in the blackbox log. This log page does not refresh automatically, you need to click the little refresh button at the lower right corner to refresh:</p>
+
+<p><img src="../../../img/docs/synology/blackbox_linked.png" class="screenshot"></p>
 
             </div>
         </div>

@@ -37,7 +37,86 @@
       <guid>/docs/blackbox/linux/</guid>
       <description>
 
-&lt;h1 id=&#34;on-linux:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;On Linux&lt;/h1&gt;
+&lt;h1 id=&#34;install-blackbox-on-linux:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Install Blackbox On Linux&lt;/h1&gt;
+
+&lt;h2 id=&#34;step-1-install-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 1: Install Docker&lt;/h2&gt;
+
+&lt;p&gt;1Album Blackbox is distributed as a Docker Image.  Your system must have Docker installed before you can install blackbox.  The installation procedure varies among Linux distributions, please reference &lt;a href=&#34;https://docs.docker.com/engine/installation/&#34; target=&#34;_blank&#34;&gt;the official Docker Engine installation guide&lt;/a&gt; for details.  On Ubuntu 16.04, the easist way to install Docker is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ sudo apt-get install docker.io
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;step-2-install-blackbox:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 2: Install Blackbox&lt;/h2&gt;
+
+&lt;p&gt;You can download 1Album Blackbox with the following command:&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker pull &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Downloading:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/linux/downloading_1album_blackbox.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;After download is completed, use &lt;code&gt;docker images&lt;/code&gt; to list downloaded images:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/linux/downloaded.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;step-3-first-launch:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 3: First Launch&lt;/h2&gt;
+
+&lt;p&gt;Use the following command to launch 1Album Blackbox for the first time:&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker run -itd \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/data&lt;/span&gt;:/data \
+         --name &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt; \
+         &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;The most important argument is &lt;code&gt;-v&lt;/code&gt;, it links &lt;code&gt;/data&lt;/code&gt; volume to local folder &lt;code&gt;/path/to/data&lt;/code&gt; on your system. 1Album Blackbox stores everything in &lt;code&gt;/data&lt;/code&gt; volume. You must link it to a local folder before starting the blackbox.  Please do not manually alter the content in this folder, otherwise your data inside the blackbox may be damaged or lost.&lt;/p&gt;
+
+&lt;p&gt;Besides &lt;code&gt;/data&lt;/code&gt;, there are three optional volumes that can be configured.  &lt;code&gt;/export&lt;/code&gt; is for exporting data out of the blackbox, and &lt;code&gt;/import&lt;/code&gt; is for importing data back in. &lt;code&gt;/cache&lt;/code&gt; is for storing temporarily files such as thumbnail images. The example below links all of them to local folders:&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker run -itd \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/data&lt;/span&gt;:/data \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/cache&lt;/span&gt;:/cache \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/import&lt;/span&gt;:/import \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/export&lt;/span&gt;:/export \
+         --name &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt; \
+         &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;After the &lt;code&gt;docker run&lt;/code&gt; command, you can use &lt;code&gt;docker ps&lt;/code&gt; command to list the running Docker containers.  The last colume shows the name you specified with the &lt;code&gt;--name&lt;/code&gt; argument previously.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/linux/running.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;step-4-link-account:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 4: Link Account&lt;/h2&gt;
+
+&lt;p&gt;You must add the blackbox to your account to start using it.  First, obtain the &lt;code&gt;Device Key&lt;/code&gt; from the log using the following command.  &lt;code&gt;mybox&lt;/code&gt; is what you specified with the &lt;code&gt;--name&lt;/code&gt; argument previously:&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;You can find your &lt;code&gt;Device Key&lt;/code&gt; in the output:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/linux/device_key.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Then open 1Album app and enter the &lt;code&gt;Device Key&lt;/code&gt; as below:&lt;/p&gt;
+
+
+
+&lt;div class=&#34;iphone6&#34;&gt;
+   &lt;div class=&#34;iphone6-screen&#34;&gt;
+       &lt;img src=&#34;../img/docs/add_blackbox_en.gif&#34;&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Now this blackbox will work for you.  Your account name is also printed in the blackbox log:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/linux/started.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -49,11 +128,11 @@
       <guid>/docs/blackbox/mac/</guid>
       <description>
 
-&lt;h1 id=&#34;install-on-mac-osx:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Install On Mac OSX&lt;/h1&gt;
+&lt;h1 id=&#34;install-blackbox-on-mac-osx:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Install Blackbox On Mac OSX&lt;/h1&gt;
 
 &lt;h2 id=&#34;step-1-install-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 1: Install Docker&lt;/h2&gt;
 
-&lt;p&gt;1Album Blackbox is distributed as a Docker Image.  You must have Docker installed on your system to use it. Click &lt;a href=&#34;https://www.docker.com/products/docker-toolbox&#34; target=&#34;_blank&#34;&gt; here to download Docker Toolbox &lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;.  Please reference &lt;a href=&#34;https://docs.docker.com/mac/step_one/&#34; target=&#34;_blank&#34;&gt;Docker Toolbox installation guide&lt;/a&gt; for installation.&lt;/p&gt;
+&lt;p&gt;1Album Blackbox is distributed as a Docker Image.  Your system must have Docker installed before you can install blackbox.  To install Docker,  &lt;a href=&#34;https://www.docker.com/products/docker-toolbox&#34; target=&#34;_blank&#34;&gt;download Docker Toolbox here &lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt; and install it.  Please reference &lt;a href=&#34;https://docs.docker.com/mac/step_one/&#34; target=&#34;_blank&#34;&gt;Docker Toolbox installation guide&lt;/a&gt; for detail instructions.&lt;/p&gt;
 
 &lt;p&gt;After installation, click the Kitematic icon to start Docker:&lt;/p&gt;
 
@@ -81,7 +160,7 @@
 
 &lt;p&gt;&lt;img src=&#34;../img/docs/mac/1album_blackbox_first_boot.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;step-3-setup-data-volunme:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 3: Setup Data Volunme&lt;/h2&gt;
+&lt;h2 id=&#34;step-3-first-launch:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 3: First Launch&lt;/h2&gt;
 
 &lt;p&gt;1Album Blackbox stores everything in &lt;code&gt;/data&lt;/code&gt; volume. You must associate it to a local folder before starting the blackbox. Open Seetings -&amp;gt; Volumes page, then click the &lt;code&gt;CHANGE&lt;/code&gt; button corresponding to the &lt;code&gt;/data&lt;/code&gt; volume:&lt;/p&gt;
 
@@ -120,7 +199,7 @@
 &lt;/div&gt;
 
 
-&lt;p&gt;Now this blackbox will work for you.  Your account name is listed on the blackbox console:&lt;/p&gt;
+&lt;p&gt;Now this blackbox will work for you.  Your account name is also listed on the blackbox console:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../img/docs/mac/1album_blackbox_login.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 </description>
@@ -134,7 +213,108 @@
       <guid>/docs/blackbox/synology/</guid>
       <description>
 
-&lt;h1 id=&#34;on-synology:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;On Synology&lt;/h1&gt;
+&lt;h1 id=&#34;install-blackbox-on-synology-nas:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Install Blackbox On Synology NAS&lt;/h1&gt;
+
+&lt;h2 id=&#34;step-1-install-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 1: Install Docker&lt;/h2&gt;
+
+&lt;p&gt;1Album Blackbox is distributed as a Docker Image.  You must install Docker on your Synology NAS before installing blackbox.  Many Synology NAS models support this, but it seems limited to those with a &amp;ldquo;+&amp;rdquo; symbol at the end of its model number. For a full list of supported models, please check the bottom of the &lt;a href=&#34;https://www.synology.com/en-us/dsm/app_packages/Docker&#34; target=&#34;_blank&#34;&gt;Synology Docker Package page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To install Docker, login to your Synology NAS, open Package Center on the desktop and search for Docker, then click the &lt;code&gt;Install&lt;/code&gt; button.  If you cannot find Docker, your model does not support it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/search_docker.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;When installation is done, Docker is listed in the installed packages:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/docker_installed.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Docker is also listed in the main menu.  Click to open it:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/docker_app.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the main page of Docker on Synology NAS:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/docker_main.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;step-2-install-blackbox:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 2: Install Blackbox&lt;/h2&gt;
+
+&lt;p&gt;Switch to &lt;code&gt;Registry&lt;/code&gt; tab to the left, then enter &lt;code&gt;1album&lt;/code&gt; in the search box to search for 1Album Blackbox.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/search_1album_blackbox.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Selected the item then click &lt;code&gt;Download&lt;/code&gt; button to download:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/download_1album_blackbox.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;When download is in progress, the icon to the right is animated:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/downloading.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;When download is completed, the icon will stop animating, and a notification message will be posted:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/downloaded.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;step-3-first-launch:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 3: First Launch&lt;/h2&gt;
+
+&lt;p&gt;Switch to the &amp;lsquo;Image&amp;rsquo; tab to the left, select 1Album Blackbox image, then click &lt;code&gt;Launch&lt;/code&gt; button to launch it:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/launch.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;A settings dialog shows up.  Click &lt;code&gt;Advanced Settings&lt;/code&gt; in the dialog box:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/create_container.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;Enable auto restart&lt;/code&gt; function circled below can restart the blacbox automatically should it encounter an unexpected error and quite.  We recommand you to enable it:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/auto_restart.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Now switch to the &lt;code&gt;Volume&lt;/code&gt; tab.  1Album Blackbox stores everything in &lt;code&gt;/data&lt;/code&gt; volume. You must associate it to a local folder before starting the blackbox.  You do that by click the &lt;code&gt;Add Folder&lt;/code&gt; button below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/volumes.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Select any folder you want, or click &lt;code&gt;Create Folder&lt;/code&gt; button to create a new one. Note that you must not manually alter the content in this folder, otherwise your data inside the blackbox may be damaged or lost.  Click the &lt;code&gt;Select&lt;/code&gt; button when you&amp;rsquo;re done.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/select_folder.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;After a local folder is selected, enter &lt;code&gt;/data&lt;/code&gt; (all lowercase) in the &lt;code&gt;Mount path&lt;/code&gt; field.  Now the &lt;code&gt;/data&lt;/code&gt; volume is configured.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/mount_data.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Besides &lt;code&gt;/data&lt;/code&gt;, there are three optional volumes that can be configured.  &lt;code&gt;/export&lt;/code&gt; is for exporting data out of the blackbox, and &lt;code&gt;/import&lt;/code&gt; is for importing data back in. &lt;code&gt;/cache&lt;/code&gt; is for storing temporarily files such as thumbnail images. In the example below, each of the volumes is linked to a local folder in NAS.  Click &lt;code&gt;OK&lt;/code&gt; when you&amp;rsquo;re done:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/all_mounted.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;We are back to the settings dialog.  Click &lt;code&gt;Next&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/container_next.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Make sure at least the &lt;code&gt;/data&lt;/code&gt; volume is linked to a local folder, then click &lt;code&gt;Apply&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/container_apply.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;step-4-link-account:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 4: Link Account&lt;/h2&gt;
+
+&lt;p&gt;You must add the blackbox to your account to start using it.  First switch to &lt;code&gt;Container&lt;/code&gt; tag to the left, select the running blackbox, then click the &lt;code&gt;Details&lt;/code&gt; button:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/open_details.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Switch to the Log page in the detail dialog.  You can find the &lt;code&gt;Device Key&lt;/code&gt; inside:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/device_key.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Then open 1Album app and enter the &lt;code&gt;Device Key&lt;/code&gt; as below:&lt;/p&gt;
+
+
+
+&lt;div class=&#34;iphone6&#34;&gt;
+   &lt;div class=&#34;iphone6-screen&#34;&gt;
+       &lt;img src=&#34;../img/docs/add_blackbox_en.gif&#34;&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Now this blackbox will work for you.  Your account name is also printed in the blackbox log. This log page does not refresh automatically, you need to click the little refresh button at the lower right corner to refresh:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/blackbox_linked.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -146,7 +326,80 @@
       <guid>/docs/blackbox/windows/</guid>
       <description>
 
-&lt;h1 id=&#34;on-windows:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;On Windows&lt;/h1&gt;
+&lt;h1 id=&#34;install-blackbox-on-windows:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Install Blackbox On Windows&lt;/h1&gt;
+
+&lt;h2 id=&#34;step-1-install-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 1: Install Docker&lt;/h2&gt;
+
+&lt;p&gt;1Album Blackbox is distributed as a Docker Image. Your system must have Docker installed before you can install blackbox.  To install Docker,  &lt;a href=&#34;https://www.docker.com/products/docker-toolbox&#34; target=&#34;_blank&#34;&gt;download Docker Toolbox here &lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt; and install it.  Please reference &lt;a href=&#34;https://docs.docker.com/windows/step_one/&#34; target=&#34;_blank&#34;&gt;Docker Toolbox installation guide&lt;/a&gt; for detail instructions.  &lt;span class=&#34;text-danger&#34;&gt;Note that your system must have 64-bit version Windows with a CPU that supports virtualization technology&lt;/span&gt;, which means older or lower end systems probably won&amp;rsquo;t work. Please check &lt;a href=&#34;https://docs.docker.com/engine/installation/windows/#requirements&#34; target=&#34;_blank&#34;&gt;Windows system requirements&lt;/a&gt; for details.&lt;/p&gt;
+
+&lt;p&gt;After installation, click the Kitematic icon to start Docker:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/kitematic.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;A login page shows up.  Login is optional, you can just click the &lt;code&gt;SKIP FOR NOW&lt;/code&gt; button:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/kitematic_login.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;After the login page, Kitematic home page shows up:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/kitematic_home.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;step-2-install-blackbox:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 2: Install Blackbox&lt;/h2&gt;
+
+&lt;p&gt;Enter &lt;code&gt;1album&lt;/code&gt; in the search box to search for 1Album Blackbox, then click the &lt;code&gt;CREATE&lt;/code&gt; button to download and install it:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/search_1album_blackbox.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Downloading:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/downloading_1album_blackbox.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;After download is completed, this error message shows up.  Don&amp;rsquo;t worry, this is because we haven&amp;rsquo;t setup &lt;code&gt;/data&lt;/code&gt; volume yet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/1album_blackbox_first_boot.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;step-3-first-launch:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 3: First Launch&lt;/h2&gt;
+
+&lt;p&gt;1Album Blackbox stores everything in &lt;code&gt;/data&lt;/code&gt; volume. You must associate it to a local folder before starting the blackbox. Open Seetings -&amp;gt; Volumes page, then click the &lt;code&gt;CHANGE&lt;/code&gt; button corresponding to the &lt;code&gt;/data&lt;/code&gt; volume:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/volume_settings.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Select any folder you want. Note that you must not manually alter the content in this folder, otherwise your data inside the blackbox may be damaged or lost.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/select_folder.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;After a folder is selected, it is listed next to the &lt;code&gt;/data&lt;/code&gt; volume:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/data_linked.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Besides &lt;code&gt;/data&lt;/code&gt;, there are three optional volumes that can be configured.  &lt;code&gt;/export&lt;/code&gt; is for exporting data out of the blackbox, and &lt;code&gt;/import&lt;/code&gt; is for importing data back in. &lt;code&gt;/cache&lt;/code&gt; is for storing temporarily files such as thumbnail images.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/other_volumes.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Click &lt;code&gt;HOME&lt;/code&gt; when you&amp;rsquo;re done.  The blackbox is now started:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/1album_blackbox_home.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;step-4-link-account:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 4: Link Account&lt;/h2&gt;
+
+&lt;p&gt;You must add the blackbox to your account to start using it.  First, write down the &lt;code&gt;Device Key&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/1album_blackbox_device_key.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Then open 1Album app and enter the &lt;code&gt;Device Key&lt;/code&gt; as below:&lt;/p&gt;
+
+
+
+&lt;div class=&#34;iphone6&#34;&gt;
+   &lt;div class=&#34;iphone6-screen&#34;&gt;
+       &lt;img src=&#34;../img/docs/add_blackbox_en.gif&#34;&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Now this blackbox will work for you.  Your account name is also listed on the blackbox console:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/windows/1album_blackbox_login.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
