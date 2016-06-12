@@ -37,7 +37,85 @@
       <guid>/docs/blackbox/linux/</guid>
       <description>
 
-&lt;h1 id=&#34;on-linux:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;On Linux&lt;/h1&gt;
+&lt;h1 id=&#34;在-linux-上安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;在 Linux 上安裝黑盒子&lt;/h1&gt;
+
+&lt;h2 id=&#34;第一步-安裝-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第一步：安裝 Docker&lt;/h2&gt;
+
+&lt;p&gt;黑盒子是以 Docker Image 的方式發行，在安裝黑盒子前，系統裡必須先安裝 Docker。不同的 Linux 版本，安裝 Docker 的方法都不盡相同，請參考 Docker 官網 &lt;a href=&#34;https://docs.docker.com/engine/installation/&#34; target=&#34;_blank&#34;&gt;Install Docker Engine 安裝說明&lt;/a&gt;。以 Ubuntu 16.04 為例，安裝 Docker 最簡單的方法是：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ sudo apt-get install docker.io
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;第二步-安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第二步：安裝黑盒子&lt;/h2&gt;
+
+&lt;p&gt;用下面指令來下載 1Album 黑盒子：&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker pull &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;下載中：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/linux/downloading_1album_blackbox.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;下載後，用 &lt;code&gt;docker images&lt;/code&gt; 指令可以列出已下載的 Docker images：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/linux/downloaded.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;第三步-第一次啟動:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第三步：第一次啟動&lt;/h2&gt;
+
+&lt;p&gt;第一次啟動黑盒子，需要用以下的指令來設定環境：&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker run -itd \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/data&lt;/span&gt;:/data \
+         --name &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt; \
+         &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;其中最重要的是 &lt;code&gt;-v&lt;/code&gt; 參數，用來設定資料目錄。資料目錄 &lt;code&gt;/data&lt;/code&gt; 是 1Album 黑盒子儲存所有資料的位置，必須將 &lt;code&gt;/data&lt;/code&gt; 指向電腦的檔案夾才能啟動黑盒子，上面的例子將 &lt;code&gt;/data&lt;/code&gt; 指向電腦裡的 &lt;code&gt;/path/to/data&lt;/code&gt;。您可以選擇任意檔案夾，但這個檔案夾內的資料必須由黑盒子全權控制，不要手動改變內容，否則可能會造成資料遺失或錯誤。&lt;/p&gt;
+
+&lt;p&gt;除了 &lt;code&gt;/data&lt;/code&gt; 外，還有三個額外的目錄可以設定，這些沒設也沒關係。&lt;code&gt;/export&lt;/code&gt; 用來將黑盒子的內部資料輸出成一般檔案，&lt;code&gt;/import&lt;/code&gt; 用來輸入外部資料進黑盒子，而 &lt;code&gt;/cache&lt;/code&gt; 用來儲存如照片縮小圖等的暫存檔。下面的例子，把所有目錄都指向電腦的檔案夾：&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker run -itd \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/blackbox/data&lt;/span&gt;:/data \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/blackbox/cache&lt;/span&gt;:/cache \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/blackbox/import&lt;/span&gt;:/import \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/blackbox/export&lt;/span&gt;:/export \
+         --name &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt; \
+         &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;執行 &lt;code&gt;docker run&lt;/code&gt; 後，可用 &lt;code&gt;docker ps&lt;/code&gt; 來查看執行中的 Docker containers。最後一欄顯示的是以 &lt;code&gt;--name&lt;/code&gt; 參數指定的名字。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/linux/running.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;第四步-連結帳號:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第四步：連結帳號&lt;/h2&gt;
+
+&lt;p&gt;必須把黑盒子加到您的帳號中，才能開始使用。黑盒子的 &lt;code&gt;Device Key&lt;/code&gt; 可以從 logs 中找到。下面的 &lt;code&gt;mybox&lt;/code&gt; 是先前以 &lt;code&gt;--name&lt;/code&gt; 參數指定的名字：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ docker logs mybox
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;輸出資料中，箭頭所指的地方就是黑盒子的 Device Key：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/linux/device_key.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;打開 1Album app，如下圖所示，將 Device Key 輸入：&lt;/p&gt;
+
+
+
+&lt;div class=&#34;iphone6&#34;&gt;
+   &lt;div class=&#34;iphone6-screen&#34;&gt;
+       &lt;img src=&#34;../img/docs/add_blackbox_tw.gif&#34;&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;現在開始，這個黑盒子就會為您工作了。同時，在黑盒子端會顯示您登入的帳號名稱：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/linux/started.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -81,9 +159,9 @@
 
 &lt;p&gt;&lt;img src=&#34;../img/docs/mac/1album_blackbox_first_boot.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;第三步-設定資料目錄:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第三步：設定資料目錄&lt;/h2&gt;
+&lt;h2 id=&#34;第三步-第一次啟動:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第三步：第一次啟動&lt;/h2&gt;
 
-&lt;p&gt;資料目錄 &lt;code&gt;/data&lt;/code&gt; 是 1Album 黑盒子儲存所有資料的位置，必須將其指向電腦的目錄才能啟動黑盒子。如下圖，點 Settings -&amp;gt; Volumes 到設定頁面，點對應 &lt;code&gt;/data&lt;/code&gt; 的 &lt;code&gt;CHANGE&lt;/code&gt; 紐：&lt;/p&gt;
+&lt;p&gt;資料目錄 &lt;code&gt;/data&lt;/code&gt; 是 1Album 黑盒子儲存所有資料的位置，必須將 &lt;code&gt;/data&lt;/code&gt; 指向電腦的檔案夾才能啟動黑盒子。如下圖，點 Settings -&amp;gt; Volumes 到設定頁面，點對應 &lt;code&gt;/data&lt;/code&gt; 的 &lt;code&gt;CHANGE&lt;/code&gt; 紐：&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../img/docs/mac/volume_settings.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
@@ -134,7 +212,108 @@
       <guid>/docs/blackbox/synology/</guid>
       <description>
 
-&lt;h1 id=&#34;on-synology:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;On Synology&lt;/h1&gt;
+&lt;h1 id=&#34;在-synology-nas-上安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;在 Synology NAS 上安裝黑盒子&lt;/h1&gt;
+
+&lt;h2 id=&#34;第一步-安裝-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第一步：安裝 Docker&lt;/h2&gt;
+
+&lt;p&gt;黑盒子是以 Docker Image 的方式發行，在安裝黑盒子前，必先在 Synology 機器上安裝 Docker。許多 Synology 的 NAS 機型都能支援，但似乎限於型號字尾有 “+&amp;rdquo; 的機型。完整支援的機型列表可參考 &lt;a href=&#34;https://www.synology.com/en-us/dsm/app_packages/Docker&#34; target=&#34;_blank&#34;&gt;Synology Docker Package&lt;/a&gt; 頁面的最下面。&lt;/p&gt;
+
+&lt;p&gt;首先登入 Synology NAS 設備，打開桌面上的 Package Center 並搜尋 Docker，找到後直接按 Install 來安裝。如果找不到，表示您的機型不支援 Docker：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/search_docker.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;安裝成功後，Docker 會出現在已安裝 Package 列表中：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/docker_installed.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;現在打開左上角的主功能表，裡面就會有 Docker 的圖示，點擊打開：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/docker_app.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;下面是 Docker 執行在 Synology NAS 上的主畫面：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/docker_main.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;第二步-安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第二步：安裝黑盒子&lt;/h2&gt;
+
+&lt;p&gt;首先將左邊切換到 Registry 頁面，在上面的搜尋框裡輸入 &lt;code&gt;1album&lt;/code&gt; 來搜尋 1Album 黑盒子：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/search_1album_blackbox.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;選擇找到的項目，然後按 &lt;code&gt;Download&lt;/code&gt; 鈕下載&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/download_1album_blackbox.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;下載中，右邊資料庫形狀的小圖示呈現動畫：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/downloading.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;當資料庫小圖示不再有動畫，且會收到系統通知後，表示下載完成：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/downloaded.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;第三步-第一次啟動:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第三步：第一次啟動&lt;/h2&gt;
+
+&lt;p&gt;選擇黑盒子的 Docker Image 後，按 &lt;code&gt;Launch&lt;/code&gt; 按鈕啟動：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/launch.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Launch 按下後跳出下面的對話框。按下 &lt;code&gt;Advanced Settings&lt;/code&gt; 鈕進入進階設定畫面：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/create_container.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;下圖圈起的 Enable auto restart 功能，可以在黑盒子遇到錯誤而不正常結束時，自動重新啟動黑盒子。我們建議打開：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/auto_restart.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;接著切換到 &lt;code&gt;Volume&lt;/code&gt; 頁面。資料目錄 &lt;code&gt;/data&lt;/code&gt; 是 1Album 黑盒子儲存所有資料的位置，必須將 &lt;code&gt;/data&lt;/code&gt; 指向 NAS 的檔案夾才能啟動黑盒子。按 &lt;code&gt;Add Folder&lt;/code&gt; 鈕來設定：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/volumes.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;選擇任何檔案夾，或按 &lt;code&gt;Create Folder&lt;/code&gt; 建立新的檔案夾。這個檔案夾內的資料必須由黑盒子全權控制，請不要手動改變內容，否則可能會造成資料遺失或錯誤。選好後按 &lt;code&gt;Select&lt;/code&gt; 鈕：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/select_folder.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;選定資料夾後，要在 Mount path 格子內填入 &lt;code&gt;/data&lt;/code&gt;，必須全部小寫。這樣就設定好 &lt;code&gt;/data&lt;/code&gt; 目錄：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/mount_data.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;除了 &lt;code&gt;/data&lt;/code&gt; 外，還有三個額外的目錄可以設定，這些沒設也沒關係。&lt;code&gt;/export&lt;/code&gt; 用來將黑盒子的內部資料輸出成一般檔案，&lt;code&gt;/import&lt;/code&gt; 用來輸入外部資料進黑盒子，而 &lt;code&gt;/cache&lt;/code&gt; 用來儲存如照片縮小圖等的暫存檔。下圖例子中，所有目錄都指定到 NAS 檔案夾。設定好之後按 &lt;code&gt;OK&lt;/code&gt; 鈕：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/all_mounted.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;回到啟動設定畫面，按 &lt;code&gt;Next&lt;/code&gt; 鈕：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/container_next.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;再次確認至少 &lt;code&gt;/data&lt;/code&gt; 有設定連結的檔案夾，按 &lt;code&gt;Apply&lt;/code&gt; 鈕來儲存設定：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/container_apply.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;第四步-連結帳號:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第四步：連結帳號&lt;/h2&gt;
+
+&lt;p&gt;必須把黑盒子加到您的帳號中，才能開始使用。首先左邊切換到 &lt;code&gt;Container&lt;/code&gt; 頁面，找到執行中的黑盒子，按下 &lt;code&gt;Details&lt;/code&gt; 鈕：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/open_details.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Detail 對話框打開後，切換到 Log 頁面，其中箭頭所指的地方就是黑盒子的 Device Key：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/device_key.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;打開 1Album app，如下圖所示，將 Device Key 輸入：&lt;/p&gt;
+
+
+
+&lt;div class=&#34;iphone6&#34;&gt;
+   &lt;div class=&#34;iphone6-screen&#34;&gt;
+       &lt;img src=&#34;../img/docs/add_blackbox_tw.gif&#34;&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;現在開始，這個黑盒子就會為您工作了。同時，在黑盒子端會顯示您登入的帳號名稱。由於這個 Log 頁面不會自動更新，您需要按一下右下角小小的更新鈕才會看得到：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/synology/blackbox_linked.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -146,11 +325,11 @@
       <guid>/docs/blackbox/windows/</guid>
       <description>
 
-&lt;h1 id=&#34;在-windows-安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;在 Windows 安裝黑盒子&lt;/h1&gt;
+&lt;h1 id=&#34;在-windows-上安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;在 Windows 上安裝黑盒子&lt;/h1&gt;
 
 &lt;h2 id=&#34;第一步-安裝-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第一步：安裝 Docker&lt;/h2&gt;
 
-&lt;p&gt;黑盒子是以 Docker Image 的方式發行，在安裝黑盒子前，系統裡必須先安裝 Docker。點 &lt;a href=&#34;https://www.docker.com/products/docker-toolbox&#34; target=&#34;_blank&#34;&gt;這裡下載 Docker Toolbox &lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;，詳細安裝說明請參考 &lt;a href=&#34;https://docs.docker.com/windows/step_one/&#34; target=&#34;_blank&#34;&gt;Docker Toolbox 安裝說明&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;黑盒子是以 Docker Image 的方式發行，在安裝黑盒子前，系統裡必須先安裝 Docker。點 &lt;a href=&#34;https://www.docker.com/products/docker-toolbox&#34; target=&#34;_blank&#34;&gt;這裡下載 Docker Toolbox &lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;，詳細安裝說明請參考 &lt;a href=&#34;https://docs.docker.com/windows/step_one/&#34; target=&#34;_blank&#34;&gt;Docker Toolbox 安裝說明&lt;/a&gt;。特別注意，Docker 只能安裝在 CPU 有支援虛擬化技術的 64 位元系統上，比較舊或低階的系統通常都不支援。詳細資訊請參考 &lt;a href=&#34;https://docs.docker.com/engine/installation/windows/#requirements&#34; target=&#34;_blank&#34;&gt;Windows 系統需求&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;裝好後，在應用程式及 LaunchPad 裡會多出兩個程式，打開箭頭指的那個 Kitematic：&lt;/p&gt;
 
@@ -178,9 +357,9 @@
 
 &lt;p&gt;&lt;img src=&#34;../img/docs/windows/1album_blackbox_first_boot.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;第三步-設定資料目錄:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第三步：設定資料目錄&lt;/h2&gt;
+&lt;h2 id=&#34;第三步-第一次啟動:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第三步：第一次啟動&lt;/h2&gt;
 
-&lt;p&gt;資料目錄 &lt;code&gt;/data&lt;/code&gt; 是 1Album 黑盒子儲存所有資料的位置，必須將其指向電腦的目錄才能啟動黑盒子。如下圖，點 Settings -&amp;gt; Volumes 到設定頁面，點對應 &lt;code&gt;/data&lt;/code&gt; 的 &lt;code&gt;CHANGE&lt;/code&gt; 紐：&lt;/p&gt;
+&lt;p&gt;資料目錄 &lt;code&gt;/data&lt;/code&gt; 是 1Album 黑盒子儲存所有資料的位置，必須將 &lt;code&gt;/data&lt;/code&gt; 指向電腦的檔案夾才能啟動黑盒子。如下圖，點 Settings -&amp;gt; Volumes 到設定頁面，點對應 &lt;code&gt;/data&lt;/code&gt; 的 &lt;code&gt;CHANGE&lt;/code&gt; 紐：&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../img/docs/windows/volume_settings.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 

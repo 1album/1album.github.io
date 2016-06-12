@@ -237,6 +237,10 @@ h1 img {
     margin-bottom: 30px;
 }
 
+#document pre {
+    margin: 1em 15px 2em;
+}
+
 .screenshot {
     display: block;
     max-width: 100%;
@@ -248,6 +252,14 @@ h1 img {
     max-width: 92%;
 
     border: 1px solid #63b4fb;
+    box-shadow: 1px 5px 30px #999;
+    margin: 30px auto 60px;
+}
+
+.linux-screenshot {
+    display: block;
+    max-width: 95%;
+
     box-shadow: 1px 5px 30px #999;
     margin: 30px auto 60px;
 }

@@ -206,7 +206,7 @@
 
 
                                     
-                                        <li class="m1"><a class='menu-leaf active' href="../../../docs/blackbox/linux/">簡介</a></li>
+                                        <li class="m1"><a class='menu-leaf active' href="../../../docs/blackbox/linux/">安裝指南</a></li>
                                     
 
 
@@ -221,13 +221,13 @@
 
                         
                             <li class="dropdown">
-                                <a href="#" class='menu-tree ' data-toggle="dropdown">使用 Synology <span class="caret"></span></a>
+                                <a href="#" class='menu-tree ' data-toggle="dropdown">使用 Synology NAS <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                 
 
 
                                     
-                                        <li class="m1"><a class='menu-leaf ' href="../../../docs/blackbox/synology/">簡介</a></li>
+                                        <li class="m1"><a class='menu-leaf ' href="../../../docs/blackbox/synology/">安裝指南</a></li>
                                     
 
 
@@ -347,7 +347,7 @@
 
                         
                             
-                            <a href="../../../docs/blackbox/linux/" class='menu-leaf m1 active'>簡介</a>
+                            <a href="../../../docs/blackbox/linux/" class='menu-leaf m1 active'>安裝指南</a>
                             
                                 <div id="anchors-bar">
                                     <div class="nav m2" id="anchors"></div>
@@ -366,14 +366,14 @@
 
                 
                     
-                    <div class='menu-tree collapsed' data-toggle="collapse" data-target="#m_blackbox_synology">使用 Synology</div>
+                    <div class='menu-tree collapsed' data-toggle="collapse" data-target="#m_blackbox_synology">使用 Synology NAS</div>
                     <div class="menu-body collapse" id="m_blackbox_synology">
                     
 
 
                         
                             
-                            <a href="../../../docs/blackbox/synology/" class='menu-leaf m1 '>簡介</a>
+                            <a href="../../../docs/blackbox/synology/" class='menu-leaf m1 '>安裝指南</a>
                             
                         
 
@@ -395,7 +395,85 @@
             <div class="col-xs-12 col-sm-9 doc-frame">
                 
 
-<h1 id="on-linux:d680e8a854a7cbad6d490c445cba2eba">On Linux</h1>
+<h1 id="在-linux-上安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba">在 Linux 上安裝黑盒子</h1>
+
+<h2 id="第一步-安裝-docker:d680e8a854a7cbad6d490c445cba2eba">第一步：安裝 Docker</h2>
+
+<p>黑盒子是以 Docker Image 的方式發行，在安裝黑盒子前，系統裡必須先安裝 Docker。不同的 Linux 版本，安裝 Docker 的方法都不盡相同，請參考 Docker 官網 <a href="https://docs.docker.com/engine/installation/" target="_blank">Install Docker Engine 安裝說明</a>。以 Ubuntu 16.04 為例，安裝 Docker 最簡單的方法是：</p>
+
+<pre><code>$ sudo apt-get install docker.io
+</code></pre>
+
+<h2 id="第二步-安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba">第二步：安裝黑盒子</h2>
+
+<p>用下面指令來下載 1Album 黑盒子：</p>
+
+<pre>
+$ docker pull <span class="syntax-blackbox">1album/blackbox</span>
+</pre>
+
+<p>下載中：</p>
+
+<p><img src="../../../img/docs/linux/downloading_1album_blackbox.png" class="linux-screenshot"></p>
+
+<p>下載後，用 <code>docker images</code> 指令可以列出已下載的 Docker images：</p>
+
+<p><img src="../../../img/docs/linux/downloaded.png" class="linux-screenshot"></p>
+
+<h2 id="第三步-第一次啟動:d680e8a854a7cbad6d490c445cba2eba">第三步：第一次啟動</h2>
+
+<p>第一次啟動黑盒子，需要用以下的指令來設定環境：</p>
+
+<pre>
+$ docker run -itd \
+         -v <span class="syntax-user-input">/path/to/data</span>:/data \
+         --name <span class="syntax-user-input">mybox</span> \
+         <span class="syntax-blackbox">1album/blackbox</span>
+</pre>
+
+<p>其中最重要的是 <code>-v</code> 參數，用來設定資料目錄。資料目錄 <code>/data</code> 是 1Album 黑盒子儲存所有資料的位置，必須將 <code>/data</code> 指向電腦的檔案夾才能啟動黑盒子，上面的例子將 <code>/data</code> 指向電腦裡的 <code>/path/to/data</code>。您可以選擇任意檔案夾，但這個檔案夾內的資料必須由黑盒子全權控制，不要手動改變內容，否則可能會造成資料遺失或錯誤。</p>
+
+<p>除了 <code>/data</code> 外，還有三個額外的目錄可以設定，這些沒設也沒關係。<code>/export</code> 用來將黑盒子的內部資料輸出成一般檔案，<code>/import</code> 用來輸入外部資料進黑盒子，而 <code>/cache</code> 用來儲存如照片縮小圖等的暫存檔。下面的例子，把所有目錄都指向電腦的檔案夾：</p>
+
+<pre>
+$ docker run -itd \
+         -v <span class="syntax-user-input">/path/to/blackbox/data</span>:/data \
+         -v <span class="syntax-user-input">/path/to/blackbox/cache</span>:/cache \
+         -v <span class="syntax-user-input">/path/to/blackbox/import</span>:/import \
+         -v <span class="syntax-user-input">/path/to/blackbox/export</span>:/export \
+         --name <span class="syntax-user-input">mybox</span> \
+         <span class="syntax-blackbox">1album/blackbox</span>
+</pre>
+
+<p>執行 <code>docker run</code> 後，可用 <code>docker ps</code> 來查看執行中的 Docker containers。最後一欄顯示的是以 <code>--name</code> 參數指定的名字。</p>
+
+<p><img src="../../../img/docs/linux/running.png" class="linux-screenshot"></p>
+
+<h2 id="第四步-連結帳號:d680e8a854a7cbad6d490c445cba2eba">第四步：連結帳號</h2>
+
+<p>必須把黑盒子加到您的帳號中，才能開始使用。黑盒子的 <code>Device Key</code> 可以從 logs 中找到。下面的 <code>mybox</code> 是先前以 <code>--name</code> 參數指定的名字：</p>
+
+<pre><code>$ docker logs mybox
+</code></pre>
+
+<p>輸出資料中，箭頭所指的地方就是黑盒子的 Device Key：</p>
+
+<p><img src="../../../img/docs/linux/device_key.png" class="linux-screenshot"></p>
+
+<p>打開 1Album app，如下圖所示，將 Device Key 輸入：</p>
+
+
+
+<div class="iphone6">
+   <div class="iphone6-screen">
+       <img src="../../../img/docs/add_blackbox_tw.gif">
+   </div>
+</div>
+
+
+<p>現在開始，這個黑盒子就會為您工作了。同時，在黑盒子端會顯示您登入的帳號名稱：</p>
+
+<p><img src="../../../img/docs/linux/started.png" class="linux-screenshot"></p>
 
             </div>
         </div>
