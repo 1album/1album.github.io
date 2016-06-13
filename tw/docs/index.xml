@@ -26,9 +26,62 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tw/docs/</guid>
-      <description>
+      <description>&lt;h1&gt;&lt;a href=&#39;../docs/1album/&#39;&gt;&lt;img src=&#34;../img/1album-logo.png&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
 
-&lt;h1 id=&#34;使用手冊&#34;&gt;使用手冊&lt;/h1&gt;
+
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/tw/img/docs/iphone6.jpg&#39;);&#34;&gt;
+   &lt;div class=&#34;iphone6-screen&#34;&gt;
+       &lt;img src=&#34;../img/docs/1album_home.png&#34;&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h1&gt;&lt;a href=&#39;../docs/blackbox/&#39;&gt;&lt;img src=&#34;../img/1album-blackbox.png&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;div class=&#34;row blurbs&#34;&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;../docs/blackbox/mac/install/&#34;&gt;&lt;i class=&#34;fa fa-apple fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Mac&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;../docs/blackbox/windows/install/&#34;&gt;&lt;i class=&#34;fa fa-windows fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Windows&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+  
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;../docs/blackbox/linux/install/&#34;&gt;&lt;i class=&#34;fa fa-linux fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Linux&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;../docs/blackbox/synology/install/&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;如果您已經會用 Docker：&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker pull &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+$ docker run -itd \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/data&lt;/span&gt;:/data \
+         --name &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt; \
+         &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+$ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+...
++----------------------------+
+|  Device Key:  &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;     |
+|  ...                       |
++----------------------------+
+&lt;/pre&gt;
+
+&lt;p&gt;把上面 &lt;code&gt;/path/to/data&lt;/code&gt; 換成您想儲存資料的路徑。接著打開 1Albym app -&amp;gt; 設定 -&amp;gt; 1Album 黑盒子，輸入 Device key &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;，把這個黑盒子加入您的帳號，就搞定了。&lt;/p&gt;
 </description>
     </item>
     
@@ -132,7 +185,8 @@ Available commands:
 &lt;div class=&#34;note&#34;&gt;
 &lt;h3&gt;關於黑盒子這個名字&lt;/h3&gt;
 
-說到黑盒子，您可能會立刻想到飛機上的黑盒子，也就是飛行紀錄器。它隨時紀錄飛機的一切，且無論發生什麼事，黑盒子都必須確保資料不會遺失。我們平常拍攝的照片、影片，是珍貴的生活回憶，也希望能永久保存，無論發生什麼事，資料都不會遺失。因此我們取名為黑盒子，希望作為我們的生活紀錄器。
+&lt;p&gt;說到黑盒子，您可能會立刻想到飛機上的黑盒子，也就是飛行紀錄器。它隨時紀錄飛機的一切，且無論發生什麼事，黑盒子都必須確保資料不會遺失。&lt;/p&gt;
+&lt;p&gt;我們平常拍攝的照片、影片，是珍貴的生活回憶，也希望能永久保存，無論發生什麼事，資料都不會遺失。因此我們取名為黑盒子，希望作為我們的生活紀錄器。&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>

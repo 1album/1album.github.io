@@ -90,8 +90,8 @@
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Language <span class="caret"></span></a>
 <ul class="dropdown-menu">
-    <li><a href="//beta.1album.net/en">English</a></li>
-    <li><a href="//beta.1album.net/tw" style="font-family: 'Helvetica Neue'">中文</a></li>
+    <li><a href="//1album.net/en">English</a></li>
+    <li><a href="//1album.net/tw" style="font-family: 'Helvetica Neue'">中文</a></li>
 </ul>
                 </li>
             </ul>
@@ -594,9 +594,62 @@
             </div>
 
             <div class="col-xs-12 col-sm-9 doc-frame">
-                
+                <h1><a href='../docs/1album/'><img src="../img/1album-logo.png"></a></h1>
 
-<h1 id="users-guide">Users Guide</h1>
+
+<div class="iphone6" style="background-image: url('/en/img/docs/iphone6.jpg');">
+   <div class="iphone6-screen">
+       <img src="../img/docs/1album_home.png">
+   </div>
+</div>
+
+
+<hr />
+
+<h1><a href='../docs/blackbox/'><img src="../img/1album-blackbox.png"></a></h1>
+
+<div class="row blurbs">
+
+<div class="blurb">
+    <a href="../docs/blackbox/mac/install/"><i class="fa fa-apple fa-3x"></i>
+    <p>Mac</p></a>
+</div>
+
+<div class="blurb">
+    <a href="../docs/blackbox/windows/install/"><i class="fa fa-windows fa-3x"></i>
+    <p>Windows</p></a>
+</div>
+  
+
+<div class="blurb">
+    <a href="../docs/blackbox/linux/install/"><i class="fa fa-linux fa-3x"></i>
+    <p>Linux</p></a>
+</div>
+
+<div class="blurb">
+    <a href="../docs/blackbox/synology/install/"><i class="fa fa-building fa-3x"></i>
+    <p>Synology NAS</p></a>
+</div>
+
+<p></div></p>
+
+<p>If you already know Docker:</p>
+
+<pre>
+$ docker pull <span class="syntax-blackbox">1album/blackbox</span>
+$ docker run -itd \
+         -v <span class="syntax-user-input">/path/to/data</span>:/data \
+         --name <span class="syntax-user-input">mybox</span> \
+         <span class="syntax-blackbox">1album/blackbox</span>
+$ docker logs <span class="syntax-user-input">mybox</span>
+...
++----------------------------+
+|  Device Key:  <span class="syntax-notice">12345678</span>     |
+|  ...                       |
++----------------------------+
+</pre>
+
+<p>Replace <code>/path/to/data</code> with the path you want to store your data.  Open 1Album app, go to settings -&gt; 1Album Blackbox and enter the device key <span class="syntax-notice">12345678</span>. This adds the blackbox to your account. That&rsquo;s it!</p>
 
             </div>
         </div>

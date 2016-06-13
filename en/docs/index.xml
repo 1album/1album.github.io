@@ -26,9 +26,62 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/en/docs/</guid>
-      <description>
+      <description>&lt;h1&gt;&lt;a href=&#39;../docs/1album/&#39;&gt;&lt;img src=&#34;../img/1album-logo.png&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
 
-&lt;h1 id=&#34;users-guide&#34;&gt;Users Guide&lt;/h1&gt;
+
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
+   &lt;div class=&#34;iphone6-screen&#34;&gt;
+       &lt;img src=&#34;../img/docs/1album_home.png&#34;&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h1&gt;&lt;a href=&#39;../docs/blackbox/&#39;&gt;&lt;img src=&#34;../img/1album-blackbox.png&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;div class=&#34;row blurbs&#34;&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;../docs/blackbox/mac/install/&#34;&gt;&lt;i class=&#34;fa fa-apple fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Mac&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;../docs/blackbox/windows/install/&#34;&gt;&lt;i class=&#34;fa fa-windows fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Windows&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+  
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;../docs/blackbox/linux/install/&#34;&gt;&lt;i class=&#34;fa fa-linux fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Linux&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;../docs/blackbox/synology/install/&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;If you already know Docker:&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker pull &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+$ docker run -itd \
+         -v &lt;span class=&#34;syntax-user-input&#34;&gt;/path/to/data&lt;/span&gt;:/data \
+         --name &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt; \
+         &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+$ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+...
++----------------------------+
+|  Device Key:  &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;     |
+|  ...                       |
++----------------------------+
+&lt;/pre&gt;
+
+&lt;p&gt;Replace &lt;code&gt;/path/to/data&lt;/code&gt; with the path you want to store your data.  Open 1Album app, go to settings -&amp;gt; 1Album Blackbox and enter the device key &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;. This adds the blackbox to your account. That&amp;rsquo;s it!&lt;/p&gt;
 </description>
     </item>
     
@@ -82,7 +135,7 @@
 
 &lt;h3 id=&#34;for-the-impatient&#34;&gt;For the Impatient&lt;/h3&gt;
 
-&lt;p&gt;If you know Docker already:&lt;/p&gt;
+&lt;p&gt;If you already know Docker:&lt;/p&gt;
 
 &lt;pre&gt;
 $ docker pull &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
