@@ -626,21 +626,31 @@ $ docker start &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/mac/update.html</link>
+      <link>/tw/docs/blackbox/linux/update.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/mac/update.html</guid>
+      <guid>/tw/docs/blackbox/linux/update.html</guid>
       <description>
 
 &lt;h1 id=&#34;更新與移除&#34;&gt;更新與移除&lt;/h1&gt;
 
-&lt;p&gt;要更新 1Album 黑盒子，必須把現有的黑盒子刪除再重新安裝。只要 &lt;code&gt;/data&lt;/code&gt; 目錄指向的檔案夾不變，重新安裝後的黑盒子會擁有相同的內容，也不需要再次連結帳號。&lt;/p&gt;
+&lt;p&gt;要更新 1Album 黑盒子，必須把現有的黑盒子刪除再重新安裝。只要 &lt;code&gt;/data&lt;/code&gt; 目錄指向的檔案夾不變，重新安裝後的黑盒子內容就不會改變，也不需要再次連結帳號。&lt;/p&gt;
 
-&lt;p&gt;刪除黑盒子，可以將游標指向下圖左邊圈起的地方，點 &lt;code&gt;X&lt;/code&gt; 按鈕來刪除。也可以進入 Settings 裡的 General 畫面最下面，點 &lt;code&gt;DELETE CONTAINER&lt;/code&gt; 來刪除。&lt;/p&gt;
+&lt;p&gt;刪除黑盒子前，要先停止黑盒子，再用下面指令將其刪除。其中 &lt;code&gt;mybox&lt;/code&gt; 是第一次啟動時以 &lt;code&gt;--name&lt;/code&gt; 參數指定的名字：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/docs/mac/blackbox_delete.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;
+$ docker rm &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+&lt;/pre&gt;
 
-&lt;p&gt;刪除後，再依照 &lt;a href=&#34;../docs/blackbox/mac/install.html&#34;&gt;安裝指南&lt;/a&gt; 重新安裝黑盒子。&lt;/p&gt;
+&lt;p&gt;刪除後，再依照 &lt;a href=&#34;../docs/blackbox/linux/install.html&#34;&gt;安裝指南&lt;/a&gt; 重新安裝黑盒子。&lt;/p&gt;
+
+&lt;p&gt;上面的指令，僅刪除設定好的黑盒子。若要完全移除黑盒子程式，請進一步用下面指令將黑盒子的 Docker image 刪除：&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker rmi &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;若要進行更新，建議不要刪除目前黑盒子的 Docker image，這樣可以只下載新舊版的差異部分，速度比較快。&lt;/p&gt;
 </description>
     </item>
     

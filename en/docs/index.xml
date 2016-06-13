@@ -626,11 +626,32 @@ $ docker start &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/windows/</link>
+      <link>/en/docs/blackbox/linux/update/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/windows/</guid>
-      <description></description>
+      <guid>/en/docs/blackbox/linux/update/</guid>
+      <description>
+
+&lt;h1 id=&#34;update-and-delete&#34;&gt;Update and Delete&lt;/h1&gt;
+
+&lt;p&gt;To update 1Album Blackbox, you must delete the existing one then reinstall.  As long as the &lt;code&gt;/data&lt;/code&gt; volume links to the same local folder, the content of the blackbox will remain the same, and it does not need to be added to your account again either.&lt;/p&gt;
+
+&lt;p&gt;First, stop the blackbox, then use the following command to remove it. &lt;code&gt;mybox&lt;/code&gt; is the name you set with &lt;code&gt;--name&lt;/code&gt; when starting the blackbox for the first time:&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker rm &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;After it is removed, you can follow the &lt;a href=&#34;../docs/blackbox/linux/install/&#34;&gt;installation guide&lt;/a&gt; to reinstall the blackbox.&lt;/p&gt;
+
+&lt;p&gt;The command above only removes the configured blackbox.  You can further remove the blackbox Docker image completely with the following command:&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker rmi &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Leaving old blackbox images in the system actually make update faster because only the differences between versions are downloaded.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
