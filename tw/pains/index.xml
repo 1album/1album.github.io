@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pains on 1Album</title>
-    <link>/pains/</link>
+    <link>/tw/pains.html</link>
     <description>Recent content in Pains on 1Album</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <atom:link href="/pains/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tw/pains.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>/pains/pain1/</link>
+      <link>/tw/pains/pain1.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pains/pain1/</guid>
+      <guid>/tw/pains/pain1.html</guid>
       <description>&lt;p&gt;“我的手機快塞滿了，得把照片清出來。”&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/pains/pain2/</link>
+      <link>/tw/pains/pain2.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pains/pain2/</guid>
+      <guid>/tw/pains/pain2.html</guid>
       <description>&lt;p&gt;“我要把照片永遠留下來，&lt;br&gt;但我不要永遠付錢才留得住。”&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/pains/pain3/</link>
+      <link>/tw/pains/pain3.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pains/pain3/</guid>
+      <guid>/tw/pains/pain3.html</guid>
       <description>&lt;!--&#34;I want to easily view all my photos&lt;br&gt;even if they moved off my phone.&#34;--&gt;
 
 &lt;p&gt;“我希望照片從我手機移出來後，&lt;br&gt;還能很容易地從手機看到它們。”&lt;/p&gt;

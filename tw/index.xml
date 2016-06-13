@@ -2,103 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1Album</title>
-    <link>/</link>
+    <link>/tw/</link>
     <description>Recent content on 1Album</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tw/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>/docs/1album/</link>
+      <link>/tw/docs/1album.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/1album/</guid>
+      <guid>/tw/docs/1album.html</guid>
       <description>
 
-&lt;h1 id=&#34;1album-簡介:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;1Album 簡介&lt;/h1&gt;
+&lt;h1 id=&#34;1album-簡介&#34;&gt;1Album 簡介&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/docs/_menu/</link>
+      <link>/tw/docs.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/_menu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/docs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/</guid>
+      <guid>/tw/docs.html</guid>
       <description>
 
-&lt;h1 id=&#34;使用手冊:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;使用手冊&lt;/h1&gt;
+&lt;h1 id=&#34;使用手冊&#34;&gt;使用手冊&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/support/_menu/</link>
+      <link>/tw/support/_menu.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/support/_menu/</guid>
+      <guid>/tw/support/_menu.html</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/docs/1album/_menu/</link>
+      <link>/tw/docs/1album/_menu.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/1album/_menu/</guid>
+      <guid>/tw/docs/1album/_menu.html</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/docs/blackbox/</link>
+      <link>/tw/docs/blackbox.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/blackbox/</guid>
+      <guid>/tw/docs/blackbox.html</guid>
       <description>
 
-&lt;h1 id=&#34;img-src-img-1album-blackbox-png:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;img src=&#34;./img/1album-blackbox.png&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;img-src-img-1album-blackbox-png&#34;&gt;&lt;img src=&#34;./img/1album-blackbox.png&#34;&gt;&lt;/h1&gt;
 
-&lt;h3 id=&#34;安裝指南:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;安裝指南&lt;/h3&gt;
+&lt;h3 id=&#34;安裝指南&#34;&gt;安裝指南&lt;/h3&gt;
 
 &lt;p&gt;請依您使用的系統選擇安裝指南：&lt;/p&gt;
 
 &lt;div class=&#34;row blurbs&#34;&gt;
 
 &lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;mac&#34;&gt;&lt;i class=&#34;fa fa-apple fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;a href=&#34;./docs/blackbox/mac/install.html&#34;&gt;&lt;i class=&#34;fa fa-apple fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Mac&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;windows&#34;&gt;&lt;i class=&#34;fa fa-windows fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;a href=&#34;./docs/blackbox/windows/install.html&#34;&gt;&lt;i class=&#34;fa fa-windows fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Windows&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
   
 
 &lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;linux&#34;&gt;&lt;i class=&#34;fa fa-linux fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;a href=&#34;./docs/blackbox/linux/install.html&#34;&gt;&lt;i class=&#34;fa fa-linux fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Linux&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;synology&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;a href=&#34;./docs/blackbox/synology/install.html&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;立刻上手:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;立刻上手&lt;/h3&gt;
+&lt;h3 id=&#34;立刻上手&#34;&gt;立刻上手&lt;/h3&gt;
 
 &lt;p&gt;如果您已經會用 Docker：&lt;/p&gt;
 
@@ -120,7 +111,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;這樣就搞定了！您的照片會自動備份到這個黑盒子裡。&lt;/p&gt;
 
-&lt;h3 id=&#34;指令:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;指令&lt;/h3&gt;
+&lt;h3 id=&#34;指令&#34;&gt;指令&lt;/h3&gt;
 
 &lt;pre&gt;
 $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
@@ -151,22 +142,22 @@ Available commands:
     
     <item>
       <title></title>
-      <link>/docs/blackbox/linux/</link>
+      <link>/tw/docs/blackbox/linux/install.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/blackbox/linux/</guid>
+      <guid>/tw/docs/blackbox/linux/install.html</guid>
       <description>
 
-&lt;h1 id=&#34;在-linux-上安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;在 Linux 上安裝黑盒子&lt;/h1&gt;
+&lt;h1 id=&#34;在-linux-上安裝黑盒子&#34;&gt;在 Linux 上安裝黑盒子&lt;/h1&gt;
 
-&lt;h2 id=&#34;第一步-安裝-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第一步：安裝 Docker&lt;/h2&gt;
+&lt;h2 id=&#34;第一步-安裝-docker&#34;&gt;第一步：安裝 Docker&lt;/h2&gt;
 
 &lt;p&gt;黑盒子是以 Docker Image 的方式發行，在安裝黑盒子前，系統裡必須先安裝 Docker。不同的 Linux 版本，安裝 Docker 的方法都不盡相同，請參考 Docker 官網 &lt;a href=&#34;https://docs.docker.com/engine/installation/&#34; target=&#34;_blank&#34;&gt;Install Docker Engine 安裝說明&lt;/a&gt;。以 Ubuntu 16.04 為例，安裝 Docker 最簡單的方法是：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ sudo apt-get install docker.io
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;第二步-安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第二步：安裝黑盒子&lt;/h2&gt;
+&lt;h2 id=&#34;第二步-安裝黑盒子&#34;&gt;第二步：安裝黑盒子&lt;/h2&gt;
 
 &lt;p&gt;用下面指令來下載 1Album 黑盒子：&lt;/p&gt;
 
@@ -182,7 +173,7 @@ $ docker pull &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/sp
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/linux/downloaded.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;第三步-第一次啟動:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第三步：第一次啟動&lt;/h2&gt;
+&lt;h2 id=&#34;第三步-第一次啟動&#34;&gt;第三步：第一次啟動&lt;/h2&gt;
 
 &lt;p&gt;第一次啟動黑盒子，需要用以下的指令來設定環境：&lt;/p&gt;
 
@@ -211,7 +202,7 @@ $ docker run -itd \
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/linux/running.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;第四步-連結帳號:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第四步：連結帳號&lt;/h2&gt;
+&lt;h2 id=&#34;第四步-連結帳號&#34;&gt;第四步：連結帳號&lt;/h2&gt;
 
 &lt;p&gt;必須把黑盒子加到您的帳號中，才能開始使用。黑盒子的 &lt;code&gt;Device Key&lt;/code&gt; 可以從 logs 中找到。下面的 &lt;code&gt;mybox&lt;/code&gt; 是先前以 &lt;code&gt;--name&lt;/code&gt; 參數指定的名字：&lt;/p&gt;
 
@@ -226,8 +217,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;打開 1Album app，如下圖所示，將 Device Key 輸入：&lt;/p&gt;
 
 
-
-&lt;div class=&#34;iphone6&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/tw/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_tw.gif&#34;&gt;
    &lt;/div&gt;
@@ -242,15 +232,15 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/docs/blackbox/mac/</link>
+      <link>/tw/docs/blackbox/mac/install.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/blackbox/mac/</guid>
+      <guid>/tw/docs/blackbox/mac/install.html</guid>
       <description>
 
-&lt;h1 id=&#34;在-osx-上安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;在 OSX 上安裝黑盒子&lt;/h1&gt;
+&lt;h1 id=&#34;在-osx-上安裝黑盒子&#34;&gt;在 OSX 上安裝黑盒子&lt;/h1&gt;
 
-&lt;h2 id=&#34;第一步-安裝-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第一步：安裝 Docker&lt;/h2&gt;
+&lt;h2 id=&#34;第一步-安裝-docker&#34;&gt;第一步：安裝 Docker&lt;/h2&gt;
 
 &lt;p&gt;黑盒子是以 Docker Image 的方式發行，在安裝黑盒子前，系統裡必須先安裝 Docker。點 &lt;a href=&#34;https://www.docker.com/products/docker-toolbox&#34; target=&#34;_blank&#34;&gt;這裡下載 Docker Toolbox &lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;，詳細安裝說明請參考 &lt;a href=&#34;https://docs.docker.com/mac/step_one/&#34; target=&#34;_blank&#34;&gt;Docker Toolbox 安裝說明&lt;/a&gt;。&lt;/p&gt;
 
@@ -266,7 +256,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/mac/kitematic_home.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;第二步-安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第二步：安裝黑盒子&lt;/h2&gt;
+&lt;h2 id=&#34;第二步-安裝黑盒子&#34;&gt;第二步：安裝黑盒子&lt;/h2&gt;
 
 &lt;p&gt;在搜尋框裡輸入 &lt;code&gt;1album&lt;/code&gt; 來搜尋 1Album 黑盒子程式，找到後按右下角的 CREATE 鈕來下載並安裝。&lt;/p&gt;
 
@@ -280,7 +270,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/mac/1album_blackbox_first_boot.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;第三步-第一次啟動:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第三步：第一次啟動&lt;/h2&gt;
+&lt;h2 id=&#34;第三步-第一次啟動&#34;&gt;第三步：第一次啟動&lt;/h2&gt;
 
 &lt;p&gt;資料目錄 &lt;code&gt;/data&lt;/code&gt; 是 1Album 黑盒子儲存所有資料的位置，必須將 &lt;code&gt;/data&lt;/code&gt; 指向電腦的檔案夾才能啟動黑盒子。如下圖，點 Settings -&amp;gt; Volumes 到設定頁面，點對應 &lt;code&gt;/data&lt;/code&gt; 的 &lt;code&gt;CHANGE&lt;/code&gt; 紐：&lt;/p&gt;
 
@@ -302,7 +292,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/mac/1album_blackbox_home.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;第四步-連結帳號:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第四步：連結帳號&lt;/h2&gt;
+&lt;h2 id=&#34;第四步-連結帳號&#34;&gt;第四步：連結帳號&lt;/h2&gt;
 
 &lt;p&gt;必須把黑盒子加到您的帳號中，才能開始使用。首先將黑盒子印出來的 &lt;code&gt;Device Key&lt;/code&gt; 記下來：&lt;/p&gt;
 
@@ -311,8 +301,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;打開 1Album app，如下圖所示，將 Device Key 輸入：&lt;/p&gt;
 
 
-
-&lt;div class=&#34;iphone6&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/tw/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_tw.gif&#34;&gt;
    &lt;/div&gt;
@@ -327,15 +316,15 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/docs/blackbox/synology/</link>
+      <link>/tw/docs/blackbox/synology/install.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/blackbox/synology/</guid>
+      <guid>/tw/docs/blackbox/synology/install.html</guid>
       <description>
 
-&lt;h1 id=&#34;在-synology-nas-上安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;在 Synology NAS 上安裝黑盒子&lt;/h1&gt;
+&lt;h1 id=&#34;在-synology-nas-上安裝黑盒子&#34;&gt;在 Synology NAS 上安裝黑盒子&lt;/h1&gt;
 
-&lt;h2 id=&#34;第一步-安裝-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第一步：安裝 Docker&lt;/h2&gt;
+&lt;h2 id=&#34;第一步-安裝-docker&#34;&gt;第一步：安裝 Docker&lt;/h2&gt;
 
 &lt;p&gt;黑盒子是以 Docker Image 的方式發行，在安裝黑盒子前，必先在 Synology 機器上安裝 Docker。許多 Synology 的 NAS 機型都能支援，但似乎限於型號字尾有 &amp;ldquo;+&amp;rdquo; 的機型。完整支援的機型列表可參考 &lt;a href=&#34;https://www.synology.com/en-us/dsm/app_packages/Docker&#34; target=&#34;_blank&#34;&gt;Synology Docker Package&lt;/a&gt; 頁面的最下面。&lt;/p&gt;
 
@@ -355,7 +344,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/synology/docker_main.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;第二步-安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第二步：安裝黑盒子&lt;/h2&gt;
+&lt;h2 id=&#34;第二步-安裝黑盒子&#34;&gt;第二步：安裝黑盒子&lt;/h2&gt;
 
 &lt;p&gt;首先將左邊切換到 Registry 頁面，在上面的搜尋框裡輸入 &lt;code&gt;1album&lt;/code&gt; 來搜尋 1Album 黑盒子：&lt;/p&gt;
 
@@ -373,7 +362,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/synology/downloaded.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;第三步-第一次啟動:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第三步：第一次啟動&lt;/h2&gt;
+&lt;h2 id=&#34;第三步-第一次啟動&#34;&gt;第三步：第一次啟動&lt;/h2&gt;
 
 &lt;p&gt;選擇黑盒子的 Docker Image 後，按 &lt;code&gt;Launch&lt;/code&gt; 按鈕啟動：&lt;/p&gt;
 
@@ -411,7 +400,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/synology/container_apply.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;第四步-連結帳號:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第四步：連結帳號&lt;/h2&gt;
+&lt;h2 id=&#34;第四步-連結帳號&#34;&gt;第四步：連結帳號&lt;/h2&gt;
 
 &lt;p&gt;必須把黑盒子加到您的帳號中，才能開始使用。首先左邊切換到 &lt;code&gt;Container&lt;/code&gt; 頁面，找到執行中的黑盒子，按下 &lt;code&gt;Details&lt;/code&gt; 鈕：&lt;/p&gt;
 
@@ -424,8 +413,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;打開 1Album app，如下圖所示，將 Device Key 輸入：&lt;/p&gt;
 
 
-
-&lt;div class=&#34;iphone6&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/tw/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_tw.gif&#34;&gt;
    &lt;/div&gt;
@@ -440,15 +428,15 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/docs/blackbox/windows/</link>
+      <link>/tw/docs/blackbox/windows/install.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/blackbox/windows/</guid>
+      <guid>/tw/docs/blackbox/windows/install.html</guid>
       <description>
 
-&lt;h1 id=&#34;在-windows-上安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;在 Windows 上安裝黑盒子&lt;/h1&gt;
+&lt;h1 id=&#34;在-windows-上安裝黑盒子&#34;&gt;在 Windows 上安裝黑盒子&lt;/h1&gt;
 
-&lt;h2 id=&#34;第一步-安裝-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第一步：安裝 Docker&lt;/h2&gt;
+&lt;h2 id=&#34;第一步-安裝-docker&#34;&gt;第一步：安裝 Docker&lt;/h2&gt;
 
 &lt;p&gt;黑盒子是以 Docker Image 的方式發行，在安裝黑盒子前，系統裡必須先安裝 Docker。點 &lt;a href=&#34;https://www.docker.com/products/docker-toolbox&#34; target=&#34;_blank&#34;&gt;這裡下載 Docker Toolbox &lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;，詳細安裝說明請參考 &lt;a href=&#34;https://docs.docker.com/windows/step_one/&#34; target=&#34;_blank&#34;&gt;Docker Toolbox 安裝說明&lt;/a&gt;。&lt;span class=&#34;text-danger&#34;&gt;特別注意，Windows 版 Docker 只能安裝在 CPU 有支援虛擬化技術的 64 位元系統上&lt;/span&gt;，比較舊或低階的系統通常都不支援。詳細資訊請參考 &lt;a href=&#34;https://docs.docker.com/engine/installation/windows/#requirements&#34; target=&#34;_blank&#34;&gt;Windows 系統需求&lt;/a&gt;。&lt;/p&gt;
 
@@ -464,7 +452,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/windows/kitematic_home.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;第二步-安裝黑盒子:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第二步：安裝黑盒子&lt;/h2&gt;
+&lt;h2 id=&#34;第二步-安裝黑盒子&#34;&gt;第二步：安裝黑盒子&lt;/h2&gt;
 
 &lt;p&gt;在搜尋框裡輸入 &lt;code&gt;1album&lt;/code&gt; 來搜尋 1Album 黑盒子程式，找到後按右下角的 CREATE 鈕來下載並安裝。&lt;/p&gt;
 
@@ -478,7 +466,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/windows/1album_blackbox_first_boot.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;第三步-第一次啟動:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第三步：第一次啟動&lt;/h2&gt;
+&lt;h2 id=&#34;第三步-第一次啟動&#34;&gt;第三步：第一次啟動&lt;/h2&gt;
 
 &lt;p&gt;資料目錄 &lt;code&gt;/data&lt;/code&gt; 是 1Album 黑盒子儲存所有資料的位置，必須將 &lt;code&gt;/data&lt;/code&gt; 指向電腦的檔案夾才能啟動黑盒子。如下圖，點 Settings -&amp;gt; Volumes 到設定頁面，點對應 &lt;code&gt;/data&lt;/code&gt; 的 &lt;code&gt;CHANGE&lt;/code&gt; 紐：&lt;/p&gt;
 
@@ -500,7 +488,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/windows/1album_blackbox_home.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;第四步-連結帳號:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;第四步：連結帳號&lt;/h2&gt;
+&lt;h2 id=&#34;第四步-連結帳號&#34;&gt;第四步：連結帳號&lt;/h2&gt;
 
 &lt;p&gt;必須把黑盒子加到您的帳號中，才能開始使用。首先將黑盒子印出來的 &lt;code&gt;Device Key&lt;/code&gt; 記下來：&lt;/p&gt;
 
@@ -509,8 +497,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;打開 1Album app，如下圖所示，將 Device Key 輸入：&lt;/p&gt;
 
 
-
-&lt;div class=&#34;iphone6&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/tw/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_tw.gif&#34;&gt;
    &lt;/div&gt;
@@ -525,56 +512,66 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/pains/pain1/</link>
+      <link>/tw/pains/pain1.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pains/pain1/</guid>
+      <guid>/tw/pains/pain1.html</guid>
       <description>&lt;p&gt;“我的手機快塞滿了，得把照片清出來。”&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/support/</link>
+      <link>/tw/support.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/support/</guid>
+      <guid>/tw/support.html</guid>
       <description>
 
-&lt;h1 id=&#34;服務:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;服務&lt;/h1&gt;
+&lt;h1 id=&#34;服務&#34;&gt;服務&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/support/privacy/</link>
+      <link>/tw/support/privacy.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/support/privacy/</guid>
+      <guid>/tw/support/privacy.html</guid>
       <description>
 
-&lt;h1 id=&#34;privacy-policy:18d05a63a1c8d7ed973cc51838494e41&#34;&gt;Privacy Policy&lt;/h1&gt;
+&lt;h1 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title>上面這些 1Album 都做到了，而且完全免費。</title>
-      <link>/solution/solution/</link>
+      <link>/tw/solution/solution.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/solution/solution/</guid>
+      <guid>/tw/solution/solution.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>安裝 1Album 黑盒子</title>
-      <link>/steps/step1/</link>
+      <link>/tw/steps/step1.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/steps/step1/</guid>
+      <guid>/tw/steps/step1.html</guid>
       <description>&lt;p&gt;1Album 黑盒子是 1Album 專用的免費儲存軟體。您可以下載並將它裝在 Windows、Mac OSX、Linux、NAS 設備、或任何可以執行 Docker 容器的環境中。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;./docs/blackbox/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fa fa-external-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; 1Album 黑盒子安裝指南&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>更快</title>
+      <link>/tw/features/1faster.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tw/features/1faster.html</guid>
+      <description>&lt;p&gt;使用對等連線直接連接您手機與黑盒子，您可以享受他們之間的所有網路頻寬來做傳輸。如果他們處在同一個區域網路中，更是能全速運作。&lt;/p&gt;
 </description>
     </item>
     

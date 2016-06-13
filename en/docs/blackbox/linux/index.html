@@ -149,7 +149,7 @@
 
 
                         
-                            <li><a class='menu-leaf ' href="../../../docs/blackbox/">Quick Start</a></li>
+                            <li><a class='menu-leaf ' href="../../../docs/blackbox">Quick Start</a></li>
                         
 
 
@@ -164,7 +164,7 @@
 
 
                                     
-                                        <li class="m1"><a class='menu-leaf ' href="../../../docs/blackbox/mac/">Installation Guide</a></li>
+                                        <li class="m1"><a class='menu-leaf ' href="../../../docs/blackbox/mac/install/">Installation Guide</a></li>
                                     
 
 
@@ -193,7 +193,7 @@
 
 
                                     
-                                        <li class="m1"><a class='menu-leaf ' href="../../../docs/blackbox/windows/">Installation Guide</a></li>
+                                        <li class="m1"><a class='menu-leaf ' href="../../../docs/blackbox/windows/install/">Installation Guide</a></li>
                                     
 
 
@@ -216,13 +216,13 @@
 
                         
                             <li class="dropdown">
-                                <a href="#" class='menu-tree active' data-toggle="dropdown">For Linux <span class="caret"></span></a>
+                                <a href="#" class='menu-tree ' data-toggle="dropdown">For Linux <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                 
 
 
                                     
-                                        <li class="m1"><a class='menu-leaf active' href="../../../docs/blackbox/linux/">Installation Guide</a></li>
+                                        <li class="m1"><a class='menu-leaf ' href="../../../docs/blackbox/linux/install/">Installation Guide</a></li>
                                     
 
 
@@ -251,7 +251,7 @@
 
 
                                     
-                                        <li class="m1"><a class='menu-leaf ' href="../../../docs/blackbox/synology/">Installation Guide</a></li>
+                                        <li class="m1"><a class='menu-leaf ' href="../../../docs/blackbox/synology/install/">Installation Guide</a></li>
                                     
 
 
@@ -318,7 +318,7 @@
 
                 
                     
-                    <div class='menu-leaf '><a href="../../../docs/blackbox/">Quick Start</a></div>
+                    <div class='menu-leaf '><a href="../../../docs/blackbox">Quick Start</a></div>
                     
                 
 
@@ -335,7 +335,7 @@
 
                         
                             
-                            <a href="../../../docs/blackbox/mac/" class='menu-leaf m1 '>Installation Guide</a>
+                            <a href="../../../docs/blackbox/mac/install/" class='menu-leaf m1 '>Installation Guide</a>
                             
                         
 
@@ -367,7 +367,7 @@
 
                         
                             
-                            <a href="../../../docs/blackbox/windows/" class='menu-leaf m1 '>Installation Guide</a>
+                            <a href="../../../docs/blackbox/windows/install/" class='menu-leaf m1 '>Installation Guide</a>
                             
                         
 
@@ -392,18 +392,14 @@
 
                 
                     
-                    <div class='menu-tree active' data-toggle="collapse" data-target="#m_blackbox_linux">For Linux</div>
-                    <div class="menu-body collapse in" id="m_blackbox_linux">
+                    <div class='menu-tree collapsed' data-toggle="collapse" data-target="#m_blackbox_linux">For Linux</div>
+                    <div class="menu-body collapse" id="m_blackbox_linux">
                     
 
 
                         
                             
-                            <a href="../../../docs/blackbox/linux/" class='menu-leaf m1 active'>Installation Guide</a>
-                            
-                                <div id="anchors-bar">
-                                    <div class="nav m2" id="anchors"></div>
-                                </div>
+                            <a href="../../../docs/blackbox/linux/install/" class='menu-leaf m1 '>Installation Guide</a>
                             
                         
 
@@ -435,7 +431,7 @@
 
                         
                             
-                            <a href="../../../docs/blackbox/synology/" class='menu-leaf m1 '>Installation Guide</a>
+                            <a href="../../../docs/blackbox/synology/install/" class='menu-leaf m1 '>Installation Guide</a>
                             
                         
 
@@ -466,88 +462,6 @@
 
             <div class="col-xs-12 col-sm-9 doc-frame">
                 
-
-<h1 id="install-blackbox-on-linux:d680e8a854a7cbad6d490c445cba2eba">Install Blackbox On Linux</h1>
-
-<h2 id="step-1-install-docker:d680e8a854a7cbad6d490c445cba2eba">Step 1: Install Docker</h2>
-
-<p>1Album Blackbox is distributed as a Docker Image.  Your system must have Docker installed before you can install blackbox.  The installation procedure varies among Linux distributions, please reference <a href="https://docs.docker.com/engine/installation/" target="_blank">the official Docker Engine installation guide</a> for details.  On Ubuntu 16.04, the easist way to install Docker is:</p>
-
-<pre><code>$ sudo apt-get install docker.io
-</code></pre>
-
-<h2 id="step-2-install-blackbox:d680e8a854a7cbad6d490c445cba2eba">Step 2: Install Blackbox</h2>
-
-<p>You can download 1Album Blackbox with the following command:</p>
-
-<pre>
-$ docker pull <span class="syntax-blackbox">1album/blackbox</span>
-</pre>
-
-<p>Downloading:</p>
-
-<p><img src="../../../img/docs/linux/downloading_1album_blackbox.png" class="linux-screenshot"></p>
-
-<p>After download is completed, use <code>docker images</code> to list downloaded images:</p>
-
-<p><img src="../../../img/docs/linux/downloaded.png" class="linux-screenshot"></p>
-
-<h2 id="step-3-first-launch:d680e8a854a7cbad6d490c445cba2eba">Step 3: First Launch</h2>
-
-<p>Use the following command to launch 1Album Blackbox for the first time:</p>
-
-<pre>
-$ docker run -itd \
-         -v <span class="syntax-user-input">/path/to/data</span>:/data \
-         --name <span class="syntax-user-input">mybox</span> \
-         <span class="syntax-blackbox">1album/blackbox</span>
-</pre>
-
-<p>The most important argument is <code>-v</code>, it links <code>/data</code> volume to local folder <code>/path/to/data</code> on your system. 1Album Blackbox stores everything in <code>/data</code> volume. You must link it to a local folder before starting the blackbox.  Please do not manually alter the content in this folder, otherwise your data inside the blackbox may be damaged or lost.</p>
-
-<p>Besides <code>/data</code>, there are three optional volumes that can be configured.  <code>/export</code> is for exporting data out of the blackbox, and <code>/import</code> is for importing data back in. <code>/cache</code> is for storing temporarily files such as thumbnail images. The example below links all of them to local folders:</p>
-
-<pre>
-$ docker run -itd \
-         -v <span class="syntax-user-input">/path/to/data</span>:/data \
-         -v <span class="syntax-user-input">/path/to/cache</span>:/cache \
-         -v <span class="syntax-user-input">/path/to/import</span>:/import \
-         -v <span class="syntax-user-input">/path/to/export</span>:/export \
-         --name <span class="syntax-user-input">mybox</span> \
-         <span class="syntax-blackbox">1album/blackbox</span>
-</pre>
-
-<p>After the <code>docker run</code> command, you can use <code>docker ps</code> command to list the running Docker containers.  The last colume shows the name you specified with the <code>--name</code> argument previously.</p>
-
-<p><img src="../../../img/docs/linux/running.png" class="linux-screenshot"></p>
-
-<h2 id="step-4-link-account:d680e8a854a7cbad6d490c445cba2eba">Step 4: Link Account</h2>
-
-<p>You must add the blackbox to your account to start using it.  First, obtain the <code>Device Key</code> from the log using the following command.  <code>mybox</code> is what you specified with the <code>--name</code> argument previously:</p>
-
-<pre>
-$ docker logs <span class="syntax-user-input">mybox</span>
-</pre>
-
-<p>You can find your <code>Device Key</code> in the output:</p>
-
-<p><img src="../../../img/docs/linux/device_key.png" class="linux-screenshot"></p>
-
-<p>Then open 1Album app and enter the <code>Device Key</code> as below:</p>
-
-
-
-<div class="iphone6">
-   <div class="iphone6-screen">
-       <img src="../../../img/docs/add_blackbox_en.gif">
-   </div>
-</div>
-
-
-<p>Now this blackbox will work for you.  Your account name is also printed in the blackbox log:</p>
-
-<p><img src="../../../img/docs/linux/started.png" class="linux-screenshot"></p>
-
             </div>
         </div>
     </div>

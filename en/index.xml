@@ -2,103 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1Album</title>
-    <link>/</link>
+    <link>/en/</link>
     <description>Recent content on 1Album</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>/docs/1album/</link>
+      <link>/en/docs/1album/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/1album/</guid>
+      <guid>/en/docs/1album/</guid>
       <description>
 
-&lt;h1 id=&#34;1album-overview:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;1Album Overview&lt;/h1&gt;
+&lt;h1 id=&#34;1album-overview&#34;&gt;1Album Overview&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/docs/_menu/</link>
+      <link>/en/docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/_menu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/docs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/</guid>
+      <guid>/en/docs/</guid>
       <description>
 
-&lt;h1 id=&#34;users-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Users Guide&lt;/h1&gt;
+&lt;h1 id=&#34;users-guide&#34;&gt;Users Guide&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/support/_menu/</link>
+      <link>/en/support/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/support/_menu/</guid>
+      <guid>/en/support/_menu/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/docs/1album/_menu/</link>
+      <link>/en/docs/1album/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/1album/_menu/</guid>
+      <guid>/en/docs/1album/_menu/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/docs/blackbox/</link>
+      <link>/en/docs/blackbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/blackbox/</guid>
+      <guid>/en/docs/blackbox/</guid>
       <description>
 
-&lt;h1 id=&#34;img-src-img-1album-blackbox-png:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;img src=&#34;./img/1album-blackbox.png&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;img-src-img-1album-blackbox-png&#34;&gt;&lt;img src=&#34;./img/1album-blackbox.png&#34;&gt;&lt;/h1&gt;
 
-&lt;h3 id=&#34;installation-guide:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Installation Guide&lt;/h3&gt;
+&lt;h3 id=&#34;installation-guide&#34;&gt;Installation Guide&lt;/h3&gt;
 
 &lt;p&gt;Select your platform for the step-by-step guide:&lt;/p&gt;
 
 &lt;div class=&#34;row blurbs&#34;&gt;
 
 &lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;mac&#34;&gt;&lt;i class=&#34;fa fa-apple fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;a href=&#34;./docs/blackbox/mac/install/&#34;&gt;&lt;i class=&#34;fa fa-apple fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Mac&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;windows&#34;&gt;&lt;i class=&#34;fa fa-windows fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;a href=&#34;./docs/blackbox/windows/install/&#34;&gt;&lt;i class=&#34;fa fa-windows fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Windows&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
   
 
 &lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;linux&#34;&gt;&lt;i class=&#34;fa fa-linux fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;a href=&#34;./docs/blackbox/linux/install/&#34;&gt;&lt;i class=&#34;fa fa-linux fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Linux&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;synology&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;a href=&#34;./docs/blackbox/synology/install/&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;for-the-impatient:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;For the Impatient&lt;/h3&gt;
+&lt;h3 id=&#34;for-the-impatient&#34;&gt;For the Impatient&lt;/h3&gt;
 
 &lt;p&gt;If you know Docker already:&lt;/p&gt;
 
@@ -120,7 +111,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;That&amp;rsquo;s it!  Now your photos will be backed up to this blackbox.&lt;/p&gt;
 
-&lt;h3 id=&#34;commands:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Commands&lt;/h3&gt;
+&lt;h3 id=&#34;commands&#34;&gt;Commands&lt;/h3&gt;
 
 &lt;pre&gt;
 $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
@@ -151,22 +142,22 @@ Available commands:
     
     <item>
       <title></title>
-      <link>/docs/blackbox/linux/</link>
+      <link>/en/docs/blackbox/linux/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/blackbox/linux/</guid>
+      <guid>/en/docs/blackbox/linux/install/</guid>
       <description>
 
-&lt;h1 id=&#34;install-blackbox-on-linux:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Install Blackbox On Linux&lt;/h1&gt;
+&lt;h1 id=&#34;install-blackbox-on-linux&#34;&gt;Install Blackbox On Linux&lt;/h1&gt;
 
-&lt;h2 id=&#34;step-1-install-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 1: Install Docker&lt;/h2&gt;
+&lt;h2 id=&#34;step-1-install-docker&#34;&gt;Step 1: Install Docker&lt;/h2&gt;
 
 &lt;p&gt;1Album Blackbox is distributed as a Docker Image.  Your system must have Docker installed before you can install blackbox.  The installation procedure varies among Linux distributions, please reference &lt;a href=&#34;https://docs.docker.com/engine/installation/&#34; target=&#34;_blank&#34;&gt;the official Docker Engine installation guide&lt;/a&gt; for details.  On Ubuntu 16.04, the easist way to install Docker is:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ sudo apt-get install docker.io
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;step-2-install-blackbox:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 2: Install Blackbox&lt;/h2&gt;
+&lt;h2 id=&#34;step-2-install-blackbox&#34;&gt;Step 2: Install Blackbox&lt;/h2&gt;
 
 &lt;p&gt;You can download 1Album Blackbox with the following command:&lt;/p&gt;
 
@@ -182,7 +173,7 @@ $ docker pull &lt;span class=&#34;syntax-blackbox&#34;&gt;1album/blackbox&lt;/sp
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/linux/downloaded.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;step-3-first-launch:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 3: First Launch&lt;/h2&gt;
+&lt;h2 id=&#34;step-3-first-launch&#34;&gt;Step 3: First Launch&lt;/h2&gt;
 
 &lt;p&gt;Use the following command to launch 1Album Blackbox for the first time:&lt;/p&gt;
 
@@ -211,7 +202,7 @@ $ docker run -itd \
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/linux/running.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;step-4-link-account:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 4: Link Account&lt;/h2&gt;
+&lt;h2 id=&#34;step-4-link-account&#34;&gt;Step 4: Link Account&lt;/h2&gt;
 
 &lt;p&gt;You must add the blackbox to your account to start using it.  First, obtain the &lt;code&gt;Device Key&lt;/code&gt; from the log using the following command.  &lt;code&gt;mybox&lt;/code&gt; is what you specified with the &lt;code&gt;--name&lt;/code&gt; argument previously:&lt;/p&gt;
 
@@ -226,8 +217,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;Then open 1Album app and enter the &lt;code&gt;Device Key&lt;/code&gt; as below:&lt;/p&gt;
 
 
-
-&lt;div class=&#34;iphone6&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_en.gif&#34;&gt;
    &lt;/div&gt;
@@ -242,15 +232,15 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/docs/blackbox/mac/</link>
+      <link>/en/docs/blackbox/mac/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/blackbox/mac/</guid>
+      <guid>/en/docs/blackbox/mac/install/</guid>
       <description>
 
-&lt;h1 id=&#34;install-blackbox-on-mac-osx:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Install Blackbox On Mac OSX&lt;/h1&gt;
+&lt;h1 id=&#34;install-blackbox-on-mac-osx&#34;&gt;Install Blackbox On Mac OSX&lt;/h1&gt;
 
-&lt;h2 id=&#34;step-1-install-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 1: Install Docker&lt;/h2&gt;
+&lt;h2 id=&#34;step-1-install-docker&#34;&gt;Step 1: Install Docker&lt;/h2&gt;
 
 &lt;p&gt;1Album Blackbox is distributed as a Docker Image.  Your system must have Docker installed before you can install blackbox.  To install Docker,  &lt;a href=&#34;https://www.docker.com/products/docker-toolbox&#34; target=&#34;_blank&#34;&gt;download Docker Toolbox here &lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt; and install it.  Please reference &lt;a href=&#34;https://docs.docker.com/mac/step_one/&#34; target=&#34;_blank&#34;&gt;Docker Toolbox installation guide&lt;/a&gt; for detail instructions.&lt;/p&gt;
 
@@ -266,7 +256,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/mac/kitematic_home.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;step-2-install-blackbox:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 2: Install Blackbox&lt;/h2&gt;
+&lt;h2 id=&#34;step-2-install-blackbox&#34;&gt;Step 2: Install Blackbox&lt;/h2&gt;
 
 &lt;p&gt;Enter &lt;code&gt;1album&lt;/code&gt; in the search box to search for 1Album Blackbox, then click the &lt;code&gt;CREATE&lt;/code&gt; button to download and install it:&lt;/p&gt;
 
@@ -280,7 +270,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/mac/1album_blackbox_first_boot.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;step-3-first-launch:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 3: First Launch&lt;/h2&gt;
+&lt;h2 id=&#34;step-3-first-launch&#34;&gt;Step 3: First Launch&lt;/h2&gt;
 
 &lt;p&gt;1Album Blackbox stores everything in &lt;code&gt;/data&lt;/code&gt; volume. You must associate it to a local folder before starting the blackbox. Open Seetings -&amp;gt; Volumes page, then click the &lt;code&gt;CHANGE&lt;/code&gt; button corresponding to the &lt;code&gt;/data&lt;/code&gt; volume:&lt;/p&gt;
 
@@ -302,7 +292,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/mac/1album_blackbox_home.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;step-4-link-account:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 4: Link Account&lt;/h2&gt;
+&lt;h2 id=&#34;step-4-link-account&#34;&gt;Step 4: Link Account&lt;/h2&gt;
 
 &lt;p&gt;You must add the blackbox to your account to start using it.  First, write down the &lt;code&gt;Device Key&lt;/code&gt;:&lt;/p&gt;
 
@@ -311,8 +301,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;Then open 1Album app and enter the &lt;code&gt;Device Key&lt;/code&gt; as below:&lt;/p&gt;
 
 
-
-&lt;div class=&#34;iphone6&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_en.gif&#34;&gt;
    &lt;/div&gt;
@@ -327,15 +316,15 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/docs/blackbox/synology/</link>
+      <link>/en/docs/blackbox/synology/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/blackbox/synology/</guid>
+      <guid>/en/docs/blackbox/synology/install/</guid>
       <description>
 
-&lt;h1 id=&#34;install-blackbox-on-synology-nas:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Install Blackbox On Synology NAS&lt;/h1&gt;
+&lt;h1 id=&#34;install-blackbox-on-synology-nas&#34;&gt;Install Blackbox On Synology NAS&lt;/h1&gt;
 
-&lt;h2 id=&#34;step-1-install-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 1: Install Docker&lt;/h2&gt;
+&lt;h2 id=&#34;step-1-install-docker&#34;&gt;Step 1: Install Docker&lt;/h2&gt;
 
 &lt;p&gt;1Album Blackbox is distributed as a Docker Image.  You must install Docker on your Synology NAS before installing blackbox.  Many Synology NAS models support this, but it seems limited to those with a &amp;ldquo;+&amp;rdquo; symbol at the end of its model number. For a full list of supported models, please check the bottom of the &lt;a href=&#34;https://www.synology.com/en-us/dsm/app_packages/Docker&#34; target=&#34;_blank&#34;&gt;Synology Docker Package page&lt;/a&gt;.&lt;/p&gt;
 
@@ -355,7 +344,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/synology/docker_main.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;step-2-install-blackbox:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 2: Install Blackbox&lt;/h2&gt;
+&lt;h2 id=&#34;step-2-install-blackbox&#34;&gt;Step 2: Install Blackbox&lt;/h2&gt;
 
 &lt;p&gt;Switch to &lt;code&gt;Registry&lt;/code&gt; tab on the left, then enter &lt;code&gt;1album&lt;/code&gt; in the search box to search for 1Album Blackbox.&lt;/p&gt;
 
@@ -373,7 +362,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/synology/downloaded.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;step-3-first-launch:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 3: First Launch&lt;/h2&gt;
+&lt;h2 id=&#34;step-3-first-launch&#34;&gt;Step 3: First Launch&lt;/h2&gt;
 
 &lt;p&gt;Switch to the &amp;lsquo;Image&amp;rsquo; tab on the left, select 1Album Blackbox image, then click &lt;code&gt;Launch&lt;/code&gt; button to launch it:&lt;/p&gt;
 
@@ -411,7 +400,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/synology/container_apply.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;step-4-link-account:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 4: Link Account&lt;/h2&gt;
+&lt;h2 id=&#34;step-4-link-account&#34;&gt;Step 4: Link Account&lt;/h2&gt;
 
 &lt;p&gt;You must add the blackbox to your account to start using it.  First switch to &lt;code&gt;Container&lt;/code&gt; tab on the left, select the running blackbox, then click the &lt;code&gt;Details&lt;/code&gt; button:&lt;/p&gt;
 
@@ -424,8 +413,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;Then open 1Album app and enter the &lt;code&gt;Device Key&lt;/code&gt; as below:&lt;/p&gt;
 
 
-
-&lt;div class=&#34;iphone6&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_en.gif&#34;&gt;
    &lt;/div&gt;
@@ -440,15 +428,15 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/docs/blackbox/windows/</link>
+      <link>/en/docs/blackbox/windows/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/blackbox/windows/</guid>
+      <guid>/en/docs/blackbox/windows/install/</guid>
       <description>
 
-&lt;h1 id=&#34;install-blackbox-on-windows:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Install Blackbox On Windows&lt;/h1&gt;
+&lt;h1 id=&#34;install-blackbox-on-windows&#34;&gt;Install Blackbox On Windows&lt;/h1&gt;
 
-&lt;h2 id=&#34;step-1-install-docker:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 1: Install Docker&lt;/h2&gt;
+&lt;h2 id=&#34;step-1-install-docker&#34;&gt;Step 1: Install Docker&lt;/h2&gt;
 
 &lt;p&gt;1Album Blackbox is distributed as a Docker Image. Your system must have Docker installed before you can install blackbox.  To install Docker,  &lt;a href=&#34;https://www.docker.com/products/docker-toolbox&#34; target=&#34;_blank&#34;&gt;download Docker Toolbox here &lt;i class=&#34;fa fa-download&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt; and install it.  Please reference &lt;a href=&#34;https://docs.docker.com/windows/step_one/&#34; target=&#34;_blank&#34;&gt;Docker Toolbox installation guide&lt;/a&gt; for detail instructions.  &lt;span class=&#34;text-danger&#34;&gt;Note that your system must have 64-bit version Windows with a CPU that supports virtualization technology&lt;/span&gt;, which means older or lower end systems probably won&amp;rsquo;t work. Please check &lt;a href=&#34;https://docs.docker.com/engine/installation/windows/#requirements&#34; target=&#34;_blank&#34;&gt;Windows system requirements&lt;/a&gt; for details.&lt;/p&gt;
 
@@ -464,7 +452,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/windows/kitematic_home.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;step-2-install-blackbox:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 2: Install Blackbox&lt;/h2&gt;
+&lt;h2 id=&#34;step-2-install-blackbox&#34;&gt;Step 2: Install Blackbox&lt;/h2&gt;
 
 &lt;p&gt;Enter &lt;code&gt;1album&lt;/code&gt; in the search box to search for 1Album Blackbox, then click the &lt;code&gt;CREATE&lt;/code&gt; button to download and install it:&lt;/p&gt;
 
@@ -478,7 +466,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/windows/1album_blackbox_first_boot.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;step-3-first-launch:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 3: First Launch&lt;/h2&gt;
+&lt;h2 id=&#34;step-3-first-launch&#34;&gt;Step 3: First Launch&lt;/h2&gt;
 
 &lt;p&gt;1Album Blackbox stores everything in &lt;code&gt;/data&lt;/code&gt; volume. You must associate it to a local folder before starting the blackbox. Open Seetings -&amp;gt; Volumes page, then click the &lt;code&gt;CHANGE&lt;/code&gt; button corresponding to the &lt;code&gt;/data&lt;/code&gt; volume:&lt;/p&gt;
 
@@ -500,7 +488,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/windows/1album_blackbox_home.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;step-4-link-account:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Step 4: Link Account&lt;/h2&gt;
+&lt;h2 id=&#34;step-4-link-account&#34;&gt;Step 4: Link Account&lt;/h2&gt;
 
 &lt;p&gt;You must add the blackbox to your account to start using it.  First, write down the &lt;code&gt;Device Key&lt;/code&gt;:&lt;/p&gt;
 
@@ -509,8 +497,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;Then open 1Album app and enter the &lt;code&gt;Device Key&lt;/code&gt; as below:&lt;/p&gt;
 
 
-
-&lt;div class=&#34;iphone6&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_en.gif&#34;&gt;
    &lt;/div&gt;
@@ -525,54 +512,66 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/pains/pain1/</link>
+      <link>/en/pains/pain1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/pains/pain1/</guid>
+      <guid>/en/pains/pain1/</guid>
       <description>&lt;p&gt;&amp;ldquo;My phone is almost full.  I need to move photos off my phone.&amp;rdquo;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/support/</link>
+      <link>/en/support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/support/</guid>
+      <guid>/en/support/</guid>
       <description>
 
-&lt;h1 id=&#34;support:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Support&lt;/h1&gt;
+&lt;h1 id=&#34;support&#34;&gt;Support&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/support/privacy/</link>
+      <link>/en/support/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/support/privacy/</guid>
+      <guid>/en/support/privacy/</guid>
       <description>
 
-&lt;h1 id=&#34;privacy-policy:18d05a63a1c8d7ed973cc51838494e41&#34;&gt;Privacy Policy&lt;/h1&gt;
+&lt;h1 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title>1Album achieves all of the above, and is absolutely free.</title>
-      <link>/solution/solution/</link>
+      <link>/en/solution/solution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/solution/solution/</guid>
+      <guid>/en/solution/solution/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Faster</title>
-      <link>/features/1faster/</link>
+      <link>/en/features/1faster/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/features/1faster/</guid>
+      <guid>/en/features/1faster/</guid>
       <description>&lt;p&gt;Backing up photos is very fast with peer-to-peer connections link directly from your phone to your blackbox. It is especially so when they are in the same local network.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Install 1Album Blackbox</title>
+      <link>/en/steps/step1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/steps/step1/</guid>
+      <description>&lt;p&gt;1Album Blackbox is free storage software designed for 1Album.  You can download and install it on Windows, Mac OSX, Linux, NAS devices, or any environment that can run a Docker container.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;./docs/blackbox/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fa fa-external-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; 1Album Blackbox Installation Guide&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

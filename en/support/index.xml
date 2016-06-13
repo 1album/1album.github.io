@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Supports on 1Album</title>
-    <link>/support/</link>
+    <link>/en/support/</link>
     <description>Recent content in Supports on 1Album</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/support/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/en/support/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>/support/_menu/</link>
+      <link>/en/support/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/support/_menu/</guid>
+      <guid>/en/support/_menu/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/support/</link>
+      <link>/en/support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/support/</guid>
+      <guid>/en/support/</guid>
       <description>
 
-&lt;h1 id=&#34;support:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Support&lt;/h1&gt;
+&lt;h1 id=&#34;support&#34;&gt;Support&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/support/privacy/</link>
+      <link>/en/support/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/support/privacy/</guid>
+      <guid>/en/support/privacy/</guid>
       <description>
 
-&lt;h1 id=&#34;privacy-policy:18d05a63a1c8d7ed973cc51838494e41&#34;&gt;Privacy Policy&lt;/h1&gt;
+&lt;h1 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h1&gt;
 </description>
     </item>
     

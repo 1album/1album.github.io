@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Solutions on 1Album</title>
-    <link>/solution/</link>
+    <link>/en/solution/</link>
     <description>Recent content in Solutions on 1Album</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/solution/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/en/solution/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>1Album achieves all of the above, and is absolutely free.</title>
-      <link>/solution/solution/</link>
+      <link>/en/solution/solution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/solution/solution/</guid>
+      <guid>/en/solution/solution/</guid>
       <description></description>
     </item>
     
