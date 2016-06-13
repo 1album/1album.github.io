@@ -298,6 +298,18 @@ kbd {
 
 }
 
+.note {
+    margin: 3em 1em 1em;
+    padding: 2em;
+    background-color: #ddeefe;
+    border: 1px solid #428bca;
+}
+
+.note H3 {
+    margin-top: 0;
+    text-align: center;
+}
+
 /* iphone */
 
 .iphone6 {

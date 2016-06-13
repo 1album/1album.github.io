@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on 1Album</title>
-    <link>/tw/docs.html</link>
+    <link>/tw/docs/</link>
     <description>Recent content in Docs on 1Album</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <atom:link href="/tw/docs.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tw/docs/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>/tw/docs/1album.html</link>
+      <link>/tw/docs/1album/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/1album.html</guid>
+      <guid>/tw/docs/1album/</guid>
       <description>
 
 &lt;h1 id=&#34;1album-簡介&#34;&gt;1Album 簡介&lt;/h1&gt;
@@ -22,10 +22,10 @@
     
     <item>
       <title></title>
-      <link>/tw/docs.html</link>
+      <link>/tw/docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs.html</guid>
+      <guid>/tw/docs/</guid>
       <description>
 
 &lt;h1 id=&#34;使用手冊&#34;&gt;使用手冊&lt;/h1&gt;
@@ -34,19 +34,19 @@
     
     <item>
       <title></title>
-      <link>/tw/docs/1album/_menu.html</link>
+      <link>/tw/docs/1album/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/1album/_menu.html</guid>
+      <guid>/tw/docs/1album/_menu/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox.html</link>
+      <link>/tw/docs/blackbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox.html</guid>
+      <guid>/tw/docs/blackbox/</guid>
       <description>
 
 &lt;h1 id=&#34;img-src-img-1album-blackbox-png&#34;&gt;&lt;img src=&#34;../img/1album-blackbox.png&#34;&gt;&lt;/h1&gt;
@@ -58,23 +58,23 @@
 &lt;div class=&#34;row blurbs&#34;&gt;
 
 &lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;../docs/blackbox/mac/install.html&#34;&gt;&lt;i class=&#34;fa fa-apple fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;a href=&#34;../docs/blackbox/mac/install/&#34;&gt;&lt;i class=&#34;fa fa-apple fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Mac&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;../docs/blackbox/windows/install.html&#34;&gt;&lt;i class=&#34;fa fa-windows fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;a href=&#34;../docs/blackbox/windows/install/&#34;&gt;&lt;i class=&#34;fa fa-windows fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Windows&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
   
 
 &lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;../docs/blackbox/linux/install.html&#34;&gt;&lt;i class=&#34;fa fa-linux fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;a href=&#34;../docs/blackbox/linux/install/&#34;&gt;&lt;i class=&#34;fa fa-linux fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Linux&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;../docs/blackbox/synology/install.html&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;a href=&#34;../docs/blackbox/synology/install/&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
 
@@ -128,15 +128,21 @@ Available commands:
 &lt;p&gt;使用 &lt;code&gt;docker attach&lt;/code&gt; 指令可以進入黑盒子的指令介面，透過它您可以直接操作黑盒子。儘管如此，1Album 黑盒子是設計成自己全自動運作的，您平常並不需要使用這些指令。&lt;/p&gt;
 
 &lt;p&gt;要離開指令介面，先按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; 再按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; 就可以離開。&lt;/p&gt;
+
+&lt;div class=&#34;note&#34;&gt;
+&lt;h3&gt;關於黑盒子這個名字&lt;/h3&gt;
+
+說到黑盒子，您可能會立刻想到飛機上的黑盒子，也就是飛行紀錄器。它隨時紀錄飛機的一切，且無論發生什麼事，黑盒子都必須確保資料不會遺失。我們平常拍攝的照片、影片，是珍貴的生活回憶，也希望能永久保存，無論發生什麼事，資料都不會遺失。因此我們取名為黑盒子，希望作為我們的生活紀錄器。
+&lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/linux/install.html</link>
+      <link>/tw/docs/blackbox/linux/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/linux/install.html</guid>
+      <guid>/tw/docs/blackbox/linux/install/</guid>
       <description>
 
 &lt;h1 id=&#34;在-linux-上安裝黑盒子&#34;&gt;在 Linux 上安裝黑盒子&lt;/h1&gt;
@@ -223,10 +229,10 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/mac/install.html</link>
+      <link>/tw/docs/blackbox/mac/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/mac/install.html</guid>
+      <guid>/tw/docs/blackbox/mac/install/</guid>
       <description>
 
 &lt;h1 id=&#34;在-osx-上安裝黑盒子&#34;&gt;在 OSX 上安裝黑盒子&lt;/h1&gt;
@@ -307,15 +313,15 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/shell/attach.html</link>
+      <link>/tw/docs/blackbox/shell/attach/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/shell/attach.html</guid>
+      <guid>/tw/docs/blackbox/shell/attach/</guid>
       <description>
 
 &lt;h1 id=&#34;進入指令介面&#34;&gt;進入指令介面&lt;/h1&gt;
 
-&lt;p&gt;1Album 黑盒子會全自動運作，您不需要進入其指令介面來使用它。指令介面提供一些進階的功能，讓您直接操作黑盒子。底下針對各個作業系統，說明打開黑盒子指令介面的方法。進入指令介面後可使用的指令，請參考&lt;a href=&#34;../docs/blackbox/shell/commands.html&#34;&gt;黑盒子指令&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;1Album 黑盒子會全自動運作，您不需要進入其指令介面來使用它。指令介面提供一些進階的功能，讓您直接操作黑盒子。底下針對各個作業系統，說明打開黑盒子指令介面的方法。進入指令介面後可使用的指令，請參考&lt;a href=&#34;../docs/blackbox/shell/commands/&#34;&gt;黑盒子指令&lt;/a&gt;。&lt;/p&gt;
 
 &lt;h2 id=&#34;mac-osx&#34;&gt;Mac OSX&lt;/h2&gt;
 
@@ -377,10 +383,10 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/synology/install.html</link>
+      <link>/tw/docs/blackbox/synology/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/synology/install.html</guid>
+      <guid>/tw/docs/blackbox/synology/install/</guid>
       <description>
 
 &lt;h1 id=&#34;在-synology-nas-上安裝黑盒子&#34;&gt;在 Synology NAS 上安裝黑盒子&lt;/h1&gt;
@@ -489,10 +495,10 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/windows/install.html</link>
+      <link>/tw/docs/blackbox/windows/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/windows/install.html</guid>
+      <guid>/tw/docs/blackbox/windows/install/</guid>
       <description>
 
 &lt;h1 id=&#34;在-windows-上安裝黑盒子&#34;&gt;在 Windows 上安裝黑盒子&lt;/h1&gt;
@@ -573,19 +579,19 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/_menu.html</link>
+      <link>/tw/docs/blackbox/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/_menu.html</guid>
+      <guid>/tw/docs/blackbox/_menu/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/linux/startstop.html</link>
+      <link>/tw/docs/blackbox/linux/startstop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/linux/startstop.html</guid>
+      <guid>/tw/docs/blackbox/linux/startstop/</guid>
       <description>
 
 &lt;h1 id=&#34;啟動與停止&#34;&gt;啟動與停止&lt;/h1&gt;
@@ -615,19 +621,19 @@ $ docker start &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/mac.html</link>
+      <link>/tw/docs/blackbox/mac/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/mac.html</guid>
+      <guid>/tw/docs/blackbox/mac/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/mac/startstop.html</link>
+      <link>/tw/docs/blackbox/mac/startstop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/mac/startstop.html</guid>
+      <guid>/tw/docs/blackbox/mac/startstop/</guid>
       <description>
 
 &lt;h1 id=&#34;啟動與停止&#34;&gt;啟動與停止&lt;/h1&gt;
@@ -648,22 +654,41 @@ $ docker start &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/shell/commands.html</link>
+      <link>/tw/docs/blackbox/shell/commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/shell/commands.html</guid>
+      <guid>/tw/docs/blackbox/shell/commands/</guid>
       <description>
 
 &lt;h1 id=&#34;黑盒子指令&#34;&gt;黑盒子指令&lt;/h1&gt;
+
+&lt;pre&gt;
+&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt; help
+Available commands:
+
+   export       export library content to an external folder
+   import       unport library content from an external folder
+   netstat      print network status
+   resolver     print the status of all peers associated with this account
+   start        start blackbox manually
+   status       print system status
+   stop         stop blackbox manually
+   sync         sync this blackbox with primary blackbox
+   unbind       unbind this blackbox from your account
+   version      print version information
+   shutdown     shutdown blackbox and exit the program
+
+&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt;
+&lt;/pre&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/synology/startstop.html</link>
+      <link>/tw/docs/blackbox/synology/startstop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/synology/startstop.html</guid>
+      <guid>/tw/docs/blackbox/synology/startstop/</guid>
       <description>
 
 &lt;h1 id=&#34;啟動與停止&#34;&gt;啟動與停止&lt;/h1&gt;
