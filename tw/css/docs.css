@@ -312,6 +312,10 @@ kbd {
     text-align: center;
 }
 
+#disqus_thread {
+    margin-top: 50px;
+}
+
 /* iphone */
 
 .iphone6 {
