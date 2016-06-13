@@ -316,6 +316,76 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
+      <link>/en/docs/blackbox/shell/attach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/docs/blackbox/shell/attach/</guid>
+      <description>
+
+&lt;h1 id=&#34;enter-blackbox-shell&#34;&gt;Enter Blackbox Shell&lt;/h1&gt;
+
+&lt;p&gt;1Album Blackbox is designed to run autonomously, so entering its command shell is not necessary.  Nonetheless, there are advanced features that are available only through the command shell.  The following describes how to enter the command shell on each of the operating systems.  For a list of commands available in the shell, please reference the &lt;a href=&#34;./docs/blackbox/shell/commands/&#34;&gt;Blackbox Commands&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;h2 id=&#34;mac-osx&#34;&gt;Mac OSX&lt;/h2&gt;
+
+&lt;p&gt;First please make sure that the blackbox is running.  The command shell is available only when the blackbox is running.  Now click the &lt;code&gt;DOCKER CLI&lt;/code&gt; button in the lower left corner:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_open_cli.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The OSX terminal window pops up. Enter &lt;code&gt;docker attach blackbox&lt;/code&gt; then hit &lt;kbd&gt;Enter&lt;/kbd&gt; twice.  Once you see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt, you are in the command shell.  If there are multiple blackboxes installed, you need to put the name shown in the Kitematic interface after &lt;code&gt;attach&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_attach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell and back to OSX shell.  You can also close the terminal window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_detach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
+
+&lt;p&gt;First please make sure that the blackbox is running.  The command shell is available only when the blackbox is running.  Now click the &lt;code&gt;DOCKER CLI&lt;/code&gt; button in the lower left corner:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_open_cli.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The Windows terminal window pops up. Enter &lt;code&gt;docker attach blackbox&lt;/code&gt; then hit &lt;kbd&gt;Enter&lt;/kbd&gt; twice.  Once you see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt, you are in the command shell.  If there are multiple blackboxes installed, you need to put the name shown in the Kitematic interface after &lt;code&gt;attach&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_attach.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell and back to Windows shell.  You can also close the terminal window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_detach.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
+
+&lt;p&gt;Use the following command to enter the blackbox shell.  You usually need to press &lt;kbd&gt;Enter&lt;/kbd&gt; twice to see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt.  Once you see the prompt, you are in the shell.  &lt;code&gt;mybox&lt;/code&gt; below is what you specified with the &lt;code&gt;--name&lt;/code&gt; argument when you setup this blackbox:&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/linux_attach.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell and back to Linux shell.  You can also close the terminal window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/linux_detach.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;synology-nas&#34;&gt;Synology NAS&lt;/h2&gt;
+
+&lt;p&gt;First please make sure that the blackbox is running.  The command shell is available only when the blackbox is running. Now click the &lt;code&gt;Details&lt;/code&gt; button:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_details.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The details dialog pops up.  Switch to the &lt;code&gt;Terminal&lt;/code&gt; tab, and hit &lt;kbd&gt;Enter&lt;/kbd&gt; in the black area.  Once you see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt, you are in the blackbox shell.  &lt;span class=&#34;text-danger&#34;&gt;Note that the current Safari browser on OSX cannot open this terminal page&lt;/span&gt;.  Please use Chrome or Firefox on OSX instead. Windows browsers work fine.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_attach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell.  The black area becomes gray, and you need to re-open this dialog box if you want to enter the command shell again.  You can also close the dialog window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_detach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/en/docs/blackbox/synology/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -560,18 +630,6 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
       
       <guid>/en/features/1faster/</guid>
       <description>&lt;p&gt;Backing up photos is very fast with peer-to-peer connections link directly from your phone to your blackbox. It is especially so when they are in the same local network.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Install 1Album Blackbox</title>
-      <link>/en/steps/step1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/en/steps/step1/</guid>
-      <description>&lt;p&gt;1Album Blackbox is free storage software designed for 1Album.  You can download and install it on Windows, Mac OSX, Linux, NAS devices, or any environment that can run a Docker container.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;./docs/blackbox/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fa fa-external-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; 1Album Blackbox Installation Guide&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

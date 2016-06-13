@@ -316,6 +316,76 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
+      <link>/tw/docs/blackbox/shell/attach.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tw/docs/blackbox/shell/attach.html</guid>
+      <description>
+
+&lt;h1 id=&#34;進入指令介面&#34;&gt;進入指令介面&lt;/h1&gt;
+
+&lt;p&gt;1Album 黑盒子會全自動運作，您不需要進入其指令介面來使用它。指令介面提供一些進階的功能，讓您直接操作黑盒子。底下針對各個作業系統，說明打開黑盒子指令介面的方法。進入指令介面後可使用的指令，請參考&lt;a href=&#34;./docs/blackbox/shell/commands.html&#34;&gt;黑盒子指令&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&#34;mac-osx&#34;&gt;Mac OSX&lt;/h2&gt;
+
+&lt;p&gt;首先要確定黑盒子正在執行中，只有執行中的黑盒子可以進入其指令介面。確認後，點左下角 DOCKER CLI 按鈕。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_open_cli.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;點下去後會開出 OSX 系統的指令視窗，在裡面打 &lt;code&gt;docker attach blackbox&lt;/code&gt; 然後按兩次 &lt;kbd&gt;Enter&lt;/kbd&gt;，看到 &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; 提示符號，就代表進入黑盒子的指令介面了。如果您在 Kitematic 裡安裝多個黑盒子，每個黑盒子會有不同的名稱，而 attach 後面必須輸入您想要操作的黑盒子名稱。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_attach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;要離開指令介面，按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; 再按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;， 就可以離開。Detach 後會回到 OSX 系統的指令視窗。如果覺得麻煩，您也可以不必按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;，直接關掉指令視窗，系統會自動做 detach。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_detach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
+
+&lt;p&gt;首先要確定黑盒子正在執行中，只有執行中的黑盒子可以進入其指令介面。確認後，點左下角 DOCKER CLI 按鈕。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_open_cli.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;點下去後會開出 Windows 系統的指令視窗，在裡面打 &lt;code&gt;docker attach blackbox&lt;/code&gt; 然後按兩次 &lt;kbd&gt;Enter&lt;/kbd&gt;，看到 &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; 提示符號，就代表進入黑盒子的指令介面了。如果您在 Kitematic 裡安裝多個黑盒子，每個黑盒子會有不同的名稱，而 attach 後面必須輸入您想要操作的黑盒子名稱。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_attach.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;要離開指令介面，按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; 再按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;， 就可以離開。Detach 後會回到 Windows 系統的指令視窗。如果覺得麻煩，您也可以不必按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;，直接關掉指令視窗，系統會自動做 detach。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_detach.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
+
+&lt;p&gt;用下面指令進入黑盒子的指令介面。通常要多按一次 &lt;kbd&gt;Enter&lt;/kbd&gt; 鍵才會看到 &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; 提示符號，表進入黑盒子的指令介面。範例中的 &lt;code&gt;mybox&lt;/code&gt; 是先前以 &lt;code&gt;--name&lt;/code&gt; 參數指定的名字：&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/linux_attach.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;要離開指令介面，按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; 再按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;， 就可以離開。Detach 後會回到 Linux 系統的指令視窗。如果覺得麻煩，您也可以不必按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;，直接關掉指令視窗，系統會自動做 detach。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/linux_detach.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;synology-nas&#34;&gt;Synology NAS&lt;/h2&gt;
+
+&lt;p&gt;首先要確定黑盒子的 Docker Container 正在執行中，只有執行中的黑盒子可以進入其指令介面。確認後，點下圖上方 Details 按鈕。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_details.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Details 對話框打開後，點上面切換到 Terminal 頁面，在全黑的地方按 &lt;kbd&gt;Enter&lt;/kbd&gt; 鍵，會看到 &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; 提示符號，代表進入黑盒子的指令介面了。&lt;span class=&#34;text-danger&#34;&gt;注意，目前 Mac OSX 內建的 Safari 瀏覽器，無法打開這個 Terminal 畫面，請改用 Chrome 或 Firefox 瀏覽器&lt;/span&gt;。Windows 的瀏覽器沒問題。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_attach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;要離開指令介面，按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; 再按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;， 就可以離開。Detach 後 Terminal 視窗會變成淺灰色，若想要再次進入指令介面，必須關掉整個對話框再重來一次。如果覺得麻煩，您也可以不必按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;，直接關掉對話框，系統會自動做 detach。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_detach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/tw/docs/blackbox/synology/install.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -562,16 +632,6 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
       <description>&lt;p&gt;1Album 黑盒子是 1Album 專用的免費儲存軟體。您可以下載並將它裝在 Windows、Mac OSX、Linux、NAS 設備、或任何可以執行 Docker 容器的環境中。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;./docs/blackbox/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fa fa-external-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; 1Album 黑盒子安裝指南&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>更快</title>
-      <link>/tw/features/1faster.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tw/features/1faster.html</guid>
-      <description>&lt;p&gt;使用對等連線直接連接您手機與黑盒子，您可以享受他們之間的所有網路頻寬來做傳輸。如果他們處在同一個區域網路中，更是能全速運作。&lt;/p&gt;
 </description>
     </item>
     
