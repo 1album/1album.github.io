@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Steps on 1Album</title>
-    <link>/en/steps/</link>
+    <link>http://1album.net/en/steps/</link>
     <description>Recent content in Steps on 1Album</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/en/steps/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://1album.net/en/steps/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Install 1Album Blackbox</title>
-      <link>/en/steps/step1/</link>
+      <link>http://1album.net/en/steps/step1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/steps/step1/</guid>
+      <guid>http://1album.net/en/steps/step1/</guid>
       <description>&lt;p&gt;1Album Blackbox is free storage software designed for 1Album.  You can download and install it on Windows, Mac OSX, Linux, NAS devices, or any environment that can run a Docker container.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;../docs/blackbox/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fa fa-external-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; 1Album Blackbox Installation Guide&lt;/a&gt;&lt;/p&gt;
@@ -22,10 +22,10 @@
     
     <item>
       <title>Sign in to 1Album app</title>
-      <link>/en/steps/step2/</link>
+      <link>http://1album.net/en/steps/step2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/steps/step2/</guid>
+      <guid>http://1album.net/en/steps/step2/</guid>
       <description>&lt;p&gt;Install 1Album app on your iPhone or iPad and sign in with your Facebook account. Other sign in methods are comming.&lt;/p&gt;
 
 &lt;p&gt;&lt;a&gt;&lt;i class=&#34;fa fa-external-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Download 1Album app&lt;/a&gt; (haven&amp;rsquo;t made public yet)&lt;/p&gt;
@@ -34,20 +34,20 @@
     
     <item>
       <title>Add 1Album Blackbox to your account</title>
-      <link>/en/steps/step3/</link>
+      <link>http://1album.net/en/steps/step3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/steps/step3/</guid>
+      <guid>http://1album.net/en/steps/step3/</guid>
       <description>&lt;p&gt;Add 1Album Blackbox to your account by entering your blackbox&amp;rsquo;s device code in 1Album app.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/en/steps/step4/</link>
+      <link>http://1album.net/en/steps/step4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/steps/step4/</guid>
+      <guid>http://1album.net/en/steps/step4/</guid>
       <description>&lt;p&gt;Now 1Album app will back up photos and videos on your iPhone and iPad to your 1Album Blackbox automatically. You can remove the backed up items from your phone to free up space.&lt;/p&gt;
 
 &lt;p&gt;After removal, you still can view all of the photos and videos with 1Album app.  They are served directly from your blackbox through a peer-to-peer connection.&lt;/p&gt;

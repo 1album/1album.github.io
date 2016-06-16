@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1Album</title>
-    <link>/tw/</link>
+    <link>http://1album.net/tw/</link>
     <description>Recent content on 1Album</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <atom:link href="/tw/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://1album.net/tw/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>/tw/docs/1album/</link>
+      <link>http://1album.net/tw/docs/1album/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/1album/</guid>
+      <guid>http://1album.net/tw/docs/1album/</guid>
       <description>
 
 &lt;h1 id=&#34;1album-簡介&#34;&gt;1Album 簡介&lt;/h1&gt;
@@ -22,14 +22,14 @@
     
     <item>
       <title></title>
-      <link>/tw/docs/</link>
+      <link>http://1album.net/tw/docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/</guid>
+      <guid>http://1album.net/tw/docs/</guid>
       <description>&lt;h1&gt;&lt;a href=&#39;./docs/1album/&#39;&gt;&lt;img src=&#34;./img/1album-logo.png&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
 
 
-&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/tw/img/docs/iphone6.jpg&#39;);&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/tw/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/1album_home.png&#34;&gt;
    &lt;/div&gt;
@@ -87,28 +87,28 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/tw/support/_menu/</link>
+      <link>http://1album.net/tw/support/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/support/_menu/</guid>
+      <guid>http://1album.net/tw/support/_menu/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/tw/docs/1album/_menu/</link>
+      <link>http://1album.net/tw/docs/1album/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/1album/_menu/</guid>
+      <guid>http://1album.net/tw/docs/1album/_menu/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/</link>
+      <link>http://1album.net/tw/docs/blackbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/</guid>
+      <guid>http://1album.net/tw/docs/blackbox/</guid>
       <description>
 
 &lt;h1 id=&#34;img-src-img-1album-blackbox-png&#34;&gt;&lt;img src=&#34;./img/1album-blackbox.png&#34;&gt;&lt;/h1&gt;
@@ -160,52 +160,33 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 +----------------------------+
 &lt;/pre&gt;
 
-&lt;p&gt;把上面 &lt;code&gt;/path/to/data&lt;/code&gt; 換成您想儲存資料的路徑。接著打開 1Albym app -&amp;gt; 設定 -&amp;gt; 1Album 黑盒子，輸入 Device key &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;，把這個黑盒子加入您的帳號。&lt;/p&gt;
+&lt;p&gt;把上面 &lt;code&gt;/path/to/data&lt;/code&gt; 換成您想儲存資料的路徑。接著輸入設備碼 &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt; 到 1Album app：&lt;/p&gt;
 
-&lt;p&gt;這樣就搞定了！您的照片會自動備份到這個黑盒子裡。&lt;/p&gt;
 
-&lt;h3 id=&#34;指令&#34;&gt;指令&lt;/h3&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/tw/img/docs/iphone6.jpg&#39;);&#34;&gt;
+   &lt;div class=&#34;iphone6-screen&#34;&gt;
+       &lt;img src=&#34;./img/docs/add_blackbox_tw.gif&#34;&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;pre&gt;
-$ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
-&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt; help
-Available commands:
-
-   export       export library content to an external folder
-   import       unport library content from an external folder
-   netstat      print network status
-   resolver     print the status of all peers associated with this account
-   start        start blackbox manually
-   status       print system status
-   stop         stop blackbox manually
-   sync         sync this blackbox with primary blackbox
-   unbind       unbind this blackbox from your account
-   version      print version information
-   shutdown     shutdown blackbox and exit the program
-
-&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;使用 &lt;code&gt;docker attach&lt;/code&gt; 指令可以進入黑盒子的指令介面，透過它您可以直接操作黑盒子。儘管如此，1Album 黑盒子是設計成自己全自動運作的，您平常並不需要使用這些指令。&lt;/p&gt;
-
-&lt;p&gt;要離開指令介面，先按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; 再按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; 就可以離開。&lt;/p&gt;
+&lt;p&gt;這樣就搞定了！從此您的照片與影片會自動備份到這個黑盒子裡。&lt;/p&gt;
 
 &lt;div class=&#34;note&#34;&gt;
 &lt;h3&gt;關於黑盒子這個名字&lt;/h3&gt;
 
-&lt;p&gt;說到黑盒子，您可能會立刻想到飛機上的黑盒子，也就是飛行紀錄器。它隨時紀錄飛機的一切，且無論發生什麼事，黑盒子都必須確保資料不會遺失。&lt;/p&gt;
-&lt;p&gt;我們平常拍攝的照片、影片，是珍貴的生活回憶，也希望能永久保存，無論發生什麼事，資料都不會遺失。因此我們取名為黑盒子，希望作為我們的生活紀錄器。&lt;/p&gt;
+&lt;p&gt;說到黑盒子，您可能會立刻想到飛機上的黑盒子，也就是飛行紀錄器。它隨時紀錄飛機的一切，且無論發生什麼事，它的責任就是要確保資料不會遺失。&lt;/p&gt;
+&lt;p&gt;我們平常拍攝的照片、影片，是珍貴的生活回憶，也希望能永久保存，無論發生什麼事，資料都不會遺失。因此我們取名為黑盒子，希望以它作為我們的生活紀錄器。&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/linux/install/</link>
+      <link>http://1album.net/tw/docs/blackbox/linux/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/linux/install/</guid>
+      <guid>http://1album.net/tw/docs/blackbox/linux/install/</guid>
       <description>
 
 &lt;h1 id=&#34;在-linux-上安裝黑盒子&#34;&gt;在 Linux 上安裝黑盒子&lt;/h1&gt;
@@ -277,7 +258,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;打開 1Album app，如下圖所示，將 Device Key 輸入：&lt;/p&gt;
 
 
-&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/tw/img/docs/iphone6.jpg&#39;);&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/tw/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_tw.gif&#34;&gt;
    &lt;/div&gt;
@@ -292,10 +273,10 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/mac/install/</link>
+      <link>http://1album.net/tw/docs/blackbox/mac/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/mac/install/</guid>
+      <guid>http://1album.net/tw/docs/blackbox/mac/install/</guid>
       <description>
 
 &lt;h1 id=&#34;在-osx-上安裝黑盒子&#34;&gt;在 OSX 上安裝黑盒子&lt;/h1&gt;
@@ -361,7 +342,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;打開 1Album app，如下圖所示，將 Device Key 輸入：&lt;/p&gt;
 
 
-&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/tw/img/docs/iphone6.jpg&#39;);&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/tw/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_tw.gif&#34;&gt;
    &lt;/div&gt;
@@ -376,10 +357,10 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/shell/attach/</link>
+      <link>http://1album.net/tw/docs/blackbox/shell/attach/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/shell/attach/</guid>
+      <guid>http://1album.net/tw/docs/blackbox/shell/attach/</guid>
       <description>
 
 &lt;h1 id=&#34;進入指令介面&#34;&gt;進入指令介面&lt;/h1&gt;
@@ -446,10 +427,10 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/synology/install/</link>
+      <link>http://1album.net/tw/docs/blackbox/synology/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/synology/install/</guid>
+      <guid>http://1album.net/tw/docs/blackbox/synology/install/</guid>
       <description>
 
 &lt;h1 id=&#34;在-synology-nas-上安裝黑盒子&#34;&gt;在 Synology NAS 上安裝黑盒子&lt;/h1&gt;
@@ -543,7 +524,7 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;打開 1Album app，如下圖所示，將 Device Key 輸入：&lt;/p&gt;
 
 
-&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/tw/img/docs/iphone6.jpg&#39;);&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/tw/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_tw.gif&#34;&gt;
    &lt;/div&gt;
@@ -558,10 +539,10 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/tw/docs/blackbox/windows/install/</link>
+      <link>http://1album.net/tw/docs/blackbox/windows/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/docs/blackbox/windows/install/</guid>
+      <guid>http://1album.net/tw/docs/blackbox/windows/install/</guid>
       <description>
 
 &lt;h1 id=&#34;在-windows-上安裝黑盒子&#34;&gt;在 Windows 上安裝黑盒子&lt;/h1&gt;
@@ -627,7 +608,7 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;打開 1Album app，如下圖所示，將 Device Key 輸入：&lt;/p&gt;
 
 
-&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/tw/img/docs/iphone6.jpg&#39;);&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/tw/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_tw.gif&#34;&gt;
    &lt;/div&gt;
@@ -642,20 +623,20 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/tw/pains/pain1/</link>
+      <link>http://1album.net/tw/pains/pain1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/pains/pain1/</guid>
+      <guid>http://1album.net/tw/pains/pain1/</guid>
       <description>&lt;p&gt;“我的手機快塞滿了，得把照片清出來。”&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/tw/support/</link>
+      <link>http://1album.net/tw/support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/support/</guid>
+      <guid>http://1album.net/tw/support/</guid>
       <description>
 
 &lt;h1 id=&#34;服務&#34;&gt;服務&lt;/h1&gt;
@@ -664,13 +645,13 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/tw/support/terms/</link>
+      <link>http://1album.net/tw/support/terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/support/terms/</guid>
+      <guid>http://1album.net/tw/support/terms/</guid>
       <description>
 
-&lt;h1 id=&#34;terms-and-conditions&#34;&gt;Terms and Conditions&lt;/h1&gt;
+&lt;h1 id=&#34;服務條款&#34;&gt;服務條款&lt;/h1&gt;
 
 &lt;p&gt;Please read these Terms and Conditions (&amp;ldquo;Terms&amp;rdquo;, &amp;ldquo;Terms and Conditions&amp;rdquo;) carefully before using the &lt;a href=&#34;http://1album.net&#34;&gt;http://1album.net&lt;/a&gt; website, the 1Album mobile application, and the 1Album Blackbox application (the &amp;ldquo;Service&amp;rdquo;) operated by 1 Digital Inc. (&amp;ldquo;us&amp;rdquo;, &amp;ldquo;we&amp;rdquo;, or &amp;ldquo;our&amp;rdquo;).
 Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
@@ -754,19 +735,19 @@ By continuing to access or use our Service after those revisions become effectiv
     
     <item>
       <title>上面這些 1Album 都做到了，而且完全免費。</title>
-      <link>/tw/solution/solution/</link>
+      <link>http://1album.net/tw/solution/solution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/solution/solution/</guid>
+      <guid>http://1album.net/tw/solution/solution/</guid>
       <description></description>
     </item>
     
     <item>
       <title>安裝 1Album 黑盒子</title>
-      <link>/tw/steps/step1/</link>
+      <link>http://1album.net/tw/steps/step1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tw/steps/step1/</guid>
+      <guid>http://1album.net/tw/steps/step1/</guid>
       <description>&lt;p&gt;1Album 黑盒子是 1Album 專用的免費儲存軟體。您可以下載並將它裝在 Windows、Mac OSX、Linux、NAS 設備、或任何可以執行 Docker 容器的環境中。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;./docs/blackbox/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fa fa-external-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; 1Album 黑盒子安裝指南&lt;/a&gt;&lt;/p&gt;

@@ -650,51 +650,32 @@ $ docker logs <span class="syntax-user-input">mybox</span>
 +----------------------------+
 </pre>
 
-<p>把上面 <code>/path/to/data</code> 換成您想儲存資料的路徑。接著打開 1Albym app -&gt; 設定 -&gt; 1Album 黑盒子，輸入 Device key <span class="syntax-notice">12345678</span>，把這個黑盒子加入您的帳號。</p>
+<p>把上面 <code>/path/to/data</code> 換成您想儲存資料的路徑。接著輸入設備碼 <span class="syntax-notice">12345678</span> 到 1Album app：</p>
 
-<p>這樣就搞定了！您的照片會自動備份到這個黑盒子裡。</p>
 
-<h3 id="指令">指令</h3>
+<div class="iphone6" style="background-image: url('http://1album.net/tw/img/docs/iphone6.jpg');">
+   <div class="iphone6-screen">
+       <img src="../../img/docs/add_blackbox_tw.gif">
+   </div>
+</div>
 
-<pre>
-$ docker attach <span class="syntax-user-input">mybox</span>
 
-<span class="syntax-blackbox">blackbox></span> help
-Available commands:
-
-   export       export library content to an external folder
-   import       unport library content from an external folder
-   netstat      print network status
-   resolver     print the status of all peers associated with this account
-   start        start blackbox manually
-   status       print system status
-   stop         stop blackbox manually
-   sync         sync this blackbox with primary blackbox
-   unbind       unbind this blackbox from your account
-   version      print version information
-   shutdown     shutdown blackbox and exit the program
-
-<span class="syntax-blackbox">blackbox></span>
-</pre>
-
-<p>使用 <code>docker attach</code> 指令可以進入黑盒子的指令介面，透過它您可以直接操作黑盒子。儘管如此，1Album 黑盒子是設計成自己全自動運作的，您平常並不需要使用這些指令。</p>
-
-<p>要離開指令介面，先按 <kbd>Ctrl</kbd>-<kbd>P</kbd> 再按 <kbd>Ctrl</kbd>-<kbd>Q</kbd> 就可以離開。</p>
+<p>這樣就搞定了！從此您的照片與影片會自動備份到這個黑盒子裡。</p>
 
 <div class="note">
 <h3>關於黑盒子這個名字</h3>
 
-<p>說到黑盒子，您可能會立刻想到飛機上的黑盒子，也就是飛行紀錄器。它隨時紀錄飛機的一切，且無論發生什麼事，黑盒子都必須確保資料不會遺失。</p>
-<p>我們平常拍攝的照片、影片，是珍貴的生活回憶，也希望能永久保存，無論發生什麼事，資料都不會遺失。因此我們取名為黑盒子，希望作為我們的生活紀錄器。</p>
+<p>說到黑盒子，您可能會立刻想到飛機上的黑盒子，也就是飛行紀錄器。它隨時紀錄飛機的一切，且無論發生什麼事，它的責任就是要確保資料不會遺失。</p>
+<p>我們平常拍攝的照片、影片，是珍貴的生活回憶，也希望能永久保存，無論發生什麼事，資料都不會遺失。因此我們取名為黑盒子，希望以它作為我們的生活紀錄器。</p>
 </div>
 
 
                 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = '1album';
-    var disqus_identifier = '\/tw\/docs\/blackbox\/';
+    var disqus_identifier = 'http:\/\/1album.net\/tw\/docs\/blackbox\/';
     var disqus_title = '';
-    var disqus_url = '\/tw\/docs\/blackbox\/';
+    var disqus_url = 'http:\/\/1album.net\/tw\/docs\/blackbox\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

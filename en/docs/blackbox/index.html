@@ -650,36 +650,17 @@ $ docker logs <span class="syntax-user-input">mybox</span>
 +----------------------------+
 </pre>
 
-<p>Replace <code>/path/to/data</code> with the path you want to store your data.  Open 1Album app, go to settings -&gt; 1Album Blackbox and enter the device key <span class="syntax-notice">12345678</span>. This adds the blackbox to your account.</p>
+<p>Replace <code>/path/to/data</code> with the path you want to store your data. Enter the Device Key <span class="syntax-notice">12345678</span> to 1Album app:</p>
 
-<p>That&rsquo;s it!  Now your photos will be backed up to this blackbox.</p>
 
-<h3 id="commands">Commands</h3>
+<div class="iphone6" style="background-image: url('http://1album.net/en/img/docs/iphone6.jpg');">
+   <div class="iphone6-screen">
+       <img src="../../img/docs/add_blackbox_en.gif">
+   </div>
+</div>
 
-<pre>
-$ docker attach <span class="syntax-user-input">mybox</span>
 
-<span class="syntax-blackbox">blackbox></span> help
-Available commands:
-
-   export       export library content to an external folder
-   import       unport library content from an external folder
-   netstat      print network status
-   resolver     print the status of all peers associated with this account
-   start        start blackbox manually
-   status       print system status
-   stop         stop blackbox manually
-   sync         sync this blackbox with primary blackbox
-   unbind       unbind this blackbox from your account
-   version      print version information
-   shutdown     shutdown blackbox and exit the program
-
-<span class="syntax-blackbox">blackbox></span>
-</pre>
-
-<p>Use <code>docker attach</code> command to enter blackbox command shell.  It gives you direct control to the blackbox.  Nevertheless, 1Album Blackbox is designed to run autonomously so you don&rsquo;t need to use any of them.</p>
-
-<p>Press <kbd>Ctrl</kbd>-<kbd>P</kbd> then <kbd>Ctrl</kbd>-<kbd>Q</kbd> to exit the command shell.</p>
+<p>That&rsquo;s it!  Now your photos and videos will be backed up to this blackbox.</p>
 
 <div class="note">
 <h3>About the name "Blackbox"</h3>
@@ -694,9 +675,9 @@ Available commands:
                 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = '1album';
-    var disqus_identifier = '\/en\/docs\/blackbox\/';
+    var disqus_identifier = 'http:\/\/1album.net\/en\/docs\/blackbox\/';
     var disqus_title = '';
-    var disqus_url = '\/en\/docs\/blackbox\/';
+    var disqus_url = 'http:\/\/1album.net\/en\/docs\/blackbox\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

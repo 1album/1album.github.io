@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Third-Party Software in 1Album">
+<meta name="author" content="1 Digital Inc.">
+
+    <title></title>
+
+    
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="../../css/site.css" rel="stylesheet">
+    <link href="../../css/site-en-US.css" rel="stylesheet">
+    <link href="../../css/docs.css" rel="stylesheet">
+
+    
+    <link href="../../font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    
+    
+    
+
+    
+
+<link rel="apple-touch-icon" sizes="57x57" href="../../apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../../apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../../apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../../apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../../apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../../apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../../apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../../apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="../../favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="../../android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="../../favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="../../favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="../../manifest.json">
+<link rel="mask-icon" href="../../safari-pinned-tab.svg" color="#ffffff">
+<meta name="apple-mobile-web-app-title" content="1Album Web">
+<meta name="application-name" content="1Album Web">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+</head>
+<body><div id="wrap"><div id="main">
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="page-scroll navbar-brand" href="../../"><img src="../../img/1album-logo.png" width="128" style="display: inline"></a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="top-navbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="../../#home">Home</a>
+                </li>
+                <li>
+                    <a href="../../#steps">How does it work</a>
+                </li>
+                <li>
+                    <a href="../../#features">Features</a>
+                </li>
+                <li>
+                    <a href="../../docs">Users Guide</a>
+                </li>
+                <li class="active">
+                    <a class="page-scroll" href="../../support">Support</a>
+                </li>
+                
+                
+                    
+                
+                
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Language <span class="caret"></span></a>
+<ul class="dropdown-menu">
+    <li><a href="//1album.net/en">English</a></li>
+    <li><a href="//1album.net/tw" style="font-family: 'Helvetica Neue'">中文</a></li>
+</ul>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    
+</nav>
+
+
+<section id="document">
+
+    
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-print">
+                
+
+<nav class="container-fluid">
+<div class="row">
+
+    
+    
+    
+    
+    <div class="col-xs-6">
+        <ul class="nav navbar-nav secondary">
+
+            <li class="dropdown">
+                <a href="#" class='menu-tree active' data-toggle="dropdown">Support <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    
+
+
+                        
+                            <li><a class='menu-leaf ' href="../../support/terms/">Terms of Service</a></li>
+                        
+
+
+                    
+
+
+                        
+                            <li><a class='menu-leaf ' href="../../support/privacy/">Privacy Policy</a></li>
+                        
+
+
+                    
+
+
+                        
+                            <li><a class='menu-leaf active' href="../../support/foss/">Third-Party Software</a></li>
+                        
+
+
+                    
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+</div>
+</nav>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="hidden-xs col-sm-3">
+                
+
+
+<nav class="sidebar affix" data-spy="affix" data-offset-bottom="160">
+
+    
+    
+    
+    
+    <div class="menu">
+
+        <h4>Support</h4>
+        <div class="menu-body">
+            
+
+
+                
+                    
+                    <div class='menu-leaf '><a href="../../support/terms/">Terms of Service</a></div>
+                    
+                
+
+
+            
+
+
+                
+                    
+                    <div class='menu-leaf '><a href="../../support/privacy/">Privacy Policy</a></div>
+                    
+                
+
+
+            
+
+
+                
+                    
+                    <div class='menu-leaf active'><a href="../../support/foss/">Third-Party Software</a></div>
+                    
+                        <div id="anchors-bar">
+                            <div class="nav m1" id="anchors"></div>
+                        </div>
+                    
+                
+
+
+            
+        </div>
+    </div>
+    
+</nav>
+
+
+            </div>
+
+            <div class="col-xs-12 col-sm-9 doc-frame">
+                
+
+<style>a { overflow-wrap: break-word; word-wrap: break-word; } </style>
+
+<h1 id="third-party-software-in-1album">Third-Party Software in 1Album</h1>
+
+<p>1 Digital Inc. (&ldquo;us&rdquo;, &ldquo;we&rdquo;, or &ldquo;our&rdquo;) includes computer software supplied by third-parties, including (but not limited to) those set forth below (the “Third-Party Software”), with the 1Album mobile application and the 1Album Blackbox application (&ldquo;1Album Software&rdquo;). We are providing the Third-Party Software to you by permission of the respective licensors and/or copyright holders on the terms provided by such parties, including those terms required to be provided to you that are set forth below, and subject also to the End User License Agreement applicable to the 1Album Software. Without limiting the terms in the End User License Agreement, we expressly disclaims any warranty or other assurance to you regarding the Third-Party Software. The following terms relate only to the Third-Party Software identified below and not to the 1Album Software.</p>
+
+<h4 id="boost-c-libraries-boost">Boost C++ Libraries - boost</h4>
+
+<p><a href="http://boost.org/">http://boost.org/</a></p>
+
+<p>Boost Software License - Version 1.0 - August 17th, 2003</p>
+
+<p>Permission is hereby granted, free of charge, to any person or organization obtaining a copy of the software and accompanying documentation covered by this license (the &ldquo;Software&rdquo;) to use, reproduce, display, distribute, execute, and transmit the Software, and to prepare derivative works of the Software, and to permit third-parties to whom the Software is furnished to do so, all subject to the following:</p>
+
+<p>The copyright notices in the Software and this entire statement, including the above license grant, this restriction and the following disclaimer, must be included in all copies of the Software, in whole or in part, and all derivative works of the Software, unless such copies or derivative works are solely in the form of machine-executable object code generated by a source language processor.</p>
+
+<p>THE SOFTWARE IS PROVIDED &ldquo;AS IS&rdquo;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+<h4 id="json-for-modern-c">JSON for Modern C++</h4>
+
+<p><a href="https://github.com/nlohmann/json">https://github.com/nlohmann/json</a>
+Licensed under the MIT license</p>
+
+<p>Copyright © 2013-2016 <a href="http://nlohmann.me/">Niels Lohmann</a></p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &ldquo;Software&rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED &ldquo;AS IS&rdquo;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+<h4 id="opencv">OpenCV</h4>
+
+<p><a href="http://opencv.org/">http://opencv.org/</a></p>
+
+<p>License Agreement For Open Source Computer Vision Library (3-clause BSD License)</p>
+
+<p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
+
+<ul>
+<li><p>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</p></li>
+
+<li><p>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</p></li>
+
+<li><p>Neither the names of the copyright holders nor the names of the contributors may be used to endorse or promote products derived from this software without specific prior written permission.</p></li>
+</ul>
+
+<p>This software is provided by the copyright holders and contributors “as is” and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall copyright holders or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.</p>
+
+<h4 id="openssl">OpenSSL</h4>
+
+<p><a href="http://www.openssl.org/">http://www.openssl.org/</a></p>
+
+<p>Copyright &copy; 1998-2016 The OpenSSL Project.  All rights reserved.</p>
+
+<p>Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:</p>
+
+<ol>
+<li><p>Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.</p></li>
+
+<li><p>Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in
+the documentation and/or other materials provided with the
+distribution.</p></li>
+
+<li><p>All advertising materials mentioning features or use of this
+software must display the following acknowledgment:
+&ldquo;This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit. (<a href="http://www.openssl.org/)&quot;">http://www.openssl.org/)&quot;</a></p></li>
+
+<li><p>The names &ldquo;OpenSSL Toolkit&rdquo; and &ldquo;OpenSSL Project&rdquo; must not be used to
+endorse or promote products derived from this software without
+prior written permission. For written permission, please contact
+openssl-core@openssl.org.</p></li>
+
+<li><p>Products derived from this software may not be called &ldquo;OpenSSL&rdquo;
+nor may &ldquo;OpenSSL&rdquo; appear in their names without prior written
+permission of the OpenSSL Project.</p></li>
+
+<li><p>Redistributions of any form whatsoever must retain the following
+acknowledgment:
+&ldquo;This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (<a href="http://www.openssl.org/)&quot;">http://www.openssl.org/)&quot;</a></p></li>
+</ol>
+
+<p>THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS&rdquo; AND ANY
+ EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR
+ ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+
+<h4 id="protocol-buffers">Protocol Buffers</h4>
+
+<p><a href="https://github.com/google/protobuf">https://github.com/google/protobuf</a></p>
+
+<p>Copyright 2014, Google Inc.  All rights reserved.</p>
+
+<p>Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:</p>
+
+<ul>
+<li><p>Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.</p></li>
+
+<li><p>Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.</p></li>
+
+<li><p>Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.</p></li>
+</ul>
+
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+&ldquo;AS IS&rdquo; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+
+<p>Code generated by the Protocol Buffer compiler is owned by the owner
+of the input file used when generating it.  This code is not
+standalone and requires a support library to be linked with it.  This
+support library is itself covered by the above license.</p>
+
+<h4 id="socket-io-c-client">Socket.IO C++ Client</h4>
+
+<p><a href="https://github.com/socketio/socket.io-client-cpp">https://github.com/socketio/socket.io-client-cpp</a>
+Licensed under the MIT license</p>
+
+<p>Copyright &copy; 2015, Melo Yao. All rights reserved.</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &ldquo;Software&rdquo;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to all conditions.</p>
+
+<p>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED &ldquo;AS IS&rdquo;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</p>
+
+<h4 id="spdlog">spdlog</h4>
+
+<p><a href="https://github.com/gabime/spdlog/">https://github.com/gabime/spdlog/</a>
+Licensed under the MIT license</p>
+
+<p>Copyright &copy; 2016 Gabi Melman.</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &ldquo;Software&rdquo;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED &ldquo;AS IS&rdquo;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</p>
+
+<h4 id="sqlite3">sqlite3</h4>
+
+<p><a href="http://www.sqlite.org/index.html">http://www.sqlite.org/index.html</a></p>
+
+<p>All of the code and documentation in SQLite has been dedicated to the public domain  by the authors. All code authors, and representatives of the companies they work for, have signed affidavits dedicating their contributions to the public domain and originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci . Anyone is free to copy, modify, publish, use, compile, sell, or distribute the original SQLite code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.</p>
+
+<p>The previous paragraph applies to the deliverable code and documentation in SQLite - those parts of the SQLite library that you actually bundle and ship with a larger application. Some scripts used as part of the build process (for example the &ldquo;configure&rdquo; scripts generated by autoconf) might fall under other open-source licenses. Nothing from these build scripts ever reaches the final deliverable SQLite library, however, and so the licenses associated with those scripts should not be a factor in assessing your rights to copy and use the SQLite library.</p>
+
+<p>All of the deliverable code in SQLite has been written from scratch. No code has been taken from other projects or from the open internet. Every line of code can be traced back to its original author, and all of those authors have public domain dedications on file. So the SQLite code base is clean and is uncontaminated with licensed code from other projects.</p>
+
+<h4 id="sqlite3pp">sqlite3pp</h4>
+
+<p><a href="https://github.com/iwongu/sqlite3pp/">https://github.com/iwongu/sqlite3pp/</a>
+Licensed under the MIT license</p>
+
+<p>Copyright &copy; 2015 Wongoo Lee (iwongu at gmail dot com)</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &ldquo;Software&rdquo;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED &ldquo;AS IS&rdquo;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</p>
+
+<h4 id="webrtc-software-license">WebRTC Software License</h4>
+
+<p><a href="https://webrtc.org">https://webrtc.org</a></p>
+
+<p>Copyright &copy; 2011, The WebRTC project authors. All rights reserved.</p>
+
+<p>Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:</p>
+
+<ul>
+<li><p>Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.</p></li>
+
+<li><p>Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in
+the documentation and/or other materials provided with the
+distribution.</p></li>
+
+<li><p>Neither the name of Google nor the names of its contributors may
+be used to endorse or promote products derived from this software
+without specific prior written permission.</p></li>
+</ul>
+
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+&ldquo;AS IS&rdquo; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+
+<h4 id="websocket">WebSocket++</h4>
+
+<p><a href="https://github.com/zaphoyd/websocketpp">https://github.com/zaphoyd/websocketpp</a></p>
+
+<p>Copyright &copy; 2014, Peter Thorson. All rights reserved.</p>
+
+<p>Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:</p>
+
+<ul>
+<li><p>Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.</p></li>
+
+<li><p>Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.</p></li>
+
+<li><p>Neither the name of the WebSocket++ Project nor the
+names of its contributors may be used to endorse or promote products
+derived from this software without specific prior written permission.</p></li>
+</ul>
+
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &ldquo;AS IS&rdquo;
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL PETER THORSON BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+
+<!-- Cocoapods -->
+
+<h4 id="facebook-ios-sdk">Facebook iOS SDK</h4>
+
+<p><a href="https://developers.facebook.com/docs/ios/">https://developers.facebook.com/docs/ios/</a></p>
+
+<p>Copyright &copy; 2014-present, Facebook, Inc. All rights reserved.</p>
+
+<p>You are hereby granted a non-exclusive, worldwide, royalty-free license to use,
+copy, modify, and distribute this software in source code or binary form for use
+in connection with the web services and APIs provided by Facebook.</p>
+
+<p>As with any software that integrates with the Facebook platform, your use of
+this software is subject to the Facebook Developer Principles and Policies
+[<a href="http://developers.facebook.com/policy/">http://developers.facebook.com/policy/</a>]. This copyright notice shall be
+included in all copies or substantial portions of the software.</p>
+
+<p>THE SOFTWARE IS PROVIDED &ldquo;AS IS&rdquo;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+<h4 id="datetools">DateTools</h4>
+
+<p><a href="https://github.com/MatthewYork/DateTools">https://github.com/MatthewYork/DateTools</a></p>
+
+<p>Copyright &copy; 2014 Matthew York.
+Licensed under the MIT license (<a href="http://www.opensource.org/licenses/mit-license.php">http://www.opensource.org/licenses/mit-license.php</a>).</p>
+
+<h4 id="fontawesomekit">FontAwesomeKit</h4>
+
+<p><a href="https://github.com/PrideChung/FontAwesomeKit">https://github.com/PrideChung/FontAwesomeKit</a></p>
+
+<p>Licensed under the MIT license (<a href="http://www.opensource.org/licenses/mit-license.php">http://www.opensource.org/licenses/mit-license.php</a>).</p>
+
+<h4 id="mbprogresshud">MBProgressHUD</h4>
+
+<p><a href="https://github.com/jdg/MBProgressHUD">https://github.com/jdg/MBProgressHUD</a></p>
+
+<p>Licensed under the MIT license (<a href="http://www.opensource.org/licenses/mit-license.php">http://www.opensource.org/licenses/mit-license.php</a>).</p>
+
+<h4 id="mgswipetablecell">MGSwipeTableCell</h4>
+
+<p><a href="https://github.com/MortimerGoro/MGSwipeTableCell">https://github.com/MortimerGoro/MGSwipeTableCell</a></p>
+
+<p>Copyright &copy; 2014 Imanol Fernandez @MortimerGoro
+Licensed under the MIT license (<a href="http://www.opensource.org/licenses/mit-license.php">http://www.opensource.org/licenses/mit-license.php</a>).</p>
+
+<h4 id="mrprogress">MRProgress</h4>
+
+<p><a href="https://github.com/mrackwitz/MRProgress">https://github.com/mrackwitz/MRProgress</a></p>
+
+<p>Copyright &copy; 2013 Marius Rackwitz git@mariusrackwitz.de.
+Licensed under the MIT license (<a href="http://www.opensource.org/licenses/mit-license.php">http://www.opensource.org/licenses/mit-license.php</a>).</p>
+
+<h4 id="uiimageviewmodescaleaspect">UIImageViewModeScaleAspect</h4>
+
+<p><a href="https://github.com/VivienCormier/UIImageViewModeScaleAspect">https://github.com/VivienCormier/UIImageViewModeScaleAspect</a></p>
+
+<p>Copyright &copy; 2013 Vivien Cormier (<a href="http://www.viviencormier.fr/">http://www.viviencormier.fr/</a>).</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &ldquo;Software&rdquo;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED &ldquo;AS IS&rdquo;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</p>
+
+<!--
+    Output from GoogleMap SDK: GMSServices.openSourceLicenseInfo()
+-->
+
+<h4 id="google-toolbox-for-mac">Google Toolbox For Mac:</h4>
+
+<p>Copyright © 2006-2013 Google Inc.
+Licensed under the Apache License, Version 2.0 (<a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a>).
+Google Toolbox For Mac (<a href="https://code.google.com/p/google-toolbox-for-mac">https://code.google.com/p/google-toolbox-for-mac</a>)</p>
+
+<h4 id="iglu">iGLU:</h4>
+
+<p>iGLU (<a href="https://code.google.com/p/iphone-glu/">https://code.google.com/p/iphone-glu/</a>) is an implementation of the OpenGL Utility Library (GLU) (<a href="http://www.opengl.org/documentation/specs/">http://www.opengl.org/documentation/specs/</a>) for iPhone OS (<a href="http://developer.apple.com/iphone/">http://developer.apple.com/iphone/</a>). iGLU is based on the GLU source included with Mesa 7.2 (<a href="http://mesa3d.sourceforge.net/">http://mesa3d.sourceforge.net/</a>), which in turn derives from the SGI OpenGL Sample Implementation (<a href="http://oss.sgi.com/projects/ogl-sample/">http://oss.sgi.com/projects/ogl-sample/</a>). All code derived from SGI&rsquo;s source is licensed under the SGI Free Software License B version 2.0 (<a href="http://oss.sgi.com/projects/FreeB/">http://oss.sgi.com/projects/FreeB/</a>). All other code is licensed under the MIT license (<a href="http://www.opensource.org/licenses/mit-license.php">http://www.opensource.org/licenses/mit-license.php</a>).</p>
+
+<h4 id="nimbus">Nimbus:</h4>
+
+<p>Copyright © 2011-2012 Jeff Verkoeyen
+Licensed under the Apache License, Version 2.0 (<a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a>).
+NimbusKit.info (<a href="http://NimbusKit.info">http://NimbusKit.info</a>) - List of contributors (<a href="https://github.com/jverkoey/nimbus/graphs/contributors">https://github.com/jverkoey/nimbus/graphs/contributors</a>)</p>
+
+<h4 id="material-components-for-ios">Material Components for iOS:</h4>
+
+<p>Copyright © 2015-2016 Google, Inc.
+Licensed under the Apache license, Version 2.0 (<a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a>).</p>
+
+<h4 id="objective-c-protocol-buffers">Objective C Protocol Buffers:</h4>
+
+<p>Copyright © 2008 Cyrus Najmabadi.
+Copyright © 2010 Booyah Inc.
+Copyright © 2011-2013 Google Inc.
+Licensed under the Apache License, Version 2.0 (<a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a>).
+Objective C Protocol Buffers (<a href="https://code.google.com/p/metasyntactic/wiki/ProtocolBuffers">https://code.google.com/p/metasyntactic/wiki/ProtocolBuffers</a>)</p>
+
+<h4 id="zlib">zlib:</h4>
+
+<p>Copyright © 1995-2013 Jean-loup Gailly and Mark Adler
+Licensed under the zlib license (<a href="http://zlib.net/zlib_license.html">http://zlib.net/zlib_license.html</a>).
+zlib (<a href="http://zlib.net/">http://zlib.net/</a>)</p>
+
+<h4 id="jquery-easing">JQuery Easing:</h4>
+
+<p>Copyright © 2008 George McGinley Smith.
+Copyright © 2001 Robert Penner All rights reserved.
+Licensed under the BSD license (<a href="http://www.robertpenner.com/easing_terms_of_use.html">http://www.robertpenner.com/easing_terms_of_use.html</a>).
+jQuery Easing Plugin (<a href="http://gsgd.co.uk/sandbox/jquery/easing/">http://gsgd.co.uk/sandbox/jquery/easing/</a>)
+Robert Penner&rsquo;s Easing Functions (<a href="http://www.robertpenner.com/easing/">http://www.robertpenner.com/easing/</a>)</p>
+
+<h4 id="font-siemreap">font &lsquo;Siemreap&rsquo;:</h4>
+
+<p>Copyright © 2010 Danh Hong (khmertype.blogspot.com).
+Licensed under the SIL Open Font License, Version 1.1 (<a href="http://scripts.sil.org/OFL">http://scripts.sil.org/OFL</a>).</p>
+
+<h4 id="font-tharlon-regular">font &lsquo;Tharlon-Regular&rsquo;:</h4>
+
+<p>Copyright © 2012, Sun Tun, Ngwe Tun, Solveware Solution (<a href="http://code.google.com/p/tharlon-font">http://code.google.com/p/tharlon-font</a>).
+Based on the font &lsquo;Yunghkio&rsquo; : Copyright © 2010-2012, Sai Zin Di Di Zone (<a href="http://www.yunghkio.com/unicode">http://www.yunghkio.com/unicode</a>)
+and the font &lsquo;Arimo&rsquo;: Copyright © 2012, Google, Inc (<a href="http://code.google.com/p/googlefontdirectory/">http://code.google.com/p/googlefontdirectory/</a>)
+Licensed under the SIL Open Font License, Version 1.1 (<a href="http://scripts.sil.org/OFL">http://scripts.sil.org/OFL</a>).</p>
+
+<!-- fonts used by FontAwesomeKit -->
+
+<h4 id="font-font-awesome">font &lsquo;Font Awesome&rsquo;</h4>
+
+<p><a href="http://fontawesome.io">http://fontawesome.io</a></p>
+
+<p>Licensed under the SIL Open Font License, Version 1.1 (<a href="http://scripts.sil.org/OFL">http://scripts.sil.org/OFL</a>).</p>
+
+<h4 id="icons-icons8">icons &lsquo;Icons8&rsquo;</h4>
+
+<p><a href="https://icons8.com">https://icons8.com</a></p>
+
+<p>Licensed under Creative Commons Attribution-NoDerivs 3.0 Unported, Version 3.0 (<a href="https://creativecommons.org/licenses/by-nd/3.0/">https://creativecommons.org/licenses/by-nd/3.0/</a>).</p>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+</div></div>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <ul class="list-inline">
+                    <li>
+                        <a class="page-scroll" href="../../">Home</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a href="../../docs">Users Guide</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a href="../../support">Support</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a href="mailto:service@1album.net">Contact <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                    </li>
+                    
+                    
+                        
+                    
+                </ul>
+                <p class="copyright text-muted small">Copyright © 1 Digital Inc. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="../../js/jquery-1.11.0.js"></script>
+
+
+<script src="../../js/jquery.easing.min.js"></script>
+
+
+<script src="../../js/bootstrap.min.js"></script>
+
+
+<script src="../../js/site.js"></script>
+<script src="../../js/docs.js"></script>
+
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-73238468-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</body>
+</html>

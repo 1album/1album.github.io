@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on 1Album</title>
-    <link>/en/docs/</link>
+    <link>http://1album.net/en/docs/</link>
     <description>Recent content in Docs on 1Album</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/en/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://1album.net/en/docs/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>/en/docs/1album/</link>
+      <link>http://1album.net/en/docs/1album/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/1album/</guid>
+      <guid>http://1album.net/en/docs/1album/</guid>
       <description>
 
 &lt;h1 id=&#34;1album-overview&#34;&gt;1Album Overview&lt;/h1&gt;
@@ -22,14 +22,14 @@
     
     <item>
       <title></title>
-      <link>/en/docs/</link>
+      <link>http://1album.net/en/docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/</guid>
+      <guid>http://1album.net/en/docs/</guid>
       <description>&lt;h1&gt;&lt;a href=&#39;../docs/1album/&#39;&gt;&lt;img src=&#34;../img/1album-logo.png&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
 
 
-&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;../img/docs/1album_home.png&#34;&gt;
    &lt;/div&gt;
@@ -87,19 +87,19 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/en/docs/1album/_menu/</link>
+      <link>http://1album.net/en/docs/1album/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/1album/_menu/</guid>
+      <guid>http://1album.net/en/docs/1album/_menu/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/</link>
+      <link>http://1album.net/en/docs/blackbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/</guid>
+      <guid>http://1album.net/en/docs/blackbox/</guid>
       <description>
 
 &lt;h1 id=&#34;img-src-img-1album-blackbox-png&#34;&gt;&lt;img src=&#34;../img/1album-blackbox.png&#34;&gt;&lt;/h1&gt;
@@ -151,36 +151,17 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 +----------------------------+
 &lt;/pre&gt;
 
-&lt;p&gt;Replace &lt;code&gt;/path/to/data&lt;/code&gt; with the path you want to store your data.  Open 1Album app, go to settings -&amp;gt; 1Album Blackbox and enter the device key &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;. This adds the blackbox to your account.&lt;/p&gt;
+&lt;p&gt;Replace &lt;code&gt;/path/to/data&lt;/code&gt; with the path you want to store your data. Enter the Device Key &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt; to 1Album app:&lt;/p&gt;
 
-&lt;p&gt;That&amp;rsquo;s it!  Now your photos will be backed up to this blackbox.&lt;/p&gt;
 
-&lt;h3 id=&#34;commands&#34;&gt;Commands&lt;/h3&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
+   &lt;div class=&#34;iphone6-screen&#34;&gt;
+       &lt;img src=&#34;../img/docs/add_blackbox_en.gif&#34;&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;pre&gt;
-$ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
-&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt; help
-Available commands:
-
-   export       export library content to an external folder
-   import       unport library content from an external folder
-   netstat      print network status
-   resolver     print the status of all peers associated with this account
-   start        start blackbox manually
-   status       print system status
-   stop         stop blackbox manually
-   sync         sync this blackbox with primary blackbox
-   unbind       unbind this blackbox from your account
-   version      print version information
-   shutdown     shutdown blackbox and exit the program
-
-&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;Use &lt;code&gt;docker attach&lt;/code&gt; command to enter blackbox command shell.  It gives you direct control to the blackbox.  Nevertheless, 1Album Blackbox is designed to run autonomously so you don&amp;rsquo;t need to use any of them.&lt;/p&gt;
-
-&lt;p&gt;Press &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to exit the command shell.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it!  Now your photos and videos will be backed up to this blackbox.&lt;/p&gt;
 
 &lt;div class=&#34;note&#34;&gt;
 &lt;h3&gt;About the name &#34;Blackbox&#34;&lt;/h3&gt;
@@ -195,10 +176,10 @@ Available commands:
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/linux/install/</link>
+      <link>http://1album.net/en/docs/blackbox/linux/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/linux/install/</guid>
+      <guid>http://1album.net/en/docs/blackbox/linux/install/</guid>
       <description>
 
 &lt;h1 id=&#34;install-blackbox-on-linux&#34;&gt;Install Blackbox On Linux&lt;/h1&gt;
@@ -270,7 +251,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;Then open 1Album app and enter the &lt;code&gt;Device Key&lt;/code&gt; as below:&lt;/p&gt;
 
 
-&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;../img/docs/add_blackbox_en.gif&#34;&gt;
    &lt;/div&gt;
@@ -285,10 +266,10 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/mac/install/</link>
+      <link>http://1album.net/en/docs/blackbox/mac/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/mac/install/</guid>
+      <guid>http://1album.net/en/docs/blackbox/mac/install/</guid>
       <description>
 
 &lt;h1 id=&#34;install-blackbox-on-mac-osx&#34;&gt;Install Blackbox On Mac OSX&lt;/h1&gt;
@@ -354,7 +335,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;Then open 1Album app and enter the &lt;code&gt;Device Key&lt;/code&gt; as below:&lt;/p&gt;
 
 
-&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;../img/docs/add_blackbox_en.gif&#34;&gt;
    &lt;/div&gt;
@@ -369,10 +350,10 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/shell/attach/</link>
+      <link>http://1album.net/en/docs/blackbox/shell/attach/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/shell/attach/</guid>
+      <guid>http://1album.net/en/docs/blackbox/shell/attach/</guid>
       <description>
 
 &lt;h1 id=&#34;enter-blackbox-shell&#34;&gt;Enter Blackbox Shell&lt;/h1&gt;
@@ -439,10 +420,10 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/synology/install/</link>
+      <link>http://1album.net/en/docs/blackbox/synology/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/synology/install/</guid>
+      <guid>http://1album.net/en/docs/blackbox/synology/install/</guid>
       <description>
 
 &lt;h1 id=&#34;install-blackbox-on-synology-nas&#34;&gt;Install Blackbox On Synology NAS&lt;/h1&gt;
@@ -536,7 +517,7 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;Then open 1Album app and enter the &lt;code&gt;Device Key&lt;/code&gt; as below:&lt;/p&gt;
 
 
-&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;../img/docs/add_blackbox_en.gif&#34;&gt;
    &lt;/div&gt;
@@ -551,10 +532,10 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/windows/install/</link>
+      <link>http://1album.net/en/docs/blackbox/windows/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/windows/install/</guid>
+      <guid>http://1album.net/en/docs/blackbox/windows/install/</guid>
       <description>
 
 &lt;h1 id=&#34;install-blackbox-on-windows&#34;&gt;Install Blackbox On Windows&lt;/h1&gt;
@@ -620,7 +601,7 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;Then open 1Album app and enter the &lt;code&gt;Device Key&lt;/code&gt; as below:&lt;/p&gt;
 
 
-&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;../img/docs/add_blackbox_en.gif&#34;&gt;
    &lt;/div&gt;
@@ -635,19 +616,19 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/_menu/</link>
+      <link>http://1album.net/en/docs/blackbox/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/_menu/</guid>
+      <guid>http://1album.net/en/docs/blackbox/_menu/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/linux/startstop/</link>
+      <link>http://1album.net/en/docs/blackbox/linux/startstop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/linux/startstop/</guid>
+      <guid>http://1album.net/en/docs/blackbox/linux/startstop/</guid>
       <description>
 
 &lt;h1 id=&#34;start-and-stop&#34;&gt;Start and Stop&lt;/h1&gt;
@@ -677,19 +658,19 @@ $ docker start &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/mac/</link>
+      <link>http://1album.net/en/docs/blackbox/mac/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/mac/</guid>
+      <guid>http://1album.net/en/docs/blackbox/mac/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/mac/startstop/</link>
+      <link>http://1album.net/en/docs/blackbox/mac/startstop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/mac/startstop/</guid>
+      <guid>http://1album.net/en/docs/blackbox/mac/startstop/</guid>
       <description>
 
 &lt;h1 id=&#34;start-and-stop&#34;&gt;Start and Stop&lt;/h1&gt;
@@ -710,10 +691,10 @@ $ docker start &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/shell/commands/</link>
+      <link>http://1album.net/en/docs/blackbox/shell/commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/shell/commands/</guid>
+      <guid>http://1album.net/en/docs/blackbox/shell/commands/</guid>
       <description>
 
 &lt;h1 id=&#34;blackbox-commands&#34;&gt;Blackbox Commands&lt;/h1&gt;
@@ -741,10 +722,10 @@ Available commands:
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/synology/startstop/</link>
+      <link>http://1album.net/en/docs/blackbox/synology/startstop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/synology/startstop/</guid>
+      <guid>http://1album.net/en/docs/blackbox/synology/startstop/</guid>
       <description>
 
 &lt;h1 id=&#34;start-and-stop&#34;&gt;Start and Stop&lt;/h1&gt;

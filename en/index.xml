@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1Album</title>
-    <link>/en/</link>
+    <link>http://1album.net/en/</link>
     <description>Recent content on 1Album</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://1album.net/en/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>/en/docs/1album/</link>
+      <link>http://1album.net/en/docs/1album/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/1album/</guid>
+      <guid>http://1album.net/en/docs/1album/</guid>
       <description>
 
 &lt;h1 id=&#34;1album-overview&#34;&gt;1Album Overview&lt;/h1&gt;
@@ -22,14 +22,14 @@
     
     <item>
       <title></title>
-      <link>/en/docs/</link>
+      <link>http://1album.net/en/docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/</guid>
+      <guid>http://1album.net/en/docs/</guid>
       <description>&lt;h1&gt;&lt;a href=&#39;./docs/1album/&#39;&gt;&lt;img src=&#34;./img/1album-logo.png&#34;&gt;&lt;/a&gt;&lt;/h1&gt;
 
 
-&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/1album_home.png&#34;&gt;
    &lt;/div&gt;
@@ -87,28 +87,28 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/en/support/_menu/</link>
+      <link>http://1album.net/en/support/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/support/_menu/</guid>
+      <guid>http://1album.net/en/support/_menu/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/en/docs/1album/_menu/</link>
+      <link>http://1album.net/en/docs/1album/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/1album/_menu/</guid>
+      <guid>http://1album.net/en/docs/1album/_menu/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/</link>
+      <link>http://1album.net/en/docs/blackbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/</guid>
+      <guid>http://1album.net/en/docs/blackbox/</guid>
       <description>
 
 &lt;h1 id=&#34;img-src-img-1album-blackbox-png&#34;&gt;&lt;img src=&#34;./img/1album-blackbox.png&#34;&gt;&lt;/h1&gt;
@@ -160,36 +160,17 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 +----------------------------+
 &lt;/pre&gt;
 
-&lt;p&gt;Replace &lt;code&gt;/path/to/data&lt;/code&gt; with the path you want to store your data.  Open 1Album app, go to settings -&amp;gt; 1Album Blackbox and enter the device key &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt;. This adds the blackbox to your account.&lt;/p&gt;
+&lt;p&gt;Replace &lt;code&gt;/path/to/data&lt;/code&gt; with the path you want to store your data. Enter the Device Key &lt;span class=&#34;syntax-notice&#34;&gt;12345678&lt;/span&gt; to 1Album app:&lt;/p&gt;
 
-&lt;p&gt;That&amp;rsquo;s it!  Now your photos will be backed up to this blackbox.&lt;/p&gt;
 
-&lt;h3 id=&#34;commands&#34;&gt;Commands&lt;/h3&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
+   &lt;div class=&#34;iphone6-screen&#34;&gt;
+       &lt;img src=&#34;./img/docs/add_blackbox_en.gif&#34;&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;pre&gt;
-$ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
-&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt; help
-Available commands:
-
-   export       export library content to an external folder
-   import       unport library content from an external folder
-   netstat      print network status
-   resolver     print the status of all peers associated with this account
-   start        start blackbox manually
-   status       print system status
-   stop         stop blackbox manually
-   sync         sync this blackbox with primary blackbox
-   unbind       unbind this blackbox from your account
-   version      print version information
-   shutdown     shutdown blackbox and exit the program
-
-&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;Use &lt;code&gt;docker attach&lt;/code&gt; command to enter blackbox command shell.  It gives you direct control to the blackbox.  Nevertheless, 1Album Blackbox is designed to run autonomously so you don&amp;rsquo;t need to use any of them.&lt;/p&gt;
-
-&lt;p&gt;Press &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to exit the command shell.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it!  Now your photos and videos will be backed up to this blackbox.&lt;/p&gt;
 
 &lt;div class=&#34;note&#34;&gt;
 &lt;h3&gt;About the name &#34;Blackbox&#34;&lt;/h3&gt;
@@ -204,10 +185,10 @@ Available commands:
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/linux/install/</link>
+      <link>http://1album.net/en/docs/blackbox/linux/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/linux/install/</guid>
+      <guid>http://1album.net/en/docs/blackbox/linux/install/</guid>
       <description>
 
 &lt;h1 id=&#34;install-blackbox-on-linux&#34;&gt;Install Blackbox On Linux&lt;/h1&gt;
@@ -279,7 +260,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;Then open 1Album app and enter the &lt;code&gt;Device Key&lt;/code&gt; as below:&lt;/p&gt;
 
 
-&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_en.gif&#34;&gt;
    &lt;/div&gt;
@@ -294,10 +275,10 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/mac/install/</link>
+      <link>http://1album.net/en/docs/blackbox/mac/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/mac/install/</guid>
+      <guid>http://1album.net/en/docs/blackbox/mac/install/</guid>
       <description>
 
 &lt;h1 id=&#34;install-blackbox-on-mac-osx&#34;&gt;Install Blackbox On Mac OSX&lt;/h1&gt;
@@ -363,7 +344,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;Then open 1Album app and enter the &lt;code&gt;Device Key&lt;/code&gt; as below:&lt;/p&gt;
 
 
-&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_en.gif&#34;&gt;
    &lt;/div&gt;
@@ -378,10 +359,10 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/shell/attach/</link>
+      <link>http://1album.net/en/docs/blackbox/shell/attach/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/shell/attach/</guid>
+      <guid>http://1album.net/en/docs/blackbox/shell/attach/</guid>
       <description>
 
 &lt;h1 id=&#34;enter-blackbox-shell&#34;&gt;Enter Blackbox Shell&lt;/h1&gt;
@@ -448,10 +429,10 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/synology/install/</link>
+      <link>http://1album.net/en/docs/blackbox/synology/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/synology/install/</guid>
+      <guid>http://1album.net/en/docs/blackbox/synology/install/</guid>
       <description>
 
 &lt;h1 id=&#34;install-blackbox-on-synology-nas&#34;&gt;Install Blackbox On Synology NAS&lt;/h1&gt;
@@ -545,7 +526,7 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;Then open 1Album app and enter the &lt;code&gt;Device Key&lt;/code&gt; as below:&lt;/p&gt;
 
 
-&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_en.gif&#34;&gt;
    &lt;/div&gt;
@@ -560,10 +541,10 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/en/docs/blackbox/windows/install/</link>
+      <link>http://1album.net/en/docs/blackbox/windows/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/docs/blackbox/windows/install/</guid>
+      <guid>http://1album.net/en/docs/blackbox/windows/install/</guid>
       <description>
 
 &lt;h1 id=&#34;install-blackbox-on-windows&#34;&gt;Install Blackbox On Windows&lt;/h1&gt;
@@ -629,7 +610,7 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;Then open 1Album app and enter the &lt;code&gt;Device Key&lt;/code&gt; as below:&lt;/p&gt;
 
 
-&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
+&lt;div class=&#34;iphone6&#34; style=&#34;background-image: url(&#39;http://1album.net/en/img/docs/iphone6.jpg&#39;);&#34;&gt;
    &lt;div class=&#34;iphone6-screen&#34;&gt;
        &lt;img src=&#34;./img/docs/add_blackbox_en.gif&#34;&gt;
    &lt;/div&gt;
@@ -644,20 +625,20 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/en/pains/pain1/</link>
+      <link>http://1album.net/en/pains/pain1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/pains/pain1/</guid>
+      <guid>http://1album.net/en/pains/pain1/</guid>
       <description>&lt;p&gt;&amp;ldquo;My phone is almost full.  I need to move photos off my phone.&amp;rdquo;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>/en/support/</link>
+      <link>http://1album.net/en/support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/support/</guid>
+      <guid>http://1album.net/en/support/</guid>
       <description>
 
 &lt;h1 id=&#34;support&#34;&gt;Support&lt;/h1&gt;
@@ -666,13 +647,13 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>/en/support/terms/</link>
+      <link>http://1album.net/en/support/terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/support/terms/</guid>
+      <guid>http://1album.net/en/support/terms/</guid>
       <description>
 
-&lt;h1 id=&#34;terms-and-conditions&#34;&gt;Terms and Conditions&lt;/h1&gt;
+&lt;h1 id=&#34;terms-of-service&#34;&gt;Terms of Service&lt;/h1&gt;
 
 &lt;p&gt;Please read these Terms and Conditions (&amp;ldquo;Terms&amp;rdquo;, &amp;ldquo;Terms and Conditions&amp;rdquo;) carefully before using the &lt;a href=&#34;http://1album.net&#34;&gt;http://1album.net&lt;/a&gt; website, the 1Album mobile application, and the 1Album Blackbox application (the &amp;ldquo;Service&amp;rdquo;) operated by 1 Digital Inc. (&amp;ldquo;us&amp;rdquo;, &amp;ldquo;we&amp;rdquo;, or &amp;ldquo;our&amp;rdquo;).
 Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
@@ -756,19 +737,19 @@ By continuing to access or use our Service after those revisions become effectiv
     
     <item>
       <title>1Album achieves all of the above, and is absolutely free.</title>
-      <link>/en/solution/solution/</link>
+      <link>http://1album.net/en/solution/solution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/solution/solution/</guid>
+      <guid>http://1album.net/en/solution/solution/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Faster</title>
-      <link>/en/features/1faster/</link>
+      <link>http://1album.net/en/features/1faster/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/features/1faster/</guid>
+      <guid>http://1album.net/en/features/1faster/</guid>
       <description>&lt;p&gt;Backing up photos is very fast with peer-to-peer connections link directly from your phone to your blackbox. It is especially so when they are in the same local network.&lt;/p&gt;
 </description>
     </item>
