@@ -13,24 +13,7 @@
 
 
 
-<meta name="description" content="1Album 是最簡單又私密的相簿儲存方法，可靠又免費。" />
-<meta name="keywords" content="私有雲, 相簿, 個人儲存空間, 對等網路, WebRTC" />
-<meta name="application-name" content="1Album" />
-
-
-<meta property="og:title"        content="1Album - 最簡單又私密的相簿儲存" />
-<meta property="fb:app_id"       content="853296208082428" />
-<meta property="og:url"          content="http://1album.net/tw/" />
-<meta property="og:image"        content="http://1album.net/tw/img/1album.png" />
-<meta property="og:description"  content="1Album 是最簡單又私密的相簿儲存方法，可靠又免費。" />
-<meta property='og:video'        content="https://www.youtube.com/v/s_9lb2ls_qo" />
-
-
-
-<meta name="twitter:site" content="@1albumapp" />
-
-
-    <title></title>
+    <title>1Album 黑盒子 - 指令</title>
 
     
     <link href="../../../../css/bootstrap.min.css" rel="stylesheet">
@@ -99,7 +82,7 @@
                     <a href="../../../../docs">使用手冊</a>
                 </li>
                 <li >
-                    <a class="page-scroll" href="../../../../support">服務</a>
+                    <a class="page-scroll" href="../../../../support/terms">服務</a>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Language <span class="caret"></span></a>
@@ -631,6 +614,8 @@
 
 <h1 id="黑盒子指令">黑盒子指令</h1>
 
+<p>進入黑盒子指令介面後，可以打 <code>help</code> 列出所有可用的指令：</p>
+
 <pre>
 <span class="syntax-blackbox">blackbox></span> help
 Available commands:
@@ -650,12 +635,41 @@ Available commands:
 <span class="syntax-blackbox">blackbox></span>
 </pre>
 
+<p>您可以用 <code>help [command]</code> 取得各個指令的進一步資訊，譬如：</p>
+
+<pre>
+<span class="syntax-blackbox">blackbox></span> help export
+export: 
+usage: export [--src src_path] dest_folder
+
+       src_path: absolute source path in your 1Album repository, default to /Library
+    dest_folder: destination folder name under the export volume, no default value
+        
+examples:
+       export my_dest
+            Export everything to /export/my_dest
+        
+       export --src /Library my_dest
+            Same as above, export everything to /export/my_dest
+        
+       export --src /Library/Timeline/2016/03 my_dest
+            Export all March, 2016 files under timeline to /export/my_dest
+        
+       export --src /Library/Folders/Foo my_dest
+            Export Foo folder to /export/my_dest
+        
+       export --src /Albums/my_trip my_dest
+            Export my_trip album to /export/my_dest
+
+<span class="syntax-blackbox">blackbox></span>
+</pre>
+
 
                 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = '1album';
     var disqus_identifier = 'http:\/\/1album.net\/tw\/docs\/blackbox\/shell\/commands\/';
-    var disqus_title = '';
+    var disqus_title = '1Album 黑盒子 - 指令';
     var disqus_url = 'http:\/\/1album.net\/tw\/docs\/blackbox\/shell\/commands\/';
 
     (function() {
@@ -678,37 +692,26 @@ Available commands:
 </div></div>
 
 
-
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
-                <ul class="list-inline">
-                    <li>
-                        <a class="page-scroll" href="../../../../">首頁</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="../../../../docs">使用手冊</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="../../../../support">服務</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="mailto:service@1album.net">聯絡 <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-                    </li>
-                    
-                    
-                        
-                    
+            <div class="col-md-12 text-center">
+
+                
+
+                <ul class="soc-list">
+                    <li><a href="https://twitter.com/1albumapp" target="_blank"><i class="icon icon-twitter2"></i></a></li>
+                    <li><a href="https://www.facebook.com/1albumapp/" target="_blank"><i class="icon icon-facebook2"></i></a></li>
+                    <li><a href="https://plus.google.com/+1albumNet" target="_blank"><i class="icon icon-googleplus2"></i></a></li>
+                    <li><a href="mailto:service@1album.net"><i class="icon icon-envelope-open"></i></a></li>
                 </ul>
                 <p class="copyright text-muted small">一數位有限公司版權所有。保留一切權利。</p>
             </div>
         </div>
     </div>
 </footer>
+
+
 
 
 <script src="../../../../js/jquery-1.11.0.js"></script>

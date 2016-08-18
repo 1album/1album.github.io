@@ -10,18 +10,15 @@
     
     <item>
       <title></title>
-      <link>http://1album.net/en/docs/1album/</link>
+      <link>http://1album.net/en/support/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://1album.net/en/docs/1album/</guid>
-      <description>
-
-&lt;h1 id=&#34;1album-overview&#34;&gt;1Album Overview&lt;/h1&gt;
-</description>
+      <guid>http://1album.net/en/support/_menu/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title></title>
+      <title>1Album - Users Guide</title>
       <link>http://1album.net/en/docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -86,12 +83,17 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
-      <link>http://1album.net/en/support/_menu/</link>
+      <title>1Album for iOS</title>
+      <link>http://1album.net/en/docs/1album/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://1album.net/en/support/_menu/</guid>
-      <description></description>
+      <guid>http://1album.net/en/docs/1album/</guid>
+      <description>
+
+&lt;h1 id=&#34;1album-overview&#34;&gt;1Album Overview&lt;/h1&gt;
+
+&lt;p&gt;(Under Construction)&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -104,7 +106,112 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
+      <title>1Album - Support</title>
+      <link>http://1album.net/en/support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1album.net/en/support/</guid>
+      <description>
+
+&lt;h1 id=&#34;support&#34;&gt;Support&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1Album - Terms of Service</title>
+      <link>http://1album.net/en/support/terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1album.net/en/support/terms/</guid>
+      <description>
+
+&lt;h1 id=&#34;terms-of-service&#34;&gt;Terms of Service&lt;/h1&gt;
+
+&lt;p&gt;Please read these Terms and Conditions (&amp;ldquo;Terms&amp;rdquo;, &amp;ldquo;Terms and Conditions&amp;rdquo;) carefully before using the &lt;a href=&#34;http://1album.net&#34;&gt;http://1album.net&lt;/a&gt; website, the 1Album mobile application, and the 1Album Blackbox application (the &amp;ldquo;Service&amp;rdquo;) operated by 1 Digital Inc. (&amp;ldquo;us&amp;rdquo;, &amp;ldquo;we&amp;rdquo;, or &amp;ldquo;our&amp;rdquo;).
+Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
+By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.&lt;/p&gt;
+
+&lt;!--
+### Subscriptions
+
+Some parts of the Service are billed on a subscription basis (&#34;Subscription(s)&#34;). You will be billed in advance on a recurring and periodic basis (&#34;Billing Cycle&#34;). Billing cycles are set on a monthly basis.
+At the end of each Billing Cycle, your Subscription will automatically renew under the exact same conditions unless you cancel it or 1 Digital Inc. cancels it. You may cancel your Subscription renewal either through your online account management page or by contacting 1 Digital Inc. customer support team.
+A valid payment method, including credit card, is required to process the payment for your Subscription. You shall provide 1 Digital Inc. with accurate and complete billing information including full name, address, state, zip code, telephone number, and a valid payment method information. By submitting such payment information, you automatically authorize 1 Digital Inc. to charge all Subscription fees incurred through your account to any such payment instruments.
+Should automatic billing fail to occur for any reason, 1 Digital Inc. will issue an electronic invoice indicating that you must proceed manually, within a certain deadline date, with the full payment corresponding to the billing period as indicated on the invoice.
+
+### Fee Changes
+
+1 Digital Inc., in its sole discretion and at any time, may modify the Subscription fees for the Subscriptions. Any Subscription fee change will become effective at the end of the then-current Billing Cycle.
+1 Digital Inc. will provide you with a reasonable prior notice of any change in Subscription fees to give you an opportunity to terminate your Subscription before such change becomes effective.
+Your continued use of the Service after the Subscription fee change comes into effect constitutes your agreement to pay the modified Subscription fee amount.
+
+
+### Refunds
+
+Except when required by law, paid Subscription fees are non-refundable.
+--&gt;
+
+&lt;h3 id=&#34;content&#34;&gt;Content&lt;/h3&gt;
+
+&lt;p&gt;Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material (&amp;ldquo;Content&amp;rdquo;). You are responsible for the Content that you post to the Service, including its legality, reliability, and appropriateness.
+By posting Content to the Service, you grant us the right and license to use, modify, publicly perform, publicly display, reproduce, and distribute such Content on and through the Service. You retain any and all of your rights to any Content you submit, post or display on or through the Service and you are responsible for protecting those rights.
+You represent and warrant that: (i) the Content is yours (you own it) or you have the right to use it and grant us the rights and license as provided in these Terms, and (ii) the posting of your Content on or through the Service does not violate the privacy rights, publicity rights, copyrights, contract rights or any other rights of any person.&lt;/p&gt;
+
+&lt;h3 id=&#34;accounts&#34;&gt;Accounts&lt;/h3&gt;
+
+&lt;p&gt;When you create an account with us, you must provide us information that is accurate, complete, and current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service.
+You are responsible for safeguarding the password that you use to access the Service and for any activities or actions under your password, whether your password is with our Service or a third-party service.
+You agree not to disclose your password to any third party. You must notify us immediately upon becoming aware of any breach of security or unauthorized use of your account.
+You may not use as a username the name of another person or entity or that is not lawfully available for use, a name or trade mark that is subject to any rights of another person or entity other than you without appropriate authorization, or a name that is otherwise offensive, vulgar or obscene.&lt;/p&gt;
+
+&lt;h3 id=&#34;intellectual-property&#34;&gt;Intellectual Property&lt;/h3&gt;
+
+&lt;p&gt;The Service and its original content (excluding Content provided by users), features and functionality are and will remain the exclusive property of 1 Digital Inc. and its licensors. The Service is protected by copyright, trademark, and other laws of both the Taiwan and foreign countries. Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of 1 Digital Inc..&lt;/p&gt;
+
+&lt;h3 id=&#34;links-to-other-web-sites&#34;&gt;Links To Other Web Sites&lt;/h3&gt;
+
+&lt;p&gt;Our Service may contain links to third-party web sites or services that are not owned or controlled by 1 Digital Inc..
+1 Digital Inc. has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that 1 Digital Inc. shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
+We strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit.&lt;/p&gt;
+
+&lt;h3 id=&#34;termination&#34;&gt;Termination&lt;/h3&gt;
+
+&lt;p&gt;We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
+Upon termination, your right to use the Service will immediately cease. If you wish to terminate your account, you may simply discontinue using the Service.&lt;/p&gt;
+
+&lt;h3 id=&#34;limitation-of-liability&#34;&gt;Limitation Of Liability&lt;/h3&gt;
+
+&lt;p&gt;In no event shall 1 Digital Inc., nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Service; (ii) any conduct or content of any third party on the Service; (iii) any content obtained from the Service; and (iv) unauthorized access, use or alteration of your transmissions or content, whether based on warranty, contract, tort (including negligence) or any other legal theory, whether or not we have been informed of the possibility of such damage, and even if a remedy set forth herein is found to have failed of its essential purpose.&lt;/p&gt;
+
+&lt;h3 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h3&gt;
+
+&lt;p&gt;Your use of the Service is at your sole risk. The Service is provided on an &amp;ldquo;AS IS&amp;rdquo; and &amp;ldquo;AS AVAILABLE&amp;rdquo; basis. The Service is provided without warranties of any kind, whether express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement or course of performance.
+1 Digital Inc. its subsidiaries, affiliates, and its licensors do not warrant that a) the Service will function uninterrupted, secure or available at any particular time or location; b) any errors or defects will be corrected; c) the Service is free of viruses or other harmful components; or d) the results of using the Service will meet your requirements.&lt;/p&gt;
+
+&lt;h3 id=&#34;governing-law&#34;&gt;Governing Law&lt;/h3&gt;
+
+&lt;p&gt;These Terms shall be governed and construed in accordance with the laws of Taiwan, without regard to its conflict of law provisions.
+Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service, and supersede and replace any prior agreements we might have between us regarding the Service.&lt;/p&gt;
+
+&lt;h3 id=&#34;changes&#34;&gt;Changes&lt;/h3&gt;
+
+&lt;p&gt;We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
+By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service.&lt;/p&gt;
+
+&lt;h3 id=&#34;contact-us&#34;&gt;Contact Us&lt;/h3&gt;
+
+&lt;p&gt;If you have any questions about these Terms, please contact us.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;mailto:service@1album.net&#34;&gt;service@1album.net&lt;/a&gt;&lt;br&gt;
+1 Digital Inc.&lt;br&gt;
+4F-1, No.48, Sec.2, Keelung Rd., Taipei 110, Taiwan&lt;/p&gt;
+
+&lt;h5 class=&#34;pull-right&#34;&gt;Last updated: June 15, 2016&lt;/h5&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1Album Blackbox</title>
       <link>http://1album.net/en/docs/blackbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -189,7 +296,81 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
+      <title>1Album Blackbox - Enter Shell</title>
+      <link>http://1album.net/en/docs/blackbox/shell/attach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1album.net/en/docs/blackbox/shell/attach/</guid>
+      <description>
+
+&lt;h1 id=&#34;enter-blackbox-shell&#34;&gt;Enter Blackbox Shell&lt;/h1&gt;
+
+&lt;p&gt;1Album Blackbox is designed to run autonomously, so entering its command shell is not necessary.  Nonetheless, there are advanced features that are available only through the command shell.  The following describes how to enter the command shell on each of the operating systems.  For a list of commands available in the shell, please reference the &lt;a href=&#34;./docs/blackbox/shell/commands/&#34;&gt;Blackbox Commands&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;h2 id=&#34;synology-nas&#34;&gt;Synology NAS&lt;/h2&gt;
+
+&lt;p&gt;First please make sure that the blackbox is running.  The command shell is available only when the blackbox is running. Now click the &lt;code&gt;Details&lt;/code&gt; button:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_details.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The details dialog pops up.  Switch to the &lt;code&gt;Terminal&lt;/code&gt; tab, and hit &lt;kbd&gt;Enter&lt;/kbd&gt; in the black area.  Once you see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt, you are in the blackbox shell.  &lt;span class=&#34;text-danger&#34;&gt;Note that the current Safari browser on OSX cannot open this terminal page&lt;/span&gt;.  Please use Chrome or Firefox on OSX instead. Windows browsers work fine.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_attach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell.  The black area becomes gray, and you need to re-open this dialog box if you want to enter the command shell again.  You can also close the dialog window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_detach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ios&#34;&gt;iOS&lt;/h2&gt;
+
+&lt;p&gt;Blackbox iOS version doesn&amp;rsquo;t support shell interface at the moment.&lt;/p&gt;
+
+&lt;h2 id=&#34;mac-osx&#34;&gt;Mac OSX&lt;/h2&gt;
+
+&lt;p&gt;First please make sure that the blackbox is running.  The command shell is available only when the blackbox is running.  Now click the &lt;code&gt;DOCKER CLI&lt;/code&gt; button in the lower left corner:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_open_cli.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The OSX terminal window pops up. Enter &lt;code&gt;docker attach blackbox&lt;/code&gt; then hit &lt;kbd&gt;Enter&lt;/kbd&gt; twice.  Once you see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt, you are in the command shell.  If there are multiple blackboxes installed, you need to put the name shown in the Kitematic interface after &lt;code&gt;attach&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_attach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell and back to OSX shell.  You can also close the terminal window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_detach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
+
+&lt;p&gt;First please make sure that the blackbox is running.  The command shell is available only when the blackbox is running.  Now click the &lt;code&gt;DOCKER CLI&lt;/code&gt; button in the lower left corner:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_open_cli.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The Windows terminal window pops up. Enter &lt;code&gt;docker attach blackbox&lt;/code&gt; then hit &lt;kbd&gt;Enter&lt;/kbd&gt; twice.  Once you see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt, you are in the command shell.  If there are multiple blackboxes installed, you need to put the name shown in the Kitematic interface after &lt;code&gt;attach&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_attach.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell and back to Windows shell.  You can also close the terminal window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_detach.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
+
+&lt;p&gt;Use the following command to enter the blackbox shell.  You usually need to press &lt;kbd&gt;Enter&lt;/kbd&gt; twice to see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt.  Once you see the prompt, you are in the shell.  &lt;code&gt;mybox&lt;/code&gt; below is what you specified with the &lt;code&gt;--name&lt;/code&gt; argument when you setup this blackbox:&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/linux_attach.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell and back to Linux shell.  You can also close the terminal window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/linux_detach.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1Album Blackbox for Linux - Install</title>
       <link>http://1album.net/en/docs/blackbox/linux/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -279,7 +460,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
+      <title>1Album Blackbox for Mac - Install</title>
       <link>http://1album.net/en/docs/blackbox/mac/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -363,77 +544,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
-      <link>http://1album.net/en/docs/blackbox/shell/attach/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://1album.net/en/docs/blackbox/shell/attach/</guid>
-      <description>
-
-&lt;h1 id=&#34;enter-blackbox-shell&#34;&gt;Enter Blackbox Shell&lt;/h1&gt;
-
-&lt;p&gt;1Album Blackbox is designed to run autonomously, so entering its command shell is not necessary.  Nonetheless, there are advanced features that are available only through the command shell.  The following describes how to enter the command shell on each of the operating systems.  For a list of commands available in the shell, please reference the &lt;a href=&#34;./docs/blackbox/shell/commands/&#34;&gt;Blackbox Commands&lt;/a&gt; page.&lt;/p&gt;
-
-&lt;h2 id=&#34;mac-osx&#34;&gt;Mac OSX&lt;/h2&gt;
-
-&lt;p&gt;First please make sure that the blackbox is running.  The command shell is available only when the blackbox is running.  Now click the &lt;code&gt;DOCKER CLI&lt;/code&gt; button in the lower left corner:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_open_cli.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;The OSX terminal window pops up. Enter &lt;code&gt;docker attach blackbox&lt;/code&gt; then hit &lt;kbd&gt;Enter&lt;/kbd&gt; twice.  Once you see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt, you are in the command shell.  If there are multiple blackboxes installed, you need to put the name shown in the Kitematic interface after &lt;code&gt;attach&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_attach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell and back to OSX shell.  You can also close the terminal window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_detach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
-
-&lt;p&gt;First please make sure that the blackbox is running.  The command shell is available only when the blackbox is running.  Now click the &lt;code&gt;DOCKER CLI&lt;/code&gt; button in the lower left corner:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_open_cli.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;The Windows terminal window pops up. Enter &lt;code&gt;docker attach blackbox&lt;/code&gt; then hit &lt;kbd&gt;Enter&lt;/kbd&gt; twice.  Once you see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt, you are in the command shell.  If there are multiple blackboxes installed, you need to put the name shown in the Kitematic interface after &lt;code&gt;attach&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_attach.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell and back to Windows shell.  You can also close the terminal window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_detach.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
-
-&lt;p&gt;Use the following command to enter the blackbox shell.  You usually need to press &lt;kbd&gt;Enter&lt;/kbd&gt; twice to see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt.  Once you see the prompt, you are in the shell.  &lt;code&gt;mybox&lt;/code&gt; below is what you specified with the &lt;code&gt;--name&lt;/code&gt; argument when you setup this blackbox:&lt;/p&gt;
-
-&lt;pre&gt;
-$ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/linux_attach.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell and back to Linux shell.  You can also close the terminal window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/linux_detach.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;synology-nas&#34;&gt;Synology NAS&lt;/h2&gt;
-
-&lt;p&gt;First please make sure that the blackbox is running.  The command shell is available only when the blackbox is running. Now click the &lt;code&gt;Details&lt;/code&gt; button:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_details.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;The details dialog pops up.  Switch to the &lt;code&gt;Terminal&lt;/code&gt; tab, and hit &lt;kbd&gt;Enter&lt;/kbd&gt; in the black area.  Once you see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt, you are in the blackbox shell.  &lt;span class=&#34;text-danger&#34;&gt;Note that the current Safari browser on OSX cannot open this terminal page&lt;/span&gt;.  Please use Chrome or Firefox on OSX instead. Windows browsers work fine.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_attach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell.  The black area becomes gray, and you need to re-open this dialog box if you want to enter the command shell again.  You can also close the dialog window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_detach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>1Album Blackbox for Synology NAS - Install</title>
       <link>http://1album.net/en/docs/blackbox/synology/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -545,7 +656,7 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
+      <title>1Album Blackbox for Windows - Install</title>
       <link>http://1album.net/en/docs/blackbox/windows/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -630,97 +741,86 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>http://1album.net/en/support/</link>
+      <link>http://1album.net/en/docs/blackbox/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://1album.net/en/support/</guid>
-      <description>
-
-&lt;h1 id=&#34;support&#34;&gt;Support&lt;/h1&gt;
-</description>
+      <guid>http://1album.net/en/docs/blackbox/_menu/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title></title>
-      <link>http://1album.net/en/support/terms/</link>
+      <title>1Album - Privacy Policy</title>
+      <link>http://1album.net/en/support/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://1album.net/en/support/terms/</guid>
+      <guid>http://1album.net/en/support/privacy/</guid>
       <description>
 
-&lt;h1 id=&#34;terms-of-service&#34;&gt;Terms of Service&lt;/h1&gt;
+&lt;h1 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h1&gt;
 
-&lt;p&gt;Please read these Terms and Conditions (&amp;ldquo;Terms&amp;rdquo;, &amp;ldquo;Terms and Conditions&amp;rdquo;) carefully before using the &lt;a href=&#34;http://1album.net&#34;&gt;http://1album.net&lt;/a&gt; website, the 1Album mobile application, and the 1Album Blackbox application (the &amp;ldquo;Service&amp;rdquo;) operated by 1 Digital Inc. (&amp;ldquo;us&amp;rdquo;, &amp;ldquo;we&amp;rdquo;, or &amp;ldquo;our&amp;rdquo;).
-Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
-By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.&lt;/p&gt;
+&lt;p&gt;1 Digital Inc. (&amp;ldquo;us&amp;rdquo;, &amp;ldquo;we&amp;rdquo;, or &amp;ldquo;our&amp;rdquo;) operates the &lt;a href=&#34;http://1album.net&#34;&gt;http://1album.net&lt;/a&gt; website, the 1Album mobile application, and the 1Album Blackbox application (the &amp;ldquo;Service&amp;rdquo;).  This page informs you of our policies regarding the collection, use and disclosure of Personal Information when you use our Service.  We will not use or share your information with anyone except as described in this Privacy Policy. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.&lt;/p&gt;
 
-&lt;h3 id=&#34;subscriptions&#34;&gt;Subscriptions&lt;/h3&gt;
+&lt;h3 id=&#34;album-content&#34;&gt;Album Content&lt;/h3&gt;
 
-&lt;p&gt;Some parts of the Service are billed on a subscription basis (&amp;ldquo;Subscription(s)&amp;rdquo;). You will be billed in advance on a recurring and periodic basis (&amp;ldquo;Billing Cycle&amp;rdquo;). Billing cycles are set on a monthly basis.
-At the end of each Billing Cycle, your Subscription will automatically renew under the exact same conditions unless you cancel it or 1 Digital Inc. cancels it. You may cancel your Subscription renewal either through your online account management page or by contacting 1 Digital Inc. customer support team.
-A valid payment method, including credit card, is required to process the payment for your Subscription. You shall provide 1 Digital Inc. with accurate and complete billing information including full name, address, state, zip code, telephone number, and a valid payment method information. By submitting such payment information, you automatically authorize 1 Digital Inc. to charge all Subscription fees incurred through your account to any such payment instruments.
-Should automatic billing fail to occur for any reason, 1 Digital Inc. will issue an electronic invoice indicating that you must proceed manually, within a certain deadline date, with the full payment corresponding to the billing period as indicated on the invoice.&lt;/p&gt;
+&lt;p&gt;Our Service transfers your photos, videos, audios, documents, notes, albums, and folder structures (&amp;ldquo;Album Content&amp;rdquo;) between the devices which you login through the 1Album mobile application and/or the 1Album Blackbox application (&amp;ldquo;Personal Devices&amp;rdquo;). We do not monitor, store, maintain, or distribute your Album Content outside of your Personal Devices.&lt;/p&gt;
 
-&lt;h3 id=&#34;fee-changes&#34;&gt;Fee Changes&lt;/h3&gt;
+&lt;h3 id=&#34;information-collection-and-use&#34;&gt;Information Collection And Use&lt;/h3&gt;
 
-&lt;p&gt;1 Digital Inc., in its sole discretion and at any time, may modify the Subscription fees for the Subscriptions. Any Subscription fee change will become effective at the end of the then-current Billing Cycle.
-1 Digital Inc. will provide you with a reasonable prior notice of any change in Subscription fees to give you an opportunity to terminate your Subscription before such change becomes effective.
-Your continued use of the Service after the Subscription fee change comes into effect constitutes your agreement to pay the modified Subscription fee amount.&lt;/p&gt;
+&lt;p&gt;While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to, your name, email address, profile picture, and other information (&amp;ldquo;Personal Information&amp;rdquo;). We may obtain your Persional Information through a third party account provider when you sign in to our Service.  We use your Personal Information for providing and improving the Service.&lt;/p&gt;
 
-&lt;h3 id=&#34;refunds&#34;&gt;Refunds&lt;/h3&gt;
+&lt;h3 id=&#34;log-data&#34;&gt;Log Data&lt;/h3&gt;
 
-&lt;p&gt;Except when required by law, paid Subscription fees are non-refundable.&lt;/p&gt;
+&lt;p&gt;We may also collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device (&amp;ldquo;Log Data&amp;rdquo;). This Log Data may include information such as your computer&amp;rsquo;s Internet Protocol (&amp;ldquo;IP&amp;rdquo;) address, browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages and other statistics. When you access the Service by or through a mobile device, this Log Data may include information such as the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use and other statistics.&lt;/p&gt;
 
-&lt;h3 id=&#34;content&#34;&gt;Content&lt;/h3&gt;
+&lt;p&gt;In addition, we may use third party services such as Google Analytics that collect, monitor and analyze this type of information in order to increase our Service&amp;rsquo;s functionality. These third party service providers have their own privacy policies addressing how they use such information.&lt;/p&gt;
 
-&lt;p&gt;Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material (&amp;ldquo;Content&amp;rdquo;). You are responsible for the Content that you post to the Service, including its legality, reliability, and appropriateness.
-By posting Content to the Service, you grant us the right and license to use, modify, publicly perform, publicly display, reproduce, and distribute such Content on and through the Service. You retain any and all of your rights to any Content you submit, post or display on or through the Service and you are responsible for protecting those rights.
-You represent and warrant that: (i) the Content is yours (you own it) or you have the right to use it and grant us the rights and license as provided in these Terms, and (ii) the posting of your Content on or through the Service does not violate the privacy rights, publicity rights, copyrights, contract rights or any other rights of any person.&lt;/p&gt;
+&lt;h3 id=&#34;cookies&#34;&gt;Cookies&lt;/h3&gt;
 
-&lt;h3 id=&#34;accounts&#34;&gt;Accounts&lt;/h3&gt;
+&lt;p&gt;Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer&amp;rsquo;s hard drive. We use &amp;ldquo;cookies&amp;rdquo; to collect information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.&lt;/p&gt;
 
-&lt;p&gt;When you create an account with us, you must provide us information that is accurate, complete, and current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service.
-You are responsible for safeguarding the password that you use to access the Service and for any activities or actions under your password, whether your password is with our Service or a third-party service.
-You agree not to disclose your password to any third party. You must notify us immediately upon becoming aware of any breach of security or unauthorized use of your account.
-You may not use as a username the name of another person or entity or that is not lawfully available for use, a name or trade mark that is subject to any rights of another person or entity other than you without appropriate authorization, or a name that is otherwise offensive, vulgar or obscene.&lt;/p&gt;
+&lt;!--### DoubleClick Cookie--&gt;
 
-&lt;h3 id=&#34;intellectual-property&#34;&gt;Intellectual Property&lt;/h3&gt;
+&lt;!--Google, as a third party vendor, uses cookies to serve ads on our Service. Google&#39;s use of the DoubleClick cookie enables it and its partners to serve ads to our users based on their visit to our Service or other web sites on the Internet.--&gt;
 
-&lt;p&gt;The Service and its original content (excluding Content provided by users), features and functionality are and will remain the exclusive property of 1 Digital Inc. and its licensors. The Service is protected by copyright, trademark, and other laws of both the Taiwan and foreign countries. Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of 1 Digital Inc..&lt;/p&gt;
+&lt;!--You may opt out of the use of the DoubleClick Cookie for interest-based advertising by visiting the Google Ads Settings web page: http://www.google.com/ads/preferences/--&gt;
 
-&lt;h3 id=&#34;links-to-other-web-sites&#34;&gt;Links To Other Web Sites&lt;/h3&gt;
+&lt;h3 id=&#34;service-providers&#34;&gt;Service Providers&lt;/h3&gt;
 
-&lt;p&gt;Our Service may contain links to third-party web sites or services that are not owned or controlled by 1 Digital Inc..
-1 Digital Inc. has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that 1 Digital Inc. shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
-We strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit.&lt;/p&gt;
+&lt;p&gt;We may employ third party companies and individuals to facilitate our Service, to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used. These third parties have access to your Personal Information only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose. We do not provide your Album Content to these third parties.&lt;/p&gt;
 
-&lt;h3 id=&#34;termination&#34;&gt;Termination&lt;/h3&gt;
+&lt;h3 id=&#34;compliance-with-laws&#34;&gt;Compliance With Laws&lt;/h3&gt;
 
-&lt;p&gt;We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
-Upon termination, your right to use the Service will immediately cease. If you wish to terminate your account, you may simply discontinue using the Service.&lt;/p&gt;
+&lt;p&gt;We will disclose your Personal Information where required to do so by law or subpoena or if we believe that such action is necessary to comply with the law and the reasonable requests of law enforcement or to protect the security or integrity of our Service. Nevertheless, because we do not store your Album Content in our servers, we cannot and therefore will not disclose your Album Content.&lt;/p&gt;
 
-&lt;h3 id=&#34;limitation-of-liability&#34;&gt;Limitation Of Liability&lt;/h3&gt;
+&lt;h3 id=&#34;business-transaction&#34;&gt;Business Transaction&lt;/h3&gt;
 
-&lt;p&gt;In no event shall 1 Digital Inc., nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Service; (ii) any conduct or content of any third party on the Service; (iii) any content obtained from the Service; and (iv) unauthorized access, use or alteration of your transmissions or content, whether based on warranty, contract, tort (including negligence) or any other legal theory, whether or not we have been informed of the possibility of such damage, and even if a remedy set forth herein is found to have failed of its essential purpose.&lt;/p&gt;
+&lt;p&gt;If 1 Digital Inc. is involved in a merger, acquisition or asset sale, your Personal Information may be transferred. We will provide notice before your Personal Information is transferred and becomes subject to a different Privacy Policy.&lt;/p&gt;
 
-&lt;h3 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h3&gt;
+&lt;h3 id=&#34;security&#34;&gt;Security&lt;/h3&gt;
 
-&lt;p&gt;Your use of the Service is at your sole risk. The Service is provided on an &amp;ldquo;AS IS&amp;rdquo; and &amp;ldquo;AS AVAILABLE&amp;rdquo; basis. The Service is provided without warranties of any kind, whether express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement or course of performance.
-1 Digital Inc. its subsidiaries, affiliates, and its licensors do not warrant that a) the Service will function uninterrupted, secure or available at any particular time or location; b) any errors or defects will be corrected; c) the Service is free of viruses or other harmful components; or d) the results of using the Service will meet your requirements.&lt;/p&gt;
+&lt;p&gt;The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.&lt;/p&gt;
 
-&lt;h3 id=&#34;governing-law&#34;&gt;Governing Law&lt;/h3&gt;
+&lt;h3 id=&#34;international-transfer&#34;&gt;International Transfer&lt;/h3&gt;
 
-&lt;p&gt;These Terms shall be governed and construed in accordance with the laws of Taiwan, without regard to its conflict of law provisions.
-Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service, and supersede and replace any prior agreements we might have between us regarding the Service.&lt;/p&gt;
+&lt;p&gt;Your information, including Personal Information, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction. If you are located outside Taiwan and choose to provide information to us, please note that we transfer the information, including Personal Information, to Taiwan and process it there.  Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.&lt;/p&gt;
 
-&lt;h3 id=&#34;changes&#34;&gt;Changes&lt;/h3&gt;
+&lt;p&gt;We do not transfer your Album Content to our computers in Taiwan.  Your Album Content is transferred between — and maintained on — your Personal Devices. If you put your Personal Devices outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction, please note that we transfer your Album Content to where your Personal Devices are located.  Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.&lt;/p&gt;
 
-&lt;p&gt;We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
-By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service.&lt;/p&gt;
+&lt;h3 id=&#34;links-to-other-sites&#34;&gt;Links To Other Sites&lt;/h3&gt;
+
+&lt;p&gt;Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party&amp;rsquo;s site. We strongly advise you to review the Privacy Policy of every site you visit. We have no control over, and assume no responsibility for the content, privacy policies or practices of any third party sites or services.&lt;/p&gt;
+
+&lt;h3 id=&#34;children-s-privacy&#34;&gt;Children&amp;rsquo;s Privacy&lt;/h3&gt;
+
+&lt;p&gt;Our Service does not address anyone under the age of 13 (&amp;ldquo;Children&amp;rdquo;). We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and you are aware that your Children has provided us with Personal Information, please contact us. If we become aware that we have collected Personal Information from a children under age 13 without verification of parental consent, we take steps to remove that information from our servers.&lt;/p&gt;
+
+&lt;h3 id=&#34;changes-to-this-privacy-policy&#34;&gt;Changes To This Privacy Policy&lt;/h3&gt;
+
+&lt;p&gt;We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.&lt;/p&gt;
 
 &lt;h3 id=&#34;contact-us&#34;&gt;Contact Us&lt;/h3&gt;
 
-&lt;p&gt;If you have any questions about these Terms, please contact us.&lt;/p&gt;
+&lt;p&gt;If you have any questions about this Privacy Policy, please contact us.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;mailto:service@1album.net&#34;&gt;service@1album.net&lt;/a&gt;&lt;br&gt;
 1 Digital Inc.&lt;br&gt;
@@ -731,68 +831,64 @@ By continuing to access or use our Service after those revisions become effectiv
     </item>
     
     <item>
-      <title></title>
-      <link>http://1album.net/en/docs/blackbox/_menu/</link>
+      <title>1Album Blackbox - Commands</title>
+      <link>http://1album.net/en/docs/blackbox/shell/commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://1album.net/en/docs/blackbox/_menu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://1album.net/en/docs/blackbox/linux/startstop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://1album.net/en/docs/blackbox/linux/startstop/</guid>
+      <guid>http://1album.net/en/docs/blackbox/shell/commands/</guid>
       <description>
 
-&lt;h1 id=&#34;start-and-stop&#34;&gt;Start and Stop&lt;/h1&gt;
+&lt;h1 id=&#34;blackbox-commands&#34;&gt;Blackbox Commands&lt;/h1&gt;
 
-&lt;p&gt;Use the following command to stop the blackbox.  &lt;code&gt;mybox&lt;/code&gt; is the name you set with &lt;code&gt;--name&lt;/code&gt; when starting the blackbox for the first time:&lt;/p&gt;
-
-&lt;pre&gt;
-$ docker stop &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;You can start the blackbox again with the following command.  You need to use &lt;code&gt;docker run -ltd ...&lt;/code&gt; only when you start the blackbox for the first time.&lt;/p&gt;
+&lt;p&gt;In the command shell, you can type in &lt;code&gt;help&lt;/code&gt; to get a list of available commands:&lt;/p&gt;
 
 &lt;pre&gt;
-$ docker start &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt; help
+Available commands:
+
+   export       export library content to an external folder
+   import       unport library content from an external folder
+   netstat      print network status
+   resolver     print the status of all peers associated with this account
+   start        start blackbox manually
+   status       print system status
+   stop         stop blackbox manually
+   sync         sync this blackbox with primary blackbox
+   unbind       unbind this blackbox from your account
+   version      print version information
+   shutdown     shutdown blackbox and exit the program
+
+&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;The following command show the status of the blackbox.  The &lt;code&gt;--all&lt;/code&gt; argument ask Docker to show not only running containers but also stopped ones.&lt;/p&gt;
+&lt;p&gt;You can use &lt;code&gt;help [command]&lt;/code&gt; to get detail information about a command. For example:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ docker ps -all
-&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;
+&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt; help export
+export: 
+usage: export [--src src_path] dest_folder
 
-&lt;p&gt;The circled parts below show whehter the blackbox is running:&lt;/p&gt;
+       src_path: absolute source path in your 1Album repository, default to /Library
+    dest_folder: destination folder name under the export volume, no default value
+        
+examples:
+       export my_dest
+            Export everything to /export/my_dest
+        
+       export --src /Library my_dest
+            Same as above, export everything to /export/my_dest
+        
+       export --src /Library/Timeline/2016/03 my_dest
+            Export all March, 2016 files under timeline to /export/my_dest
+        
+       export --src /Library/Folders/Foo my_dest
+            Export Foo folder to /export/my_dest
+        
+       export --src /Albums/my_trip my_dest
+            Export my_trip album to /export/my_dest
 
-&lt;p&gt;&lt;img src=&#34;./img/docs/linux/docker_ps.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://1album.net/en/docs/blackbox/mac/startstop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://1album.net/en/docs/blackbox/mac/startstop/</guid>
-      <description>
-
-&lt;h1 id=&#34;start-and-stop&#34;&gt;Start and Stop&lt;/h1&gt;
-
-&lt;p&gt;1Album Blackbox is running if you see a &lt;code&gt;RUNNING&lt;/code&gt; icon on the title bar. By default, blackbox keeps running in the background even if you close the Kitematic window. To stop blackbox, click the &lt;code&gt;STOP&lt;/code&gt; button as circled below:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/mac/blackbox_started.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;The status changes to &lt;code&gt;STOPPING&lt;/code&gt; while the blackbox executes its shutdown procedure:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/mac/blackbox_stopping.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;Once the status changes to &lt;code&gt;STOPPED&lt;/code&gt;, the shutdown procedure is completed.  Click the &lt;code&gt;START&lt;/code&gt; button to start it up again.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/mac/blackbox_stopped.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt;
+&lt;/pre&gt;
 </description>
     </item>
     

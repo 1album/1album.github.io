@@ -10,18 +10,15 @@
     
     <item>
       <title></title>
-      <link>http://1album.net/tw/docs/1album/</link>
+      <link>http://1album.net/tw/support/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://1album.net/tw/docs/1album/</guid>
-      <description>
-
-&lt;h1 id=&#34;1album-簡介&#34;&gt;1Album 簡介&lt;/h1&gt;
-</description>
+      <guid>http://1album.net/tw/support/_menu/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title></title>
+      <title>1Album - 使用手冊</title>
       <link>http://1album.net/tw/docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -86,12 +83,17 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
-      <link>http://1album.net/tw/support/_menu/</link>
+      <title>1Album for iOS</title>
+      <link>http://1album.net/tw/docs/1album/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://1album.net/tw/support/_menu/</guid>
-      <description></description>
+      <guid>http://1album.net/tw/docs/1album/</guid>
+      <description>
+
+&lt;h1 id=&#34;1album-簡介&#34;&gt;1Album 簡介&lt;/h1&gt;
+
+&lt;p&gt;(建構中)&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -104,7 +106,109 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
+      <title>1Album - 服務</title>
+      <link>http://1album.net/tw/support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1album.net/tw/support/</guid>
+      <description>
+
+&lt;h1 id=&#34;服務&#34;&gt;服務&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1Album - 服務條款</title>
+      <link>http://1album.net/tw/support/terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1album.net/tw/support/terms/</guid>
+      <description>
+
+&lt;h1 id=&#34;服務條款&#34;&gt;服務條款&lt;/h1&gt;
+
+&lt;p&gt;Please read these Terms and Conditions (&amp;ldquo;Terms&amp;rdquo;, &amp;ldquo;Terms and Conditions&amp;rdquo;) carefully before using the &lt;a href=&#34;http://1album.net&#34;&gt;http://1album.net&lt;/a&gt; website, the 1Album mobile application, and the 1Album Blackbox application (the &amp;ldquo;Service&amp;rdquo;) operated by 1 Digital Inc. (&amp;ldquo;us&amp;rdquo;, &amp;ldquo;we&amp;rdquo;, or &amp;ldquo;our&amp;rdquo;).
+Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
+By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.&lt;/p&gt;
+
+&lt;h3 id=&#34;subscriptions&#34;&gt;Subscriptions&lt;/h3&gt;
+
+&lt;p&gt;Some parts of the Service are billed on a subscription basis (&amp;ldquo;Subscription(s)&amp;rdquo;). You will be billed in advance on a recurring and periodic basis (&amp;ldquo;Billing Cycle&amp;rdquo;). Billing cycles are set on a monthly basis.
+At the end of each Billing Cycle, your Subscription will automatically renew under the exact same conditions unless you cancel it or 1 Digital Inc. cancels it. You may cancel your Subscription renewal either through your online account management page or by contacting 1 Digital Inc. customer support team.
+A valid payment method, including credit card, is required to process the payment for your Subscription. You shall provide 1 Digital Inc. with accurate and complete billing information including full name, address, state, zip code, telephone number, and a valid payment method information. By submitting such payment information, you automatically authorize 1 Digital Inc. to charge all Subscription fees incurred through your account to any such payment instruments.
+Should automatic billing fail to occur for any reason, 1 Digital Inc. will issue an electronic invoice indicating that you must proceed manually, within a certain deadline date, with the full payment corresponding to the billing period as indicated on the invoice.&lt;/p&gt;
+
+&lt;h3 id=&#34;fee-changes&#34;&gt;Fee Changes&lt;/h3&gt;
+
+&lt;p&gt;1 Digital Inc., in its sole discretion and at any time, may modify the Subscription fees for the Subscriptions. Any Subscription fee change will become effective at the end of the then-current Billing Cycle.
+1 Digital Inc. will provide you with a reasonable prior notice of any change in Subscription fees to give you an opportunity to terminate your Subscription before such change becomes effective.
+Your continued use of the Service after the Subscription fee change comes into effect constitutes your agreement to pay the modified Subscription fee amount.&lt;/p&gt;
+
+&lt;h3 id=&#34;refunds&#34;&gt;Refunds&lt;/h3&gt;
+
+&lt;p&gt;Except when required by law, paid Subscription fees are non-refundable.&lt;/p&gt;
+
+&lt;h3 id=&#34;content&#34;&gt;Content&lt;/h3&gt;
+
+&lt;p&gt;Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material (&amp;ldquo;Content&amp;rdquo;). You are responsible for the Content that you post to the Service, including its legality, reliability, and appropriateness.
+By posting Content to the Service, you grant us the right and license to use, modify, publicly perform, publicly display, reproduce, and distribute such Content on and through the Service. You retain any and all of your rights to any Content you submit, post or display on or through the Service and you are responsible for protecting those rights.
+You represent and warrant that: (i) the Content is yours (you own it) or you have the right to use it and grant us the rights and license as provided in these Terms, and (ii) the posting of your Content on or through the Service does not violate the privacy rights, publicity rights, copyrights, contract rights or any other rights of any person.&lt;/p&gt;
+
+&lt;h3 id=&#34;accounts&#34;&gt;Accounts&lt;/h3&gt;
+
+&lt;p&gt;When you create an account with us, you must provide us information that is accurate, complete, and current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service.
+You are responsible for safeguarding the password that you use to access the Service and for any activities or actions under your password, whether your password is with our Service or a third-party service.
+You agree not to disclose your password to any third party. You must notify us immediately upon becoming aware of any breach of security or unauthorized use of your account.
+You may not use as a username the name of another person or entity or that is not lawfully available for use, a name or trade mark that is subject to any rights of another person or entity other than you without appropriate authorization, or a name that is otherwise offensive, vulgar or obscene.&lt;/p&gt;
+
+&lt;h3 id=&#34;intellectual-property&#34;&gt;Intellectual Property&lt;/h3&gt;
+
+&lt;p&gt;The Service and its original content (excluding Content provided by users), features and functionality are and will remain the exclusive property of 1 Digital Inc. and its licensors. The Service is protected by copyright, trademark, and other laws of both the Taiwan and foreign countries. Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of 1 Digital Inc..&lt;/p&gt;
+
+&lt;h3 id=&#34;links-to-other-web-sites&#34;&gt;Links To Other Web Sites&lt;/h3&gt;
+
+&lt;p&gt;Our Service may contain links to third-party web sites or services that are not owned or controlled by 1 Digital Inc..
+1 Digital Inc. has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that 1 Digital Inc. shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
+We strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit.&lt;/p&gt;
+
+&lt;h3 id=&#34;termination&#34;&gt;Termination&lt;/h3&gt;
+
+&lt;p&gt;We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
+Upon termination, your right to use the Service will immediately cease. If you wish to terminate your account, you may simply discontinue using the Service.&lt;/p&gt;
+
+&lt;h3 id=&#34;limitation-of-liability&#34;&gt;Limitation Of Liability&lt;/h3&gt;
+
+&lt;p&gt;In no event shall 1 Digital Inc., nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Service; (ii) any conduct or content of any third party on the Service; (iii) any content obtained from the Service; and (iv) unauthorized access, use or alteration of your transmissions or content, whether based on warranty, contract, tort (including negligence) or any other legal theory, whether or not we have been informed of the possibility of such damage, and even if a remedy set forth herein is found to have failed of its essential purpose.&lt;/p&gt;
+
+&lt;h3 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h3&gt;
+
+&lt;p&gt;Your use of the Service is at your sole risk. The Service is provided on an &amp;ldquo;AS IS&amp;rdquo; and &amp;ldquo;AS AVAILABLE&amp;rdquo; basis. The Service is provided without warranties of any kind, whether express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement or course of performance.
+1 Digital Inc. its subsidiaries, affiliates, and its licensors do not warrant that a) the Service will function uninterrupted, secure or available at any particular time or location; b) any errors or defects will be corrected; c) the Service is free of viruses or other harmful components; or d) the results of using the Service will meet your requirements.&lt;/p&gt;
+
+&lt;h3 id=&#34;governing-law&#34;&gt;Governing Law&lt;/h3&gt;
+
+&lt;p&gt;These Terms shall be governed and construed in accordance with the laws of Taiwan, without regard to its conflict of law provisions.
+Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service, and supersede and replace any prior agreements we might have between us regarding the Service.&lt;/p&gt;
+
+&lt;h3 id=&#34;changes&#34;&gt;Changes&lt;/h3&gt;
+
+&lt;p&gt;We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
+By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service.&lt;/p&gt;
+
+&lt;h3 id=&#34;contact-us&#34;&gt;Contact Us&lt;/h3&gt;
+
+&lt;p&gt;If you have any questions about these Terms, please contact us.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;mailto:service@1album.net&#34;&gt;service@1album.net&lt;/a&gt;&lt;br&gt;
+1 Digital Inc.&lt;br&gt;
+4F-1, No.48, Sec.2, Keelung Rd., Taipei 110, Taiwan&lt;/p&gt;
+
+&lt;h5 class=&#34;pull-right&#34;&gt;Last updated: June 15, 2016&lt;/h5&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1Album Blackbox</title>
       <link>http://1album.net/tw/docs/blackbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -187,7 +291,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
+      <title>1Album Blackbox for Linux - 安裝</title>
       <link>http://1album.net/tw/docs/blackbox/linux/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -277,7 +381,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
+      <title>1Album Blackbox for Mac - 安裝</title>
       <link>http://1album.net/tw/docs/blackbox/mac/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -361,77 +465,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
-      <link>http://1album.net/tw/docs/blackbox/shell/attach/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://1album.net/tw/docs/blackbox/shell/attach/</guid>
-      <description>
-
-&lt;h1 id=&#34;進入指令介面&#34;&gt;進入指令介面&lt;/h1&gt;
-
-&lt;p&gt;1Album 黑盒子會全自動運作，您不需要進入其指令介面來使用它。指令介面提供一些進階的功能，讓您直接操作黑盒子。底下針對各個作業系統，說明打開黑盒子指令介面的方法。進入指令介面後可使用的指令，請參考&lt;a href=&#34;./docs/blackbox/shell/commands/&#34;&gt;黑盒子指令&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&#34;mac-osx&#34;&gt;Mac OSX&lt;/h2&gt;
-
-&lt;p&gt;首先要確定黑盒子正在執行中，只有執行中的黑盒子可以進入其指令介面。確認後，點左下角 DOCKER CLI 按鈕。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_open_cli.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;點下去後會開出 OSX 系統的指令視窗，在裡面打 &lt;code&gt;docker attach blackbox&lt;/code&gt; 然後按兩次 &lt;kbd&gt;Enter&lt;/kbd&gt;，看到 &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; 提示符號，就代表進入黑盒子的指令介面了。如果您在 Kitematic 裡安裝多個黑盒子，每個黑盒子會有不同的名稱，而 attach 後面必須輸入您想要操作的黑盒子名稱。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_attach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;要離開指令介面，按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; 再按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;， 就可以離開。Detach 後會回到 OSX 系統的指令視窗。如果覺得麻煩，您也可以不必按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;，直接關掉指令視窗，系統會自動做 detach。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_detach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
-
-&lt;p&gt;首先要確定黑盒子正在執行中，只有執行中的黑盒子可以進入其指令介面。確認後，點左下角 DOCKER CLI 按鈕。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_open_cli.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;點下去後會開出 Windows 系統的指令視窗，在裡面打 &lt;code&gt;docker attach blackbox&lt;/code&gt; 然後按兩次 &lt;kbd&gt;Enter&lt;/kbd&gt;，看到 &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; 提示符號，就代表進入黑盒子的指令介面了。如果您在 Kitematic 裡安裝多個黑盒子，每個黑盒子會有不同的名稱，而 attach 後面必須輸入您想要操作的黑盒子名稱。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_attach.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;要離開指令介面，按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; 再按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;， 就可以離開。Detach 後會回到 Windows 系統的指令視窗。如果覺得麻煩，您也可以不必按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;，直接關掉指令視窗，系統會自動做 detach。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_detach.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
-
-&lt;p&gt;用下面指令進入黑盒子的指令介面。通常要多按一次 &lt;kbd&gt;Enter&lt;/kbd&gt; 鍵才會看到 &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; 提示符號，表進入黑盒子的指令介面。範例中的 &lt;code&gt;mybox&lt;/code&gt; 是先前以 &lt;code&gt;--name&lt;/code&gt; 參數指定的名字：&lt;/p&gt;
-
-&lt;pre&gt;
-$ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/linux_attach.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;要離開指令介面，按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; 再按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;， 就可以離開。Detach 後會回到 Linux 系統的指令視窗。如果覺得麻煩，您也可以不必按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;，直接關掉指令視窗，系統會自動做 detach。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/linux_detach.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;synology-nas&#34;&gt;Synology NAS&lt;/h2&gt;
-
-&lt;p&gt;首先要確定黑盒子的 Docker Container 正在執行中，只有執行中的黑盒子可以進入其指令介面。確認後，點下圖上方 Details 按鈕。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_details.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;Details 對話框打開後，點上面切換到 Terminal 頁面，在全黑的地方按 &lt;kbd&gt;Enter&lt;/kbd&gt; 鍵，會看到 &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; 提示符號，代表進入黑盒子的指令介面了。&lt;span class=&#34;text-danger&#34;&gt;注意，目前 Mac OSX 內建的 Safari 瀏覽器，無法打開這個 Terminal 畫面，請改用 Chrome 或 Firefox 瀏覽器&lt;/span&gt;。Windows 的瀏覽器沒問題。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_attach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;要離開指令介面，按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; 再按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;， 就可以離開。Detach 後 Terminal 視窗會變成淺灰色，若想要再次進入指令介面，必須關掉整個對話框再重來一次。如果覺得麻煩，您也可以不必按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;，直接關掉對話框，系統會自動做 detach。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_detach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>1Album Blackbox for Synology NAS - 安裝</title>
       <link>http://1album.net/tw/docs/blackbox/synology/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -543,7 +577,7 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
+      <title>1Album Blackbox for Windows - 安裝</title>
       <link>http://1album.net/tw/docs/blackbox/windows/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -627,104 +661,72 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
-      <link>http://1album.net/tw/support/</link>
+      <title>1Album 黑盒子 - 進入指令介面</title>
+      <link>http://1album.net/tw/docs/blackbox/shell/attach/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://1album.net/tw/support/</guid>
+      <guid>http://1album.net/tw/docs/blackbox/shell/attach/</guid>
       <description>
 
-&lt;h1 id=&#34;服務&#34;&gt;服務&lt;/h1&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://1album.net/tw/support/terms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://1album.net/tw/support/terms/</guid>
-      <description>
+&lt;h1 id=&#34;進入指令介面&#34;&gt;進入指令介面&lt;/h1&gt;
 
-&lt;h1 id=&#34;服務條款&#34;&gt;服務條款&lt;/h1&gt;
+&lt;p&gt;1Album 黑盒子會全自動運作，您不需要進入其指令介面來使用它。指令介面提供一些進階的功能，讓您直接操作黑盒子。底下針對各個作業系統，說明打開黑盒子指令介面的方法。進入指令介面後可使用的指令，請參考&lt;a href=&#34;./docs/blackbox/shell/commands/&#34;&gt;黑盒子指令&lt;/a&gt;。&lt;/p&gt;
 
-&lt;p&gt;Please read these Terms and Conditions (&amp;ldquo;Terms&amp;rdquo;, &amp;ldquo;Terms and Conditions&amp;rdquo;) carefully before using the &lt;a href=&#34;http://1album.net&#34;&gt;http://1album.net&lt;/a&gt; website, the 1Album mobile application, and the 1Album Blackbox application (the &amp;ldquo;Service&amp;rdquo;) operated by 1 Digital Inc. (&amp;ldquo;us&amp;rdquo;, &amp;ldquo;we&amp;rdquo;, or &amp;ldquo;our&amp;rdquo;).
-Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
-By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.&lt;/p&gt;
+&lt;h2 id=&#34;mac-osx&#34;&gt;Mac OSX&lt;/h2&gt;
 
-&lt;h3 id=&#34;subscriptions&#34;&gt;Subscriptions&lt;/h3&gt;
+&lt;p&gt;首先要確定黑盒子正在執行中，只有執行中的黑盒子可以進入其指令介面。確認後，點左下角 DOCKER CLI 按鈕。&lt;/p&gt;
 
-&lt;p&gt;Some parts of the Service are billed on a subscription basis (&amp;ldquo;Subscription(s)&amp;rdquo;). You will be billed in advance on a recurring and periodic basis (&amp;ldquo;Billing Cycle&amp;rdquo;). Billing cycles are set on a monthly basis.
-At the end of each Billing Cycle, your Subscription will automatically renew under the exact same conditions unless you cancel it or 1 Digital Inc. cancels it. You may cancel your Subscription renewal either through your online account management page or by contacting 1 Digital Inc. customer support team.
-A valid payment method, including credit card, is required to process the payment for your Subscription. You shall provide 1 Digital Inc. with accurate and complete billing information including full name, address, state, zip code, telephone number, and a valid payment method information. By submitting such payment information, you automatically authorize 1 Digital Inc. to charge all Subscription fees incurred through your account to any such payment instruments.
-Should automatic billing fail to occur for any reason, 1 Digital Inc. will issue an electronic invoice indicating that you must proceed manually, within a certain deadline date, with the full payment corresponding to the billing period as indicated on the invoice.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_open_cli.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;fee-changes&#34;&gt;Fee Changes&lt;/h3&gt;
+&lt;p&gt;點下去後會開出 OSX 系統的指令視窗，在裡面打 &lt;code&gt;docker attach blackbox&lt;/code&gt; 然後按兩次 &lt;kbd&gt;Enter&lt;/kbd&gt;，看到 &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; 提示符號，就代表進入黑盒子的指令介面了。如果您在 Kitematic 裡安裝多個黑盒子，每個黑盒子會有不同的名稱，而 attach 後面必須輸入您想要操作的黑盒子名稱。&lt;/p&gt;
 
-&lt;p&gt;1 Digital Inc., in its sole discretion and at any time, may modify the Subscription fees for the Subscriptions. Any Subscription fee change will become effective at the end of the then-current Billing Cycle.
-1 Digital Inc. will provide you with a reasonable prior notice of any change in Subscription fees to give you an opportunity to terminate your Subscription before such change becomes effective.
-Your continued use of the Service after the Subscription fee change comes into effect constitutes your agreement to pay the modified Subscription fee amount.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_attach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;refunds&#34;&gt;Refunds&lt;/h3&gt;
+&lt;p&gt;要離開指令介面，按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; 再按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;， 就可以離開。Detach 後會回到 OSX 系統的指令視窗。如果覺得麻煩，您也可以不必按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;，直接關掉指令視窗，系統會自動做 detach。&lt;/p&gt;
 
-&lt;p&gt;Except when required by law, paid Subscription fees are non-refundable.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/mac_detach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;content&#34;&gt;Content&lt;/h3&gt;
+&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
 
-&lt;p&gt;Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material (&amp;ldquo;Content&amp;rdquo;). You are responsible for the Content that you post to the Service, including its legality, reliability, and appropriateness.
-By posting Content to the Service, you grant us the right and license to use, modify, publicly perform, publicly display, reproduce, and distribute such Content on and through the Service. You retain any and all of your rights to any Content you submit, post or display on or through the Service and you are responsible for protecting those rights.
-You represent and warrant that: (i) the Content is yours (you own it) or you have the right to use it and grant us the rights and license as provided in these Terms, and (ii) the posting of your Content on or through the Service does not violate the privacy rights, publicity rights, copyrights, contract rights or any other rights of any person.&lt;/p&gt;
+&lt;p&gt;首先要確定黑盒子正在執行中，只有執行中的黑盒子可以進入其指令介面。確認後，點左下角 DOCKER CLI 按鈕。&lt;/p&gt;
 
-&lt;h3 id=&#34;accounts&#34;&gt;Accounts&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_open_cli.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;p&gt;When you create an account with us, you must provide us information that is accurate, complete, and current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service.
-You are responsible for safeguarding the password that you use to access the Service and for any activities or actions under your password, whether your password is with our Service or a third-party service.
-You agree not to disclose your password to any third party. You must notify us immediately upon becoming aware of any breach of security or unauthorized use of your account.
-You may not use as a username the name of another person or entity or that is not lawfully available for use, a name or trade mark that is subject to any rights of another person or entity other than you without appropriate authorization, or a name that is otherwise offensive, vulgar or obscene.&lt;/p&gt;
+&lt;p&gt;點下去後會開出 Windows 系統的指令視窗，在裡面打 &lt;code&gt;docker attach blackbox&lt;/code&gt; 然後按兩次 &lt;kbd&gt;Enter&lt;/kbd&gt;，看到 &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; 提示符號，就代表進入黑盒子的指令介面了。如果您在 Kitematic 裡安裝多個黑盒子，每個黑盒子會有不同的名稱，而 attach 後面必須輸入您想要操作的黑盒子名稱。&lt;/p&gt;
 
-&lt;h3 id=&#34;intellectual-property&#34;&gt;Intellectual Property&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_attach.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;p&gt;The Service and its original content (excluding Content provided by users), features and functionality are and will remain the exclusive property of 1 Digital Inc. and its licensors. The Service is protected by copyright, trademark, and other laws of both the Taiwan and foreign countries. Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of 1 Digital Inc..&lt;/p&gt;
+&lt;p&gt;要離開指令介面，按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; 再按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;， 就可以離開。Detach 後會回到 Windows 系統的指令視窗。如果覺得麻煩，您也可以不必按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;，直接關掉指令視窗，系統會自動做 detach。&lt;/p&gt;
 
-&lt;h3 id=&#34;links-to-other-web-sites&#34;&gt;Links To Other Web Sites&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/windows_detach.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;p&gt;Our Service may contain links to third-party web sites or services that are not owned or controlled by 1 Digital Inc..
-1 Digital Inc. has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that 1 Digital Inc. shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
-We strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit.&lt;/p&gt;
+&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
 
-&lt;h3 id=&#34;termination&#34;&gt;Termination&lt;/h3&gt;
+&lt;p&gt;用下面指令進入黑盒子的指令介面。通常要多按一次 &lt;kbd&gt;Enter&lt;/kbd&gt; 鍵才會看到 &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; 提示符號，表進入黑盒子的指令介面。範例中的 &lt;code&gt;mybox&lt;/code&gt; 是先前以 &lt;code&gt;--name&lt;/code&gt; 參數指定的名字：&lt;/p&gt;
 
-&lt;p&gt;We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
-Upon termination, your right to use the Service will immediately cease. If you wish to terminate your account, you may simply discontinue using the Service.&lt;/p&gt;
+&lt;pre&gt;
+$ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+&lt;/pre&gt;
 
-&lt;h3 id=&#34;limitation-of-liability&#34;&gt;Limitation Of Liability&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/linux_attach.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;p&gt;In no event shall 1 Digital Inc., nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Service; (ii) any conduct or content of any third party on the Service; (iii) any content obtained from the Service; and (iv) unauthorized access, use or alteration of your transmissions or content, whether based on warranty, contract, tort (including negligence) or any other legal theory, whether or not we have been informed of the possibility of such damage, and even if a remedy set forth herein is found to have failed of its essential purpose.&lt;/p&gt;
+&lt;p&gt;要離開指令介面，按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; 再按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;， 就可以離開。Detach 後會回到 Linux 系統的指令視窗。如果覺得麻煩，您也可以不必按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;，直接關掉指令視窗，系統會自動做 detach。&lt;/p&gt;
 
-&lt;h3 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/linux_detach.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;p&gt;Your use of the Service is at your sole risk. The Service is provided on an &amp;ldquo;AS IS&amp;rdquo; and &amp;ldquo;AS AVAILABLE&amp;rdquo; basis. The Service is provided without warranties of any kind, whether express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement or course of performance.
-1 Digital Inc. its subsidiaries, affiliates, and its licensors do not warrant that a) the Service will function uninterrupted, secure or available at any particular time or location; b) any errors or defects will be corrected; c) the Service is free of viruses or other harmful components; or d) the results of using the Service will meet your requirements.&lt;/p&gt;
+&lt;h2 id=&#34;synology-nas&#34;&gt;Synology NAS&lt;/h2&gt;
 
-&lt;h3 id=&#34;governing-law&#34;&gt;Governing Law&lt;/h3&gt;
+&lt;p&gt;首先要確定黑盒子的 Docker Container 正在執行中，只有執行中的黑盒子可以進入其指令介面。確認後，點下圖上方 Details 按鈕。&lt;/p&gt;
 
-&lt;p&gt;These Terms shall be governed and construed in accordance with the laws of Taiwan, without regard to its conflict of law provisions.
-Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service, and supersede and replace any prior agreements we might have between us regarding the Service.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_details.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;changes&#34;&gt;Changes&lt;/h3&gt;
+&lt;p&gt;Details 對話框打開後，點上面切換到 Terminal 頁面，在全黑的地方按 &lt;kbd&gt;Enter&lt;/kbd&gt; 鍵，會看到 &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; 提示符號，代表進入黑盒子的指令介面了。&lt;span class=&#34;text-danger&#34;&gt;注意，目前 Mac OSX 內建的 Safari 瀏覽器，無法打開這個 Terminal 畫面，請改用 Chrome 或 Firefox 瀏覽器&lt;/span&gt;。Windows 的瀏覽器沒問題。&lt;/p&gt;
 
-&lt;p&gt;We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
-By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_attach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;contact-us&#34;&gt;Contact Us&lt;/h3&gt;
+&lt;p&gt;要離開指令介面，按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; 再按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;， 就可以離開。Detach 後 Terminal 視窗會變成淺灰色，若想要再次進入指令介面，必須關掉整個對話框再重來一次。如果覺得麻煩，您也可以不必按 &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;，直接關掉對話框，系統會自動做 detach。&lt;/p&gt;
 
-&lt;p&gt;If you have any questions about these Terms, please contact us.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;mailto:service@1album.net&#34;&gt;service@1album.net&lt;/a&gt;&lt;br&gt;
-1 Digital Inc.&lt;br&gt;
-4F-1, No.48, Sec.2, Keelung Rd., Taipei 110, Taiwan&lt;/p&gt;
-
-&lt;h5 class=&#34;pull-right&#34;&gt;Last updated: June 15, 2016&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;./img/docs/shell/synology_detach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -738,7 +740,89 @@ By continuing to access or use our Service after those revisions become effectiv
     </item>
     
     <item>
-      <title></title>
+      <title>1Album - 隱私權政策</title>
+      <link>http://1album.net/tw/support/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1album.net/tw/support/privacy/</guid>
+      <description>
+
+&lt;h1 id=&#34;隱私權政策&#34;&gt;隱私權政策&lt;/h1&gt;
+
+&lt;p&gt;1 Digital Inc. (&amp;ldquo;us&amp;rdquo;, &amp;ldquo;we&amp;rdquo;, or &amp;ldquo;our&amp;rdquo;) operates the &lt;a href=&#34;http://1album.net&#34;&gt;http://1album.net&lt;/a&gt; website, the 1Album mobile application, and the 1Album Blackbox application (the &amp;ldquo;Service&amp;rdquo;).  This page informs you of our policies regarding the collection, use and disclosure of Personal Information when you use our Service.  We will not use or share your information with anyone except as described in this Privacy Policy. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.&lt;/p&gt;
+
+&lt;h3 id=&#34;album-content&#34;&gt;Album Content&lt;/h3&gt;
+
+&lt;p&gt;Our Service transfers your photos, videos, audios, documents, notes, albums, and folder structures (&amp;ldquo;Album Content&amp;rdquo;) between the devices which you login through the 1Album mobile application and/or the 1Album Blackbox application (&amp;ldquo;Personal Devices&amp;rdquo;). We do not monitor, store, maintain, or distribute your Album Content outside of your Personal Devices.&lt;/p&gt;
+
+&lt;h3 id=&#34;information-collection-and-use&#34;&gt;Information Collection And Use&lt;/h3&gt;
+
+&lt;p&gt;While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to, your name, email address, profile picture, and other information (&amp;ldquo;Personal Information&amp;rdquo;). We may obtain your Persional Information through a third party account provider when you sign in to our Service.  We use your Personal Information for providing and improving the Service.&lt;/p&gt;
+
+&lt;h3 id=&#34;log-data&#34;&gt;Log Data&lt;/h3&gt;
+
+&lt;p&gt;We may also collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device (&amp;ldquo;Log Data&amp;rdquo;). This Log Data may include information such as your computer&amp;rsquo;s Internet Protocol (&amp;ldquo;IP&amp;rdquo;) address, browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages and other statistics. When you access the Service by or through a mobile device, this Log Data may include information such as the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use and other statistics.&lt;/p&gt;
+
+&lt;p&gt;In addition, we may use third party services such as Google Analytics that collect, monitor and analyze this type of information in order to increase our Service&amp;rsquo;s functionality. These third party service providers have their own privacy policies addressing how they use such information.&lt;/p&gt;
+
+&lt;h3 id=&#34;cookies&#34;&gt;Cookies&lt;/h3&gt;
+
+&lt;p&gt;Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer&amp;rsquo;s hard drive. We use &amp;ldquo;cookies&amp;rdquo; to collect information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.&lt;/p&gt;
+
+&lt;!--### DoubleClick Cookie--&gt;
+
+&lt;!--Google, as a third party vendor, uses cookies to serve ads on our Service. Google&#39;s use of the DoubleClick cookie enables it and its partners to serve ads to our users based on their visit to our Service or other web sites on the Internet.--&gt;
+
+&lt;!--You may opt out of the use of the DoubleClick Cookie for interest-based advertising by visiting the Google Ads Settings web page: http://www.google.com/ads/preferences/--&gt;
+
+&lt;h3 id=&#34;service-providers&#34;&gt;Service Providers&lt;/h3&gt;
+
+&lt;p&gt;We may employ third party companies and individuals to facilitate our Service, to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used. These third parties have access to your Personal Information only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose. We do not provide your Album Content to these third parties.&lt;/p&gt;
+
+&lt;h3 id=&#34;compliance-with-laws&#34;&gt;Compliance With Laws&lt;/h3&gt;
+
+&lt;p&gt;We will disclose your Personal Information where required to do so by law or subpoena or if we believe that such action is necessary to comply with the law and the reasonable requests of law enforcement or to protect the security or integrity of our Service. Nevertheless, because we do not store your Album Content in our servers, we cannot and therefore will not disclose your Album Content.&lt;/p&gt;
+
+&lt;h3 id=&#34;business-transaction&#34;&gt;Business Transaction&lt;/h3&gt;
+
+&lt;p&gt;If 1 Digital Inc. is involved in a merger, acquisition or asset sale, your Personal Information may be transferred. We will provide notice before your Personal Information is transferred and becomes subject to a different Privacy Policy.&lt;/p&gt;
+
+&lt;h3 id=&#34;security&#34;&gt;Security&lt;/h3&gt;
+
+&lt;p&gt;The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.&lt;/p&gt;
+
+&lt;h3 id=&#34;international-transfer&#34;&gt;International Transfer&lt;/h3&gt;
+
+&lt;p&gt;Your information, including Personal Information, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction. If you are located outside Taiwan and choose to provide information to us, please note that we transfer the information, including Personal Information, to Taiwan and process it there.  Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.&lt;/p&gt;
+
+&lt;p&gt;We do not transfer your Album Content to our computers in Taiwan.  Your Album Content is transferred between — and maintained on — your Personal Devices. If you put your Personal Devices outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction, please note that we transfer your Album Content to where your Personal Devices are located.  Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.&lt;/p&gt;
+
+&lt;h3 id=&#34;links-to-other-sites&#34;&gt;Links To Other Sites&lt;/h3&gt;
+
+&lt;p&gt;Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party&amp;rsquo;s site. We strongly advise you to review the Privacy Policy of every site you visit. We have no control over, and assume no responsibility for the content, privacy policies or practices of any third party sites or services.&lt;/p&gt;
+
+&lt;h3 id=&#34;children-s-privacy&#34;&gt;Children&amp;rsquo;s Privacy&lt;/h3&gt;
+
+&lt;p&gt;Our Service does not address anyone under the age of 13 (&amp;ldquo;Children&amp;rdquo;). We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and you are aware that your Children has provided us with Personal Information, please contact us. If we become aware that we have collected Personal Information from a children under age 13 without verification of parental consent, we take steps to remove that information from our servers.&lt;/p&gt;
+
+&lt;h3 id=&#34;changes-to-this-privacy-policy&#34;&gt;Changes To This Privacy Policy&lt;/h3&gt;
+
+&lt;p&gt;We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.&lt;/p&gt;
+
+&lt;h3 id=&#34;contact-us&#34;&gt;Contact Us&lt;/h3&gt;
+
+&lt;p&gt;If you have any questions about this Privacy Policy, please contact us.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;mailto:service@1album.net&#34;&gt;service@1album.net&lt;/a&gt;&lt;br&gt;
+1 Digital Inc.&lt;br&gt;
+4F-1, No.48, Sec.2, Keelung Rd., Taipei 110, Taiwan&lt;/p&gt;
+
+&lt;h5 class=&#34;pull-right&#34;&gt;Last updated: June 15, 2016&lt;/h5&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1Album Blackbox for Linux - 啟動與停止</title>
       <link>http://1album.net/tw/docs/blackbox/linux/startstop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -767,30 +851,6 @@ $ docker start &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;p&gt;從下圖圈起來的地方可以看出黑盒子是不是正在執行：&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/docs/linux/docker_ps.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://1album.net/tw/docs/blackbox/mac/startstop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://1album.net/tw/docs/blackbox/mac/startstop/</guid>
-      <description>
-
-&lt;h1 id=&#34;啟動與停止&#34;&gt;啟動與停止&lt;/h1&gt;
-
-&lt;p&gt;如下圖，視窗標題上顯示 &lt;code&gt;RUNNING&lt;/code&gt; 字樣表示黑盒子正在執行中。預設值下，即使將 Kitematic 程式關閉，黑盒子仍會繼續在背景執行。按下圖圈起的 &lt;code&gt;STOP&lt;/code&gt; 按鈕可讓黑盒子停止執行：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/mac/blackbox_started.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;按下停止鈕後，狀態顯示 &lt;code&gt;STOPPING&lt;/code&gt;，此時黑盒子正在進行關機程序。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/mac/blackbox_stopping.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;要等到狀態成爲灰色的 &lt;code&gt;STOPPED&lt;/code&gt; 黑盒子才是完全關機結束。此時按 &lt;code&gt;START&lt;/code&gt; 鈕可再次啟動黑盒子。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/docs/mac/blackbox_stopped.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     

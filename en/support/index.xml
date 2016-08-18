@@ -18,7 +18,7 @@
     </item>
     
     <item>
-      <title></title>
+      <title>1Album - Support</title>
       <link>http://1album.net/en/support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title></title>
+      <title>1Album - Terms of Service</title>
       <link>http://1album.net/en/support/terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -43,22 +43,25 @@
 Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
 By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.&lt;/p&gt;
 
-&lt;h3 id=&#34;subscriptions&#34;&gt;Subscriptions&lt;/h3&gt;
+&lt;!--
+### Subscriptions
 
-&lt;p&gt;Some parts of the Service are billed on a subscription basis (&amp;ldquo;Subscription(s)&amp;rdquo;). You will be billed in advance on a recurring and periodic basis (&amp;ldquo;Billing Cycle&amp;rdquo;). Billing cycles are set on a monthly basis.
+Some parts of the Service are billed on a subscription basis (&#34;Subscription(s)&#34;). You will be billed in advance on a recurring and periodic basis (&#34;Billing Cycle&#34;). Billing cycles are set on a monthly basis.
 At the end of each Billing Cycle, your Subscription will automatically renew under the exact same conditions unless you cancel it or 1 Digital Inc. cancels it. You may cancel your Subscription renewal either through your online account management page or by contacting 1 Digital Inc. customer support team.
 A valid payment method, including credit card, is required to process the payment for your Subscription. You shall provide 1 Digital Inc. with accurate and complete billing information including full name, address, state, zip code, telephone number, and a valid payment method information. By submitting such payment information, you automatically authorize 1 Digital Inc. to charge all Subscription fees incurred through your account to any such payment instruments.
-Should automatic billing fail to occur for any reason, 1 Digital Inc. will issue an electronic invoice indicating that you must proceed manually, within a certain deadline date, with the full payment corresponding to the billing period as indicated on the invoice.&lt;/p&gt;
+Should automatic billing fail to occur for any reason, 1 Digital Inc. will issue an electronic invoice indicating that you must proceed manually, within a certain deadline date, with the full payment corresponding to the billing period as indicated on the invoice.
 
-&lt;h3 id=&#34;fee-changes&#34;&gt;Fee Changes&lt;/h3&gt;
+### Fee Changes
 
-&lt;p&gt;1 Digital Inc., in its sole discretion and at any time, may modify the Subscription fees for the Subscriptions. Any Subscription fee change will become effective at the end of the then-current Billing Cycle.
+1 Digital Inc., in its sole discretion and at any time, may modify the Subscription fees for the Subscriptions. Any Subscription fee change will become effective at the end of the then-current Billing Cycle.
 1 Digital Inc. will provide you with a reasonable prior notice of any change in Subscription fees to give you an opportunity to terminate your Subscription before such change becomes effective.
-Your continued use of the Service after the Subscription fee change comes into effect constitutes your agreement to pay the modified Subscription fee amount.&lt;/p&gt;
+Your continued use of the Service after the Subscription fee change comes into effect constitutes your agreement to pay the modified Subscription fee amount.
 
-&lt;h3 id=&#34;refunds&#34;&gt;Refunds&lt;/h3&gt;
 
-&lt;p&gt;Except when required by law, paid Subscription fees are non-refundable.&lt;/p&gt;
+### Refunds
+
+Except when required by law, paid Subscription fees are non-refundable.
+--&gt;
 
 &lt;h3 id=&#34;content&#34;&gt;Content&lt;/h3&gt;
 
@@ -120,7 +123,7 @@ By continuing to access or use our Service after those revisions become effectiv
     </item>
     
     <item>
-      <title></title>
+      <title>1Album - Privacy Policy</title>
       <link>http://1album.net/en/support/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -202,7 +205,7 @@ By continuing to access or use our Service after those revisions become effectiv
     </item>
     
     <item>
-      <title></title>
+      <title>1Album - Third-Party Software</title>
       <link>http://1album.net/en/support/foss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

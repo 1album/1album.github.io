@@ -9,19 +9,7 @@
     <atom:link href="http://1album.net/en/docs/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title></title>
-      <link>http://1album.net/en/docs/1album/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://1album.net/en/docs/1album/</guid>
-      <description>
-
-&lt;h1 id=&#34;1album-overview&#34;&gt;1Album Overview&lt;/h1&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>1Album - Users Guide</title>
       <link>http://1album.net/en/docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -86,6 +74,20 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
+      <title>1Album for iOS</title>
+      <link>http://1album.net/en/docs/1album/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1album.net/en/docs/1album/</guid>
+      <description>
+
+&lt;h1 id=&#34;1album-overview&#34;&gt;1Album Overview&lt;/h1&gt;
+
+&lt;p&gt;(Under Construction)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>http://1album.net/en/docs/1album/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -95,7 +97,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
+      <title>1Album Blackbox</title>
       <link>http://1album.net/en/docs/blackbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -180,7 +182,81 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
+      <title>1Album Blackbox - Enter Shell</title>
+      <link>http://1album.net/en/docs/blackbox/shell/attach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1album.net/en/docs/blackbox/shell/attach/</guid>
+      <description>
+
+&lt;h1 id=&#34;enter-blackbox-shell&#34;&gt;Enter Blackbox Shell&lt;/h1&gt;
+
+&lt;p&gt;1Album Blackbox is designed to run autonomously, so entering its command shell is not necessary.  Nonetheless, there are advanced features that are available only through the command shell.  The following describes how to enter the command shell on each of the operating systems.  For a list of commands available in the shell, please reference the &lt;a href=&#34;../docs/blackbox/shell/commands/&#34;&gt;Blackbox Commands&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;h2 id=&#34;synology-nas&#34;&gt;Synology NAS&lt;/h2&gt;
+
+&lt;p&gt;First please make sure that the blackbox is running.  The command shell is available only when the blackbox is running. Now click the &lt;code&gt;Details&lt;/code&gt; button:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/shell/synology_details.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The details dialog pops up.  Switch to the &lt;code&gt;Terminal&lt;/code&gt; tab, and hit &lt;kbd&gt;Enter&lt;/kbd&gt; in the black area.  Once you see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt, you are in the blackbox shell.  &lt;span class=&#34;text-danger&#34;&gt;Note that the current Safari browser on OSX cannot open this terminal page&lt;/span&gt;.  Please use Chrome or Firefox on OSX instead. Windows browsers work fine.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/shell/synology_attach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell.  The black area becomes gray, and you need to re-open this dialog box if you want to enter the command shell again.  You can also close the dialog window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/shell/synology_detach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ios&#34;&gt;iOS&lt;/h2&gt;
+
+&lt;p&gt;Blackbox iOS version doesn&amp;rsquo;t support shell interface at the moment.&lt;/p&gt;
+
+&lt;h2 id=&#34;mac-osx&#34;&gt;Mac OSX&lt;/h2&gt;
+
+&lt;p&gt;First please make sure that the blackbox is running.  The command shell is available only when the blackbox is running.  Now click the &lt;code&gt;DOCKER CLI&lt;/code&gt; button in the lower left corner:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/shell/mac_open_cli.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The OSX terminal window pops up. Enter &lt;code&gt;docker attach blackbox&lt;/code&gt; then hit &lt;kbd&gt;Enter&lt;/kbd&gt; twice.  Once you see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt, you are in the command shell.  If there are multiple blackboxes installed, you need to put the name shown in the Kitematic interface after &lt;code&gt;attach&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/shell/mac_attach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell and back to OSX shell.  You can also close the terminal window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/shell/mac_detach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
+
+&lt;p&gt;First please make sure that the blackbox is running.  The command shell is available only when the blackbox is running.  Now click the &lt;code&gt;DOCKER CLI&lt;/code&gt; button in the lower left corner:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/shell/windows_open_cli.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The Windows terminal window pops up. Enter &lt;code&gt;docker attach blackbox&lt;/code&gt; then hit &lt;kbd&gt;Enter&lt;/kbd&gt; twice.  Once you see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt, you are in the command shell.  If there are multiple blackboxes installed, you need to put the name shown in the Kitematic interface after &lt;code&gt;attach&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/shell/windows_attach.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell and back to Windows shell.  You can also close the terminal window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/shell/windows_detach.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
+
+&lt;p&gt;Use the following command to enter the blackbox shell.  You usually need to press &lt;kbd&gt;Enter&lt;/kbd&gt; twice to see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt.  Once you see the prompt, you are in the shell.  &lt;code&gt;mybox&lt;/code&gt; below is what you specified with the &lt;code&gt;--name&lt;/code&gt; argument when you setup this blackbox:&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/shell/linux_attach.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell and back to Linux shell.  You can also close the terminal window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/docs/shell/linux_detach.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1Album Blackbox for Linux - Install</title>
       <link>http://1album.net/en/docs/blackbox/linux/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -270,7 +346,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
+      <title>1Album Blackbox for Mac - Install</title>
       <link>http://1album.net/en/docs/blackbox/mac/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -354,77 +430,7 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
-      <link>http://1album.net/en/docs/blackbox/shell/attach/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://1album.net/en/docs/blackbox/shell/attach/</guid>
-      <description>
-
-&lt;h1 id=&#34;enter-blackbox-shell&#34;&gt;Enter Blackbox Shell&lt;/h1&gt;
-
-&lt;p&gt;1Album Blackbox is designed to run autonomously, so entering its command shell is not necessary.  Nonetheless, there are advanced features that are available only through the command shell.  The following describes how to enter the command shell on each of the operating systems.  For a list of commands available in the shell, please reference the &lt;a href=&#34;../docs/blackbox/shell/commands/&#34;&gt;Blackbox Commands&lt;/a&gt; page.&lt;/p&gt;
-
-&lt;h2 id=&#34;mac-osx&#34;&gt;Mac OSX&lt;/h2&gt;
-
-&lt;p&gt;First please make sure that the blackbox is running.  The command shell is available only when the blackbox is running.  Now click the &lt;code&gt;DOCKER CLI&lt;/code&gt; button in the lower left corner:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../img/docs/shell/mac_open_cli.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;The OSX terminal window pops up. Enter &lt;code&gt;docker attach blackbox&lt;/code&gt; then hit &lt;kbd&gt;Enter&lt;/kbd&gt; twice.  Once you see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt, you are in the command shell.  If there are multiple blackboxes installed, you need to put the name shown in the Kitematic interface after &lt;code&gt;attach&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../img/docs/shell/mac_attach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell and back to OSX shell.  You can also close the terminal window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../img/docs/shell/mac_detach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
-
-&lt;p&gt;First please make sure that the blackbox is running.  The command shell is available only when the blackbox is running.  Now click the &lt;code&gt;DOCKER CLI&lt;/code&gt; button in the lower left corner:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../img/docs/shell/windows_open_cli.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;The Windows terminal window pops up. Enter &lt;code&gt;docker attach blackbox&lt;/code&gt; then hit &lt;kbd&gt;Enter&lt;/kbd&gt; twice.  Once you see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt, you are in the command shell.  If there are multiple blackboxes installed, you need to put the name shown in the Kitematic interface after &lt;code&gt;attach&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../img/docs/shell/windows_attach.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell and back to Windows shell.  You can also close the terminal window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../img/docs/shell/windows_detach.png&#34; class=&#34;win-screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;linux&#34;&gt;Linux&lt;/h2&gt;
-
-&lt;p&gt;Use the following command to enter the blackbox shell.  You usually need to press &lt;kbd&gt;Enter&lt;/kbd&gt; twice to see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt.  Once you see the prompt, you are in the shell.  &lt;code&gt;mybox&lt;/code&gt; below is what you specified with the &lt;code&gt;--name&lt;/code&gt; argument when you setup this blackbox:&lt;/p&gt;
-
-&lt;pre&gt;
-$ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;../img/docs/shell/linux_attach.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell and back to Linux shell.  You can also close the terminal window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../img/docs/shell/linux_detach.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;synology-nas&#34;&gt;Synology NAS&lt;/h2&gt;
-
-&lt;p&gt;First please make sure that the blackbox is running.  The command shell is available only when the blackbox is running. Now click the &lt;code&gt;Details&lt;/code&gt; button:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../img/docs/shell/synology_details.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;The details dialog pops up.  Switch to the &lt;code&gt;Terminal&lt;/code&gt; tab, and hit &lt;kbd&gt;Enter&lt;/kbd&gt; in the black area.  Once you see the &lt;code&gt;blackbox&amp;gt;&lt;/code&gt; prompt, you are in the blackbox shell.  &lt;span class=&#34;text-danger&#34;&gt;Note that the current Safari browser on OSX cannot open this terminal page&lt;/span&gt;.  Please use Chrome or Firefox on OSX instead. Windows browsers work fine.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../img/docs/shell/synology_attach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;Hit &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt; then &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt; to detach from the command shell.  The black area becomes gray, and you need to re-open this dialog box if you want to enter the command shell again.  You can also close the dialog window directly without hitting &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;P&lt;/kbd&gt;  &lt;kbd&gt;Ctrl&lt;/kbd&gt;-&lt;kbd&gt;Q&lt;/kbd&gt;, the shell will be detached automatically.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../img/docs/shell/synology_detach.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>1Album Blackbox for Synology NAS - Install</title>
       <link>http://1album.net/en/docs/blackbox/synology/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -536,7 +542,7 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
+      <title>1Album Blackbox for Windows - Install</title>
       <link>http://1album.net/en/docs/blackbox/windows/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -629,7 +635,69 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
+      <title>1Album Blackbox - Commands</title>
+      <link>http://1album.net/en/docs/blackbox/shell/commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1album.net/en/docs/blackbox/shell/commands/</guid>
+      <description>
+
+&lt;h1 id=&#34;blackbox-commands&#34;&gt;Blackbox Commands&lt;/h1&gt;
+
+&lt;p&gt;In the command shell, you can type in &lt;code&gt;help&lt;/code&gt; to get a list of available commands:&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt; help
+Available commands:
+
+   export       export library content to an external folder
+   import       unport library content from an external folder
+   netstat      print network status
+   resolver     print the status of all peers associated with this account
+   start        start blackbox manually
+   status       print system status
+   stop         stop blackbox manually
+   sync         sync this blackbox with primary blackbox
+   unbind       unbind this blackbox from your account
+   version      print version information
+   shutdown     shutdown blackbox and exit the program
+
+&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;You can use &lt;code&gt;help [command]&lt;/code&gt; to get detail information about a command. For example:&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt; help export
+export: 
+usage: export [--src src_path] dest_folder
+
+       src_path: absolute source path in your 1Album repository, default to /Library
+    dest_folder: destination folder name under the export volume, no default value
+        
+examples:
+       export my_dest
+            Export everything to /export/my_dest
+        
+       export --src /Library my_dest
+            Same as above, export everything to /export/my_dest
+        
+       export --src /Library/Timeline/2016/03 my_dest
+            Export all March, 2016 files under timeline to /export/my_dest
+        
+       export --src /Library/Folders/Foo my_dest
+            Export Foo folder to /export/my_dest
+        
+       export --src /Albums/my_trip my_dest
+            Export my_trip album to /export/my_dest
+
+&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt;
+&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1Album Blackbox for Linux - Start/Stop</title>
       <link>http://1album.net/en/docs/blackbox/linux/startstop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -662,7 +730,7 @@ $ docker start &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
+      <title>1Album Blackbox for Mac - Start/Stop</title>
       <link>http://1album.net/en/docs/blackbox/mac/startstop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -686,38 +754,7 @@ $ docker start &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     </item>
     
     <item>
-      <title></title>
-      <link>http://1album.net/en/docs/blackbox/shell/commands/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://1album.net/en/docs/blackbox/shell/commands/</guid>
-      <description>
-
-&lt;h1 id=&#34;blackbox-commands&#34;&gt;Blackbox Commands&lt;/h1&gt;
-
-&lt;pre&gt;
-&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt; help
-Available commands:
-
-   export       export library content to an external folder
-   import       unport library content from an external folder
-   netstat      print network status
-   resolver     print the status of all peers associated with this account
-   start        start blackbox manually
-   status       print system status
-   stop         stop blackbox manually
-   sync         sync this blackbox with primary blackbox
-   unbind       unbind this blackbox from your account
-   version      print version information
-   shutdown     shutdown blackbox and exit the program
-
-&lt;span class=&#34;syntax-blackbox&#34;&gt;blackbox&gt;&lt;/span&gt;
-&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>1Album Blackbox for Synology NAS</title>
       <link>http://1album.net/en/docs/blackbox/synology/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -726,7 +763,7 @@ Available commands:
     </item>
     
     <item>
-      <title></title>
+      <title>1Album Blackbox for Synology NAS - Start/Stop</title>
       <link>http://1album.net/en/docs/blackbox/synology/startstop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
