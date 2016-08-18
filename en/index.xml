@@ -625,16 +625,6 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>http://1album.net/en/pains/pain1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://1album.net/en/pains/pain1/</guid>
-      <description>&lt;p&gt;&amp;ldquo;My phone is almost full.  I need to move photos off my phone.&amp;rdquo;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>http://1album.net/en/support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -736,22 +726,54 @@ By continuing to access or use our Service after those revisions become effectiv
     </item>
     
     <item>
-      <title>1Album achieves all of the above, and is absolutely free.</title>
-      <link>http://1album.net/en/solution/solution/</link>
+      <title></title>
+      <link>http://1album.net/en/docs/blackbox/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://1album.net/en/solution/solution/</guid>
+      <guid>http://1album.net/en/docs/blackbox/_menu/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Faster</title>
-      <link>http://1album.net/en/features/1faster/</link>
+      <title></title>
+      <link>http://1album.net/en/docs/blackbox/linux/startstop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://1album.net/en/features/1faster/</guid>
-      <description>&lt;p&gt;Backing up photos is very fast with peer-to-peer connections link directly from your phone to your blackbox. It is especially so when they are in the same local network.&lt;/p&gt;
+      <guid>http://1album.net/en/docs/blackbox/linux/startstop/</guid>
+      <description>
+
+&lt;h1 id=&#34;start-and-stop&#34;&gt;Start and Stop&lt;/h1&gt;
+
+&lt;p&gt;Use the following command to stop the blackbox.  &lt;code&gt;mybox&lt;/code&gt; is the name you set with &lt;code&gt;--name&lt;/code&gt; when starting the blackbox for the first time:&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker stop &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;You can start the blackbox again with the following command.  You need to use &lt;code&gt;docker run -ltd ...&lt;/code&gt; only when you start the blackbox for the first time.&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker start &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;The following command show the status of the blackbox.  The &lt;code&gt;--all&lt;/code&gt; argument ask Docker to show not only running containers but also stopped ones.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ docker ps -all
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The circled parts below show whehter the blackbox is running:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/linux/docker_ps.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://1album.net/en/docs/blackbox/mac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1album.net/en/docs/blackbox/mac/</guid>
+      <description></description>
     </item>
     
   </channel>

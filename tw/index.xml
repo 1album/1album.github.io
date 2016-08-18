@@ -43,6 +43,11 @@
 &lt;div class=&#34;row blurbs&#34;&gt;
 
 &lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;./docs/blackbox/synology/install/&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
     &lt;a href=&#34;./docs/blackbox/mac/install/&#34;&gt;&lt;i class=&#34;fa fa-apple fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Mac&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
@@ -56,11 +61,6 @@
 &lt;div class=&#34;blurb&#34;&gt;
     &lt;a href=&#34;./docs/blackbox/linux/install/&#34;&gt;&lt;i class=&#34;fa fa-linux fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Linux&lt;/p&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;./docs/blackbox/synology/install/&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
-    &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
@@ -120,6 +120,11 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;div class=&#34;row blurbs&#34;&gt;
 
 &lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;./docs/blackbox/synology/install/&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
     &lt;a href=&#34;./docs/blackbox/mac/install/&#34;&gt;&lt;i class=&#34;fa fa-apple fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Mac&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
@@ -133,11 +138,6 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;div class=&#34;blurb&#34;&gt;
     &lt;a href=&#34;./docs/blackbox/linux/install/&#34;&gt;&lt;i class=&#34;fa fa-linux fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Linux&lt;/p&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;./docs/blackbox/synology/install/&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
-    &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
@@ -623,16 +623,6 @@ $ docker attach &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>http://1album.net/tw/pains/pain1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://1album.net/tw/pains/pain1/</guid>
-      <description>&lt;p&gt;“我的手機快塞滿了，得把照片清出來。”&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>http://1album.net/tw/support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -734,23 +724,68 @@ By continuing to access or use our Service after those revisions become effectiv
     </item>
     
     <item>
-      <title>上面這些 1Album 都做到了，而且完全免費。</title>
-      <link>http://1album.net/tw/solution/solution/</link>
+      <title></title>
+      <link>http://1album.net/tw/docs/blackbox/_menu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://1album.net/tw/solution/solution/</guid>
+      <guid>http://1album.net/tw/docs/blackbox/_menu/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>安裝 1Album 黑盒子</title>
-      <link>http://1album.net/tw/steps/step1/</link>
+      <title></title>
+      <link>http://1album.net/tw/docs/blackbox/linux/startstop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://1album.net/tw/steps/step1/</guid>
-      <description>&lt;p&gt;1Album 黑盒子是 1Album 專用的免費儲存軟體。您可以下載並將它裝在 Windows、Mac OSX、Linux、NAS 設備、或任何可以執行 Docker 容器的環境中。&lt;/p&gt;
+      <guid>http://1album.net/tw/docs/blackbox/linux/startstop/</guid>
+      <description>
 
-&lt;p&gt;&lt;a href=&#34;./docs/blackbox/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fa fa-external-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; 1Album 黑盒子安裝指南&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;啟動與停止&#34;&gt;啟動與停止&lt;/h1&gt;
+
+&lt;p&gt;用下面指令來停止黑盒子。其中 &lt;code&gt;mybox&lt;/code&gt; 是第一次啟動時以 &lt;code&gt;--name&lt;/code&gt; 參數指定的名字：&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker stop &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;除了第一次啟動要使用 &lt;code&gt;docker run -itd ...&lt;/code&gt; 設定相關參數以外，平常黑盒子停止後，只要用以下指令就可以重新啟動：&lt;/p&gt;
+
+&lt;pre&gt;
+$ docker start &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;用下面指令來看黑盒子有沒有在執行。加上 &lt;code&gt;--all&lt;/code&gt; 參數來包含已停止的 Docker containers，否則只會顯示正在執行的 containers：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ docker ps -all
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;從下圖圈起來的地方可以看出黑盒子是不是正在執行：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/linux/docker_ps.png&#34; class=&#34;linux-screenshot&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://1album.net/tw/docs/blackbox/mac/startstop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1album.net/tw/docs/blackbox/mac/startstop/</guid>
+      <description>
+
+&lt;h1 id=&#34;啟動與停止&#34;&gt;啟動與停止&lt;/h1&gt;
+
+&lt;p&gt;如下圖，視窗標題上顯示 &lt;code&gt;RUNNING&lt;/code&gt; 字樣表示黑盒子正在執行中。預設值下，即使將 Kitematic 程式關閉，黑盒子仍會繼續在背景執行。按下圖圈起的 &lt;code&gt;STOP&lt;/code&gt; 按鈕可讓黑盒子停止執行：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/mac/blackbox_started.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;按下停止鈕後，狀態顯示 &lt;code&gt;STOPPING&lt;/code&gt;，此時黑盒子正在進行關機程序。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/mac/blackbox_stopping.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;要等到狀態成爲灰色的 &lt;code&gt;STOPPED&lt;/code&gt; 黑盒子才是完全關機結束。此時按 &lt;code&gt;START&lt;/code&gt; 鈕可再次啟動黑盒子。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/mac/blackbox_stopped.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     

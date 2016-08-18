@@ -10,6 +10,11 @@ h6 {
     -webkit-font-smoothing: antialiased;
 }
 
+/* for navbar offset */
+section {
+    padding-top: 50px;
+}
+
 .affix {
     top: 50px;
     width: 157.5px;
