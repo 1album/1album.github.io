@@ -120,6 +120,16 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;div class=&#34;row blurbs&#34;&gt;
 
 &lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;./docs/blackbox/synology/install/&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;./docs/blackbox/ios/&#34;&gt;&lt;i class=&#34;fa fa-mobile fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;iOS&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
     &lt;a href=&#34;./docs/blackbox/mac/install/&#34;&gt;&lt;i class=&#34;fa fa-apple fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Mac&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
@@ -133,11 +143,6 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 &lt;div class=&#34;blurb&#34;&gt;
     &lt;a href=&#34;./docs/blackbox/linux/install/&#34;&gt;&lt;i class=&#34;fa fa-linux fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Linux&lt;/p&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;blurb&#34;&gt;
-    &lt;a href=&#34;./docs/blackbox/synology/install/&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
-    &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
@@ -769,11 +774,26 @@ $ docker start &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
     
     <item>
       <title></title>
-      <link>http://1album.net/en/docs/blackbox/mac/</link>
+      <link>http://1album.net/en/docs/blackbox/mac/startstop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://1album.net/en/docs/blackbox/mac/</guid>
-      <description></description>
+      <guid>http://1album.net/en/docs/blackbox/mac/startstop/</guid>
+      <description>
+
+&lt;h1 id=&#34;start-and-stop&#34;&gt;Start and Stop&lt;/h1&gt;
+
+&lt;p&gt;1Album Blackbox is running if you see a &lt;code&gt;RUNNING&lt;/code&gt; icon on the title bar. By default, blackbox keeps running in the background even if you close the Kitematic window. To stop blackbox, click the &lt;code&gt;STOP&lt;/code&gt; button as circled below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/mac/blackbox_started.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The status changes to &lt;code&gt;STOPPING&lt;/code&gt; while the blackbox executes its shutdown procedure:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/mac/blackbox_stopping.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the status changes to &lt;code&gt;STOPPED&lt;/code&gt;, the shutdown procedure is completed.  Click the &lt;code&gt;START&lt;/code&gt; button to start it up again.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/docs/mac/blackbox_stopped.png&#34; class=&#34;screenshot&#34;&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

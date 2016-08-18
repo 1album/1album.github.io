@@ -1893,7 +1893,7 @@ nav .info-header .btn {
 }
 
 .intro-block .slogan {
-    margin: 0 0 120px 0;
+    margin: 0 0 110px 0;
 }
 
 /*.dark-bg .slogan {*/
@@ -1915,11 +1915,11 @@ nav .info-header .btn {
     padding: 150px 0 100px 0;
 }
 
-@media (max-width: 1200px) {
-    .intro-block .slogan {
-        margin: 0 0 90px 0;
-    }
-}
+/*@media (max-width: 1200px) {*/
+    /*.intro-block .slogan {*/
+        /*margin: 0 0 110px 0;*/
+    /*}*/
+/*}*/
 
 @media (max-width: 992px) {
     .intro-block .logo {

@@ -106,13 +106,18 @@ $ docker logs &lt;span class=&#34;syntax-user-input&#34;&gt;mybox&lt;/span&gt;
 
 &lt;h3 id=&#34;安裝指南&#34;&gt;安裝指南&lt;/h3&gt;
 
-&lt;p&gt;請依您使用的系統選擇安裝指南：&lt;/p&gt;
+&lt;p&gt;請依您想安裝黑盒子的作業系統選擇安裝指南：&lt;/p&gt;
 
 &lt;div class=&#34;row blurbs&#34;&gt;
 
 &lt;div class=&#34;blurb&#34;&gt;
     &lt;a href=&#34;../docs/blackbox/synology/install/&#34;&gt;&lt;i class=&#34;fa fa-building fa-3x&#34;&gt;&lt;/i&gt;
     &lt;p&gt;Synology NAS&lt;/p&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blurb&#34;&gt;
+    &lt;a href=&#34;../docs/blackbox/ios/&#34;&gt;&lt;i class=&#34;fa fa-mobile fa-3x&#34;&gt;&lt;/i&gt;
+    &lt;p&gt;iOS&lt;/p&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;blurb&#34;&gt;
